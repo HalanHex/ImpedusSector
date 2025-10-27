@@ -1248,10 +1248,8 @@
 /turf/open/floor/plating,
 /area/station/engineering/atmos/storage)
 "eu" = (
-/obj/machinery/power/apc/auto_name/directional/south{
-	cell_type = /obj/item/stock_parts/cell/bluespace
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/atmos/storage)
 "ev" = (
@@ -1263,7 +1261,7 @@
 	name = "Fish";
 	color = "#FFFFFE"
 	},
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "ew" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/proto_nitrate_output{
@@ -1660,6 +1658,12 @@
 	dir = 8
 	},
 /area/station/hallway/primary/port)
+"fW" = (
+/obj/machinery/component_printer,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/iron/smooth,
+/area/station/engineering/atmos/mix)
 "fX" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/iron/dark,
@@ -3953,6 +3957,28 @@
 /obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/cell_charger_multi,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
+/obj/item/stock_parts/power_store/cell/bluespace,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/mix)
 "nT" = (
@@ -5350,6 +5376,14 @@
 "sp" = (
 /turf/open/floor/iron/dark/diagonal,
 /area/station/hallway/primary/port)
+"sr" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 4
+	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/iron/smooth,
+/area/station/engineering/atmos/mix)
 "ss" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible{
 	name = "healium pipe"
@@ -5556,7 +5590,7 @@
 	reagent_list = list(/datum/reagent/consumable/tonic=600)
 	},
 /obj/structure/flora/ocean/longseaweed,
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "sZ" = (
 /obj/machinery/door/airlock/silver,
@@ -5568,7 +5602,7 @@
 	reagent_list = list(/datum/reagent/consumable/tonic=600)
 	},
 /obj/structure/flora/ocean/coral,
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "td" = (
 /obj/machinery/suit_storage_unit/industrial/loader,
@@ -5918,7 +5952,6 @@
 "uk" = (
 /obj/item/mod/module/jetpack/advanced,
 /obj/item/mod/module/storage/bluespace,
-/obj/item/stock_parts/cell/infinite,
 /obj/machinery/suit_storage_unit/atmos,
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/smooth_large,
@@ -7969,7 +8002,7 @@
 	},
 /obj/structure/flora/ocean/coral,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "BI" = (
 /turf/open/floor/carpet/neon/simple/cyan/nodots,
@@ -9446,6 +9479,14 @@
 /obj/item/stack/sheet/mineral/bananium{
 	amount = 50
 	},
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/atmos/storage)
 "Ga" = (
@@ -10242,12 +10283,7 @@
 /turf/closed/wall/r_wall,
 /area/station/hallway/primary/port)
 "IL" = (
-/obj/machinery/vending/boozeomat/all_access{
-	onstation = 0;
-	default_price = 0;
-	extra_price = 0;
-	fair_market_price = 0
-	},
+/obj/machinery/vending/boozeomat/cafe,
 /turf/open/floor/iron/dark/diagonal,
 /area/station/service/bar)
 "IM" = (
@@ -10934,7 +10970,6 @@
 "Lh" = (
 /obj/item/mod/module/jetpack/advanced,
 /obj/item/mod/module/storage/bluespace,
-/obj/item/stock_parts/cell/infinite,
 /obj/structure/sign/warning/gas_mask/directional/north,
 /obj/machinery/suit_storage_unit/atmos,
 /obj/effect/turf_decal/box,
@@ -12121,7 +12156,7 @@
 /obj/effect/spawner/liquids_spawner{
 	reagent_list = list(/datum/reagent/consumable/tonic=600)
 	},
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "Pw" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -13690,14 +13725,6 @@
 	pixel_x = -4
 	},
 /obj/item/multitool/circuit,
-/obj/item/stock_parts/cell/high{
-	pixel_x = 8;
-	pixel_y = 9
-	},
-/obj/item/stock_parts/cell/high{
-	pixel_x = 8;
-	pixel_y = -2
-	},
 /obj/structure/rack,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14875,7 +14902,7 @@
 	name = "Fish";
 	color = "#353535"
 	},
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "YL" = (
 /obj/structure/lattice,
@@ -15086,7 +15113,7 @@
 	reagent_list = list(/datum/reagent/consumable/tonic=600)
 	},
 /obj/structure/flora/ocean/seaweed,
-/turf/open/floor/plating/ocean/ironsand,
+/turf/open/misc/ironsand,
 /area/station/hallway/primary)
 "Zx" = (
 /obj/machinery/conveyor{
@@ -40932,12 +40959,12 @@ LF
 LF
 LF
 sz
-MC
+fW
 MD
 re
 JI
 re
-MD
+sr
 MC
 sz
 TY
