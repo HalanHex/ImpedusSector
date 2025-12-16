@@ -12,6 +12,7 @@
 	density = TRUE
 	resistance_flags = FLAMMABLE
 	max_integrity = 60
+	custom_materials = list(/datum/material/wood = SHEET_MATERIAL_AMOUNT * 5)
 	var/obj/item/canvas/painting = null
 
 //Adding canvases
@@ -713,11 +714,9 @@
 /obj/structure/sign/painting/get_save_vars()
 	return ..() - NAMEOF(src, icon)
 
-/obj/structure/sign/painting/Initialize(mapload, dir, building)
+/obj/structure/sign/painting/Initialize(mapload)
 	. = ..()
 	SSpersistent_paintings.painting_frames += src
-	if(dir)
-		setDir(dir)
 
 /obj/structure/sign/painting/Destroy()
 	. = ..()
@@ -732,12 +731,8 @@
 	else
 		return ..()
 
-/obj/structure/sign/painting/knock_down(mob/living/user)
-	var/turf/drop_turf
-	if(user)
-		drop_turf = get_turf(user)
-	else
-		drop_turf = drop_location()
+/obj/structure/sign/painting/atom_deconstruct(disassembled)
+	var/turf/drop_turf = drop_location()
 	current_canvas?.forceMove(drop_turf)
 	var/obj/item/wallframe/frame = new wallframe_type(drop_turf)
 	frame.update_integrity(get_integrity()) //Transfer how damaged it is.
@@ -952,11 +947,11 @@
 	wallframe_type = /obj/item/wallframe/painting/large
 
 /obj/structure/sign/painting/large/Initialize(mapload)
-	. = ..()
 	// Necessary so that the painting is framed correctly by the frame overlay when flipped.
 	ADD_KEEP_TOGETHER(src, INNATE_TRAIT)
 	if(mapload)
 		finalize_size()
+	return ..()
 
 /**
  * This frame is visually put between two wall turfs and it has an icon that's bigger than 32px, and because
@@ -978,6 +973,9 @@
 			bound_height = 64
 		if(EAST)
 			bound_height = 64
+
+/obj/structure/sign/painting/large/get_turfs_to_mount_on()
+	return (!pixel_x && !pixel_y) ? list(get_step(src, dir)) : ..()
 
 /obj/structure/sign/painting/large/frame_canvas(mob/living/user, obj/item/canvas/new_canvas)
 	. = ..()
