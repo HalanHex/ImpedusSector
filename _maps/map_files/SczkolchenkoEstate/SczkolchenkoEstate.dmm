@@ -739,9 +739,6 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/station/commons/dorms/estate/ciel)
-"eK" = (
-/turf/open/floor/carpet/neon/simple/orange/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "eL" = (
 /turf/open/floor/iron/terracotta,
 /area/station/common/pool/grotto)
@@ -1014,9 +1011,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/brown/hidden,
 /turf/open/floor/catwalk_floor/iron,
 /area/station/service/barber/sewing_room)
-"gd" = (
-/turf/open/floor/carpet/neon/simple/red,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "ge" = (
 /obj/structure/railing{
 	color = "#6F4323";
@@ -1328,9 +1322,6 @@
 "ig" = (
 /turf/closed/wall/mineral/sandstone,
 /area/station/commons/dorms/estate/ciel)
-"ih" = (
-/turf/open/floor/carpet/black,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "ii" = (
 /obj/machinery/atmospherics/components/unary/thermomachine{
 	dir = 8;
@@ -1553,9 +1544,6 @@
 "ju" = (
 /turf/closed/wall/mineral/stone,
 /area/station/service/janitor)
-"jy" = (
-/turf/open/floor/carpet/neon/simple/black/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "jB" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/hos/double,
@@ -2214,9 +2202,6 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/stone,
 /area/station/commons/dorms/laundry)
-"nJ" = (
-/turf/open/floor/carpet/neon/simple/white/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "nK" = (
 /obj/structure/railing{
 	color = "#6F4323";
@@ -2299,9 +2284,6 @@
 /obj/structure/rack/wooden,
 /turf/open/floor/stone,
 /area/station/service/kitchen/pantry)
-"oh" = (
-/turf/open/floor/carpet/neon/simple/orange,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "oj" = (
 /obj/effect/turf_decal/tile/dark/half/contrasted{
 	dir = 4
@@ -2445,9 +2427,6 @@
 /obj/machinery/duct,
 /turf/open/floor/carpet/green,
 /area/station/hallway/starboard/east_corridor/upper)
-"ph" = (
-/turf/open/floor/carpet/green,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "pi" = (
 /mob/living/basic/rabbit,
 /turf/open/misc/grass/planet,
@@ -2579,9 +2558,6 @@
 	},
 /turf/open/floor/iron/kitchen/diagonal,
 /area/station/hallway/primary/lobby/lower)
-"pZ" = (
-/turf/open/floor/carpet/neon/simple/violet,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "qa" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/blue{
@@ -3103,9 +3079,6 @@
 /obj/structure/drain,
 /turf/open/floor/iron/terracotta/diagonal,
 /area/station/common/pool/grotto)
-"tE" = (
-/turf/open/floor/carpet/neon/simple/purple/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "tF" = (
 /obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/wood/tile,
@@ -3128,9 +3101,6 @@
 	},
 /obj/structure/ore_container/food_trough/raptor_trough,
 /turf/open/floor/grass/lavaland,
-/area/icemoon/outdoors/nospawn/frontier/day)
-"tW" = (
-/turf/open/floor/carpet/neon/simple/red/nodots,
 /area/icemoon/outdoors/nospawn/frontier/day)
 "ue" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -3271,9 +3241,6 @@
 /obj/structure/bookcase/random,
 /turf/open/floor/wood/tile,
 /area/station/commons/lounge/lower)
-"uT" = (
-/turf/open/floor/carpet/purple,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "uU" = (
 /obj/machinery/atmospherics/pipe/smart/simple/brown/hidden{
 	dir = 4
@@ -4195,9 +4162,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/service/kitchen/dining_room)
-"Ai" = (
-/turf/open/floor/carpet/neon/simple/purple,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Ak" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/purple,
@@ -4223,9 +4187,6 @@
 /obj/structure/fireplace,
 /turf/open/floor/stone,
 /area/station/commons/dorms/estate/ciel)
-"AD" = (
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "AH" = (
 /obj/machinery/mining_weather_monitor/directional/north,
 /obj/effect/turf_decal/siding/wood,
@@ -5035,10 +4996,6 @@
 	},
 /turf/open/floor/iron/kitchen/small,
 /area/station/commons/toilet/lower_west)
-"Fr" = (
-/mob/living/basic/butterfly,
-/turf/open/floor/carpet/neon/simple/lime/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Fs" = (
 /obj/structure/cable/layer1,
 /obj/machinery/atmospherics/pipe/smart/simple/brown/hidden,
@@ -5235,9 +5192,6 @@
 "Gd" = (
 /turf/open/floor/iron/terracotta/diagonal,
 /area/station/service/hydroponics/greenhouse)
-"Gh" = (
-/turf/open/floor/carpet/neon/simple/lime/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Gl" = (
 /turf/open/floor/stone,
 /area/station/engineering/atmos/pumproom)
@@ -5807,9 +5761,6 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/grass,
 /area/station/commons/dorms/estate/ciel)
-"Ka" = (
-/turf/open/floor/carpet/orange,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Kb" = (
 /obj/structure/curtain,
 /obj/machinery/shower/directional/north,
@@ -5925,9 +5876,6 @@
 "KP" = (
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/misc/grass/planet,
-/area/icemoon/outdoors/nospawn/frontier/day)
-"KQ" = (
-/turf/open/floor/carpet/neon/simple/white,
 /area/icemoon/outdoors/nospawn/frontier/day)
 "KR" = (
 /obj/structure/railing{
@@ -6760,9 +6708,6 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/station/service/kitchen)
-"Px" = (
-/turf/open/floor/carpet/neon/simple/lime,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Pz" = (
 /turf/open/openspace{
 	planetary_atmos = 1
@@ -7246,9 +7191,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/station/commons/dorms/estate/upper_east)
-"Td" = (
-/turf/open/floor/carpet/neon/simple/green,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Tg" = (
 /turf/closed/wall/mineral/wood,
 /area/station/commons/toilet/lower_west)
@@ -7894,9 +7836,6 @@
 /obj/machinery/duct,
 /turf/open/floor/wood/large,
 /area/station/commons/lounge/lower)
-"WB" = (
-/turf/open/floor/carpet/neon/simple/green/nodots,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "WD" = (
 /obj/machinery/atmospherics/pipe/smart/simple/brown/hidden,
 /obj/structure/cable/layer1,
@@ -7991,9 +7930,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/service/library/private_library/lower)
-"Xh" = (
-/turf/open/floor/carpet/neon/simple/black,
-/area/icemoon/outdoors/nospawn/frontier/day)
 "Xs" = (
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
@@ -97248,12 +97184,12 @@ mx
 mx
 mx
 mx
-Ai
-Ai
-Td
-Td
-Xh
-Xh
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -97505,12 +97441,12 @@ mx
 mx
 mx
 mx
-Ai
-Ai
-Td
-Td
-Xh
-Xh
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -97762,12 +97698,12 @@ mx
 mx
 mx
 XC
-tE
-tE
-WB
-WB
-jy
-jy
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -98019,12 +97955,12 @@ mx
 mx
 mx
 mx
-tE
-tE
-WB
-WB
-jy
-jy
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -98276,12 +98212,12 @@ mx
 mx
 mx
 mx
-gd
-gd
-Px
-Px
-oh
-oh
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -98533,12 +98469,12 @@ mx
 mx
 mx
 mx
-gd
-gd
-Px
-Px
-oh
-oh
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 mx
 mx
@@ -98790,12 +98726,12 @@ mx
 mx
 mx
 mx
-tW
-tW
-Gh
-Gh
-eK
-eK
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 ZL
 mx
@@ -99047,12 +98983,12 @@ mx
 mx
 mx
 mx
-tW
-tW
-Fr
-Gh
-eK
-eK
+mx
+mx
+ZL
+mx
+mx
+mx
 mx
 mx
 mx
@@ -99304,14 +99240,14 @@ mx
 mx
 mx
 mx
-pZ
-pZ
-KQ
-KQ
-ih
-ih
-uT
-uT
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
 ed
 KP
 mx
@@ -99561,14 +99497,14 @@ mx
 mx
 mx
 mx
-pZ
-pZ
-KQ
-KQ
-ih
-ih
-uT
-uT
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 ed
 KP
@@ -99818,14 +99754,14 @@ mx
 mx
 mx
 mx
-AD
-AD
-nJ
-nJ
-Ka
-Ka
-ph
-ph
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
 ed
 KP
 mx
@@ -100075,14 +100011,14 @@ mx
 mx
 mx
 mx
-AD
-AD
-nJ
-nJ
-Ka
-Ka
-ph
-ph
+mx
+mx
+mx
+mx
+mx
+mx
+mx
+mx
 mx
 ed
 KP

@@ -1714,9 +1714,6 @@
 /area/station/common/pool/grotto)
 "fU" = (
 /obj/effect/turf_decal/tile/blue/full,
-/obj/machinery/computer/scan_consolenew{
-	dir = 4
-	},
 /obj/machinery/light/directional/west{
 	bulb_colour = "#E6EBFF"
 	},
@@ -4557,9 +4554,6 @@
 /turf/open/space/openspace,
 /area/space/nearstation)
 "pD" = (
-/obj/machinery/computer/scan_consolenew{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/explab)
@@ -5470,7 +5464,6 @@
 /area/station/commons/lounge)
 "tf" = (
 /obj/structure/table,
-/obj/item/reagent_containers/cup/rag,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -3;
 	pixel_y = 5
@@ -7156,7 +7149,6 @@
 /obj/item/stack/tile/wood{
 	amount = 50
 	},
-/obj/item/stack/sheet/sandblock/fifty,
 /obj/item/stack/sheet/plasteel/fifty,
 /obj/item/stack/sheet/rglass/fifty,
 /obj/item/stack/sheet/mineral/wood/fifty,
@@ -10834,7 +10826,6 @@
 /area/station/service/bar)
 "Kv" = (
 /obj/structure/rack/shelf,
-/obj/item/reagent_containers/cup/rag,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
 "Kw" = (
@@ -12826,7 +12817,6 @@
 /obj/item/clothing/sextoy/buttplug,
 /obj/item/clothing/sextoy/dildo/double_dildo,
 /obj/item/clothing/sextoy/eggvib/signalvib,
-/obj/item/clothing/mask/muzzle/ball,
 /obj/structure/safe/floor{
 	locked = 0;
 	number_of_tumblers = 3;
@@ -14242,7 +14232,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/bluespace_vendor/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
 "Ws" = (

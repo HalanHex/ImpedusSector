@@ -121,7 +121,7 @@
     name = "\improper Power Room"
     icon_state = "power_room"
 
-/area/icemoon/outdoors/nospawn/frontier/night
+/area/forestplanet/outdoors/nospawn/frontier/night
     name = "\improper Outdoors"
     icon_state = "explored"
     static_lighting = TRUE
