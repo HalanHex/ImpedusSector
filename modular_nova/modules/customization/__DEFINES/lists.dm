@@ -20,4 +20,6 @@ GLOBAL_LIST_EMPTY(loadout_category_to_subcategory_to_items)
 
 GLOBAL_LIST_EMPTY(augment_items)
 
+GLOBAL_LIST_EMPTY(dna_body_marking_blocks)
+
 GLOBAL_LIST_EMPTY(species_clothing_fallback_cache)

@@ -5,10 +5,6 @@
 "ab" = (
 /turf/closed/mineral/ash_rock,
 /area/ruin/space)
-"ac" = (
-/obj/item/trash/sosjerky,
-/turf/template_noop,
-/area/space/nearstation)
 "am" = (
 /obj/structure/fluff/bus/passable/seat,
 /obj/effect/decal/cleanable/dirt,
@@ -276,6 +272,10 @@
 /obj/item/stock_parts/servo/femto,
 /turf/open/misc/asteroid/airless,
 /area/ruin/space)
+"Et" = (
+/obj/item/clothing/head/costume/paper_hat/savior,
+/turf/open/misc/asteroid/airless,
+/area/ruin/space)
 "ER" = (
 /obj/structure/fluff/bus/dense{
 	icon_state = "frontwallbottomrear"
@@ -293,10 +293,6 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/open/misc/asteroid/airless,
-/area/ruin/space)
-"FD" = (
-/obj/item/clothing/head/costume/paper_hat/savior,
 /turf/open/misc/asteroid/airless,
 /area/ruin/space)
 "FZ" = (
@@ -410,6 +406,10 @@
 	icon_state = "bus"
 	},
 /area/ruin/space)
+"YB" = (
+/obj/item/trash/sosjerky,
+/turf/template_noop,
+/area/template_noop)
 "Za" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/misc/asteroid/airless,
@@ -505,7 +505,7 @@ ab
 yY
 yY
 yY
-FD
+Et
 OD
 yY
 Ne
@@ -817,7 +817,7 @@ aa
 "}
 (21,1,1) = {"
 aa
-ac
+YB
 aa
 aa
 aa

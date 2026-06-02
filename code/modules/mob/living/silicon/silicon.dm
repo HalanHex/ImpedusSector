@@ -58,8 +58,8 @@
 	add_faction(FACTION_SILICON)
 	if(ispath(radio))
 		radio = new radio(src)
-	var/datum/atom_hud/data/diagnostic/diag_hud = GLOB.huds[DATA_HUD_DIAGNOSTIC]
-	diag_hud.add_atom_to_hud(src)
+	for(var/datum/atom_hud/data/diagnostic/diag_hud in GLOB.huds)
+		diag_hud.add_atom_to_hud(src)
 	diag_hud_set_status()
 	diag_hud_set_health()
 	add_sensors()
@@ -448,7 +448,7 @@
 	return
 
 /mob/living/silicon/rust_heretic_act()
-	adjust_brute_loss(500)
+	adjustBruteLoss(500)
 
 /mob/living/silicon/on_floored_start()
 	return // Silicons are always standing by default.

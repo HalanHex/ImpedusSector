@@ -369,9 +369,6 @@
 #define ui_guardian_recall "CENTER+0:16,SOUTH+0:5"
 #define ui_guardian_special "CENTER+1:16,SOUTH+0:5"
 
-//Voidwalker
-#define ui_voidwalker_left_of_hands "CENTER+-2:16,SOUTH+0:5"
-
 //Blobbernauts
 #define ui_blobbernaut_overmind_health "EAST-1:28,CENTER+0:19"
 

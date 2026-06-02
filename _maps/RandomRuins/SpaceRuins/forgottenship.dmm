@@ -53,10 +53,6 @@
 "am" = (
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"an" = (
-/obj/structure/sign/warning/vacuum/external/directional/south,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "ao" = (
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
@@ -228,27 +224,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"bf" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/mapping_helpers/apc/no_charge,
-/obj/effect/mapping_helpers/apc/syndicate_access,
-/obj/structure/cable,
-/obj/structure/closet/crate/secure/gear{
-	req_access = list("syndicate")
-	},
-/obj/item/circuitboard/machine/circuit_imprinter/offstation,
-/obj/item/circuitboard/machine/protolathe/offstation,
-/obj/item/stack/sheet/iron/twenty,
-/obj/item/stack/sheet/glass{
-	amount = 10
-	},
-/obj/item/stack/cable_coil,
-/obj/item/circuitboard/computer/rdconsole/unlocked,
-/obj/item/storage/box/stockparts/deluxe,
-/obj/item/storage/box/stockparts/deluxe,
-/obj/item/storage/box/beakers,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "bg" = (
 /obj/structure/sign/poster/contraband/syndicate_pistol,
 /turf/closed/wall/r_wall/plastitanium/syndicate,
@@ -438,11 +413,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"bN" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/template_noop,
-/area/space/nearstation)
 "bO" = (
 /obj/structure/bodycontainer/crematorium{
 	id = "fscremate"
@@ -910,9 +880,6 @@
 /obj/item/disk/surgery/forgottenship,
 /turf/open/floor/pod/dark,
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault)
-"dj" = (
-/turf/closed/mineral/random/high_chance,
-/area/space/nearstation)
 "dl" = (
 /obj/machinery/door/password/voice/sfc{
 	password = null
@@ -1036,18 +1003,27 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"qK" = (
-/obj/machinery/turretid{
-	control_area = "/area/ruin/space/has_grav/syndicate_forgotten_ship";
-	enabled = 0;
-	lethal = 1;
-	name = "Ship turret control panel";
-	pixel_y = 32;
-	req_access = list("syndicate");
-	dir = 1
+"nD" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/no_charge,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/structure/cable,
+/obj/structure/closet/crate/secure/gear{
+	req_access = list("syndicate")
 	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ruin/space/has_grav/syndicate_forgotten_ship)
+/obj/item/circuitboard/machine/circuit_imprinter/offstation,
+/obj/item/circuitboard/machine/protolathe/offstation,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/cable_coil,
+/obj/item/circuitboard/computer/rdconsole,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/box/beakers,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "rz" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
@@ -1083,23 +1059,14 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"wK" = (
+/obj/structure/sign/warning/vacuum/external/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
 "yf" = (
 /mob/living/basic/trooper/nanotrasen/ranged/assault,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"yv" = (
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/electrical,
-/obj/item/clothing/glasses/welding,
-/obj/item/clothing/glasses/welding,
-/obj/item/clothing/glasses/welding,
-/obj/structure/closet/crate/secure/engineering{
-	req_access = list("syndicate")
-	},
-/obj/structure/sign/departments/cargo/directional/north,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
 "Cy" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium,
@@ -1154,6 +1121,9 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"JS" = (
+/turf/closed/mineral/random/high_chance,
+/area/template_noop)
 "Lj" = (
 /obj/structure/closet/syndicate{
 	anchored = 1;
@@ -1173,10 +1143,36 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
-"OW" = (
-/obj/structure/sign/warning/vacuum/external/directional/north,
-/turf/open/floor/mineral/plastitanium,
+"PQ" = (
+/obj/machinery/turretid{
+	control_area = "/area/ruin/space/has_grav/syndicate_forgotten_ship";
+	enabled = 0;
+	icon_state = "control_kill";
+	lethal = 1;
+	name = "Ship turret control panel";
+	pixel_y = 32;
+	req_access = list("syndicate")
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
+"QP" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/item/clothing/glasses/welding,
+/obj/structure/closet/crate/secure/engineering{
+	req_access = list("syndicate")
+	},
+/obj/structure/sign/departments/cargo/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_cargopod)
+"Tw" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
 "VF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -1185,6 +1181,10 @@
 	req_access = list("syndicate")
 	},
 /obj/machinery/light/small/directional/east,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/syndicate_forgotten_ship)
+"Wt" = (
+/obj/structure/sign/warning/vacuum/external/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/syndicate_forgotten_ship)
 "WR" = (
@@ -1367,8 +1367,8 @@ aa
 aa
 aa
 aa
-dj
-dj
+JS
+JS
 aa
 aa
 aa
@@ -1414,9 +1414,9 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
+JS
+JS
+JS
 aa
 aa
 aa
@@ -1462,8 +1462,8 @@ aa
 aa
 aa
 aa
-dj
-dj
+JS
+JS
 aa
 aa
 aa
@@ -1612,9 +1612,9 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
+JS
+JS
+JS
 aa
 aa
 "}
@@ -1660,9 +1660,9 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
+JS
+JS
+JS
 aa
 "}
 (11,1,1) = {"
@@ -2355,7 +2355,7 @@ aY
 aY
 ba
 bb
-bf
+nD
 bh
 bj
 bj
@@ -2441,11 +2441,11 @@ be
 aP
 aP
 bM
-bN
-bN
-bN
-bN
-bN
+Tw
+Tw
+Tw
+Tw
+Tw
 ab
 ab
 bF
@@ -2475,7 +2475,7 @@ bZ
 al
 al
 bZ
-OW
+wK
 at
 ah
 cA
@@ -2483,7 +2483,7 @@ cP
 ah
 ah
 aL
-an
+Wt
 bZ
 al
 bJ
@@ -2496,7 +2496,7 @@ aa
 aY
 aY
 bb
-yv
+QP
 bj
 bj
 jZ
@@ -2754,7 +2754,7 @@ aa
 aa
 aa
 bZ
-qK
+PQ
 aw
 bZ
 br
@@ -2972,7 +2972,7 @@ aa
 aa
 aa
 aa
-dj
+JS
 aa
 aa
 aa
@@ -3017,10 +3017,10 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
-dj
+JS
+JS
+JS
+JS
 aa
 aa
 aa
@@ -3064,9 +3064,9 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
+JS
+JS
+JS
 aa
 aa
 aa
@@ -3102,7 +3102,7 @@ aa
 aa
 aa
 aa
-dj
+JS
 aa
 aa
 aa
@@ -3148,9 +3148,9 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
+JS
+JS
+JS
 aa
 aa
 aa
@@ -3195,10 +3195,10 @@ aa
 aa
 aa
 aa
-dj
-dj
-dj
-dj
+JS
+JS
+JS
+JS
 aa
 aa
 aa
@@ -3243,7 +3243,7 @@ aa
 aa
 aa
 aa
-dj
+JS
 aa
 aa
 aa

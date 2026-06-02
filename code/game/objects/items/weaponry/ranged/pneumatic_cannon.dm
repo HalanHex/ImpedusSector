@@ -24,6 +24,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
 	armor_type = /datum/armor/item_pneumatic_cannon
+<<<<<<<< HEAD:code/game/objects/items/weaponry/ranged/pneumatic_cannon.dm
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 6)
 	/// The max weight of items that can fit into the cannon
 	var/maxWeightClass = 20
@@ -38,6 +39,15 @@
 	/// How powerful the cannon is - higher pressure = more gas but more powerful throws
 	var/pressure_setting = LOW_PRESSURE
 	/// Additional multiplier that adjusts how much farther thrown objects can travel.
+========
+	var/maxWeightClass = 20 //The max weight of items that can fit into the cannon
+	var/loadedWeightClass = 0 //The weight of items currently in the cannon
+	var/obj/item/tank/internals/tank = null //The gas tank that is drawn from to fire things
+	var/gasPerThrow = 3 //How much gas is drawn from a tank's pressure to fire
+	var/list/loadedItems = list() //The items loaded into the cannon that will be fired out
+	var/pressure_setting = LOW_PRESSURE //How powerful the cannon is - higher pressure = more gas but more powerful throws
+	var/checktank = TRUE
+>>>>>>>> impe/master:code/game/objects/items/pneumaticCannon.dm
 	var/range_multiplier = 1
 	/// How many items to throw per fire
 	var/throw_amount = 1

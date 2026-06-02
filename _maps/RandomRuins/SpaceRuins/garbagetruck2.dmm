@@ -1,13 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"bb" = (
-/obj/item/organ/wings/moth,
-/obj/structure/closet/crate/trashcart,
-/obj/item/bodypart/arm/left/skeleton,
-/obj/item/bodypart/arm/right/skeleton,
-/obj/item/evidencebag,
-/obj/item/organ/heart/cybernetic/tier2,
+"ax" = (
+/obj/item/wallframe/sinkframe,
 /obj/structure/broken_flooring/pile,
-/obj/item/stack/sheet/animalhide/carbon/human/five,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/obj/item/rag{
+	pixel_x = 6;
+	pixel_y = -3
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "bv" = (
@@ -21,6 +20,16 @@
 /obj/item/organ/liver/roach,
 /obj/item/organ/stomach,
 /obj/item/organ/tongue/robot,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"dn" = (
+/obj/structure/closet/body_bag,
+/obj/structure/table/optable,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/mob_spawn/corpse/human{
+	brute_damage = 200;
+	mob_type = /mob/living/carbon/human/species/lizard
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "eO" = (
@@ -129,14 +138,19 @@
 "lT" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"lX" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/wrap/gauze,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
+/obj/structure/broken_flooring/corner,
+/obj/item/organ/cyberimp/arm/toolkit/surgery,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "mB" = (
 /obj/effect/spawner/random/engineering/tank,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"mZ" = (
-/obj/structure/cable,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "nW" = (
 /obj/item/storage/box/disks{
@@ -181,18 +195,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"qX" = (
-/obj/effect/decal/cleanable/plastic,
-/obj/structure/broken_flooring/corner,
-/obj/item/trash/syndi_cakes,
-/obj/item/trash/syndi_cakes,
-/obj/item/trash/syndi_cakes,
-/obj/item/poster/random_contraband,
-/obj/item/organ/tongue/zombie,
-/obj/structure/closet/crate/trashcart,
-/obj/structure/sign/warning/directional/south,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "rB" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/stack/medical/bone_gel,
@@ -214,6 +216,17 @@
 "sU" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"tD" = (
+/obj/effect/decal/cleanable/plastic,
+/obj/structure/broken_flooring/corner,
+/obj/item/trash/syndi_cakes,
+/obj/item/trash/syndi_cakes,
+/obj/item/trash/syndi_cakes,
+/obj/item/poster/random_contraband,
+/obj/item/organ/tongue/zombie,
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "tI" = (
 /obj/structure/tank_holder/anesthetic,
@@ -300,16 +313,6 @@
 	anchored = 0
 	},
 /obj/effect/spawner/random/contraband/permabrig_weapon,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"zH" = (
-/obj/structure/closet/cardboard,
-/obj/item/stack/medical/suture,
-/obj/item/stack/medical/wrap/gauze,
-/obj/item/stack/medical/wrap/sticky_tape/surgical,
-/obj/structure/broken_flooring/corner,
-/obj/item/organ/cyberimp/arm/toolkit/surgery,
-/obj/item/organ/cyberimp/eyes/hud/medical,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "zZ" = (
@@ -408,9 +411,9 @@
 /obj/item/wrench/medical,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"EJ" = (
-/obj/item/stack/medical/wrap/sticky_tape/surgical,
-/turf/open/floor/plating,
+"DO" = (
+/obj/structure/sign/warning,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "Go" = (
 /obj/effect/decal/cleanable/dirt,
@@ -595,6 +598,10 @@
 /obj/item/stamp/denied,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"Ry" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/template_noop,
+/area/template_noop)
 "RT" = (
 /obj/structure/frame/machine,
 /obj/item/shard,
@@ -605,17 +612,6 @@
 /obj/structure/barricade/wooden,
 /obj/structure/barricade/wooden/crude,
 /obj/structure/curtain/cloth,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"TM" = (
-/obj/structure/closet/body_bag,
-/obj/structure/table/optable,
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/mob_spawn/corpse/human{
-	brute_damage = 200;
-	mob_type = /mob/living/carbon/human/species/lizard
-	},
-/obj/structure/sign/warning/directional/south,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "Ua" = (
@@ -648,10 +644,17 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"VL" = (
-/obj/machinery/power/shuttle_engine/propulsion,
-/turf/template_noop,
-/area/space/nearstation)
+"VU" = (
+/obj/item/organ/wings/moth,
+/obj/structure/closet/crate/trashcart,
+/obj/item/bodypart/arm/left/skeleton,
+/obj/item/bodypart/arm/right/skeleton,
+/obj/item/evidencebag,
+/obj/item/organ/heart/cybernetic/tier2,
+/obj/structure/broken_flooring/pile,
+/obj/item/stack/sheet/animalhide/carbon/human/five,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "VV" = (
 /obj/effect/decal/cleanable/blood/gibs/robot_debris/up,
 /obj/structure/frame/computer,
@@ -664,16 +667,6 @@
 /obj/machinery/light/warm,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
-/area/ruin/space/has_grav/garbagetruck/medicalwaste)
-"XD" = (
-/obj/item/wallframe/sinkframe,
-/obj/structure/broken_flooring/pile,
-/obj/effect/decal/cleanable/blood/gibs/old,
-/obj/item/rag{
-	pixel_x = 6;
-	pixel_y = -3
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
 "XR" = (
 /obj/structure/broken_flooring/pile,
@@ -691,6 +684,17 @@
 /obj/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"Zj" = (
+/obj/machinery/airalarm{
+	pixel_y = 25
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
+"Zu" = (
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/medicalwaste)
 
 (1,1,1) = {"
 gh
@@ -699,7 +703,7 @@ sU
 sU
 sU
 qC
-VL
+Ry
 gh
 gh
 gh
@@ -755,8 +759,8 @@ vM
 AB
 py
 io
-TM
-MC
+dn
+DO
 "}
 (4,1,1) = {"
 iw
@@ -807,7 +811,7 @@ Pd
 xj
 Zi
 qC
-mZ
+Zj
 OA
 gr
 CJ
@@ -839,7 +843,7 @@ Dv
 rB
 JW
 CJ
-EJ
+Zu
 AB
 xw
 CJ
@@ -878,7 +882,7 @@ qC
 MC
 pR
 eO
-XD
+ax
 UJ
 RT
 Lh
@@ -887,7 +891,7 @@ Hx
 CJ
 zu
 IS
-bb
+VU
 MC
 "}
 (10,1,1) = {"
@@ -907,10 +911,10 @@ LA
 CJ
 Am
 Tp
-zH
+lX
 AU
-qX
-MC
+tD
+DO
 "}
 (11,1,1) = {"
 gh
@@ -941,7 +945,7 @@ sU
 sU
 LG
 qC
-VL
+Ry
 gh
 gh
 gh

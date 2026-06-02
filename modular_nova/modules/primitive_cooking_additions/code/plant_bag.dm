@@ -29,11 +29,17 @@
 	worn_icon = 'modular_nova/modules/primitive_cooking_additions/icons/plant_bag_worn.dmi'
 	worn_icon_state = "plantbag_primitive"
 
-/obj/item/storage/bag/plants/on_craft_completion(list/components, datum/crafting_recipe/current_recipe, atom/crafter)
-	. = ..()
-	if(!isprimitivedemihuman(crafter) && !isashwalker(crafter))
+
+/obj/item/stack/sheet/cloth/on_item_crafted(mob/builder, atom/created)
+	if(!istype(created, /obj/item/storage/bag/plants))
 		return
-	make_primitive()
+
+	if(!isprimitivedemihuman(builder) && !isashwalker(builder))
+		return
+
+	var/obj/item/storage/bag/plants/bag = created
+
+	bag.make_primitive()
 
 /obj/item/storage/bag/plants/primitive/setup_reskins()
 	make_primitive()

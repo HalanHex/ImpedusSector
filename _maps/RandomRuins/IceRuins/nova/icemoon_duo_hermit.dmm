@@ -44,13 +44,6 @@
 	},
 /turf/open/floor/stone,
 /area/ruin/powered/hermit)
-"fS" = (
-/obj/structure/decorative/shelf,
-/obj/item/raptor_dex,
-/obj/structure/table/wood,
-/obj/item/storage/belt/utility/xenoarch/full,
-/turf/open/floor/wood,
-/area/ruin/powered/hermit)
 "gP" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -107,6 +100,14 @@
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
+"lO" = (
+/obj/structure/safe/floor,
+/obj/item/flatpacked_machine/wind_turbine,
+/obj/item/flatpacked_machine/wind_turbine,
+/obj/item/pipe_dispenser,
+/obj/item/circuitboard/machine/autolathe,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
 "oE" = (
 /obj/structure/decorative/shelf,
 /obj/item/tank/internals/emergency_oxygen/engi,
@@ -131,6 +132,24 @@
 /obj/structure/barricade/wooden/crude/snow,
 /obj/structure/railing/wooden_fencing,
 /turf/open/misc/asteroid/snow/icemoon,
+/area/ruin/powered/hermit)
+"qJ" = (
+/obj/structure/closet/crate/grave/filled,
+/obj/effect/decal/remains/human,
+/obj/item/pickaxe/silver,
+/obj/item/stack/cable_coil/five,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/servo,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"rj" = (
+/obj/structure/decorative/shelf,
+/obj/item/raptor_dex,
+/obj/structure/table/wood,
+/obj/item/storage/belt/utility/xenoarch/full,
+/turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "sy" = (
 /obj/structure/ore_container/food_trough/raptor_trough,
@@ -160,25 +179,6 @@
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
-"vy" = (
-/obj/item/flatpacked_machine/wind_turbine,
-/obj/item/flatpacked_machine/wind_turbine,
-/obj/item/pipe_dispenser,
-/obj/item/circuitboard/machine/autolathe,
-/obj/structure/decorative/shelf,
-/turf/open/floor/wood,
-/area/ruin/powered/hermit)
-"vV" = (
-/obj/structure/closet/crate/grave/filled,
-/obj/effect/decal/remains/human,
-/obj/item/pickaxe/silver,
-/obj/item/stack/cable_coil/five,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/servo,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
 "wf" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
@@ -211,6 +211,10 @@
 /obj/item/flashlight/flare/torch,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
+"IV" = (
+/mob/living/basic/raptor/baby_raptor/white,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "IY" = (
 /obj/structure/chair/sofa/middle,
 /obj/effect/turf_decal/siding/wood{
@@ -299,10 +303,6 @@
 	},
 /turf/open/floor/carpet/neon/simple/black,
 /area/ruin/powered/hermit)
-"YA" = (
-/mob/living/basic/raptor/baby/white,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
 "ZO" = (
 /obj/machinery/space_heater,
 /turf/open/floor/wood,
@@ -357,7 +357,7 @@ aM
 aM
 aM
 jd
-vV
+qJ
 ph
 ph
 ph
@@ -429,7 +429,7 @@ sC
 JI
 oJ
 TL
-YA
+IV
 aM
 aM
 aM
@@ -442,7 +442,7 @@ bp
 JI
 JI
 TL
-fS
+rj
 uQ
 fE
 fE
@@ -533,7 +533,7 @@ uw
 Me
 Vc
 uw
-vy
+lO
 JI
 ZO
 uw

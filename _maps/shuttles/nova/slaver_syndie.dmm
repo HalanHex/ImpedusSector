@@ -117,23 +117,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/syndicate/slaver)
-"fq" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
-/obj/structure/bed,
-/obj/item/bedsheet/hos{
-	desc = "A thick cozy blanket that belongs to the Captain.";
-	name = "Captain's duvet"
-	},
-/obj/machinery/button/door{
-	id = "syndieprisoncaptainquarterdoor";
-	name = "External Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = 22;
-	specialfunctions = 4;
-	dir = 4
-	},
-/turf/open/floor/carpet/red,
-/area/shuttle/syndicate/slaver)
 "fA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -430,18 +413,6 @@
 	icon_state = "floorsec2"
 	},
 /area/shuttle/syndicate/slaver)
-"uD" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/button/door{
-	id = "prisonshipwreckdoorright";
-	name = "Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = 22;
-	specialfunctions = 4;
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/shuttle/syndicate/slaver)
 "vb" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 8
@@ -569,20 +540,29 @@
 /obj/item/grenade/c4,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/slaver)
-"AB" = (
-/obj/structure/tank_dispenser/oxygen,
-/obj/effect/turf_decal/trimline/yellow/warning{
+"Av" = (
+/obj/effect/turf_decal/trimline/yellow/warning,
+/obj/structure/closet/secure_closet{
+	icon_state = "eng";
+	name = "Equipment Locker";
+	req_access = list("syndicate")
+	},
+/obj/item/storage/belt,
+/obj/item/holosign_creator/atmos,
+/obj/item/stack/cable_coil,
+/obj/item/analyzer,
+/obj/item/storage/pouch/material,
+/obj/item/construction/rcd/loaded/upgraded,
+/obj/item/stack/sheet/plasteel/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/storage/backpack/satchel/flat/empty,
+/obj/item/storage/box,
+/obj/item/crowbar/power,
+/obj/item/screwdriver/power,
+/obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
-/obj/machinery/button/door{
-	id = "prisonshipwreckdock";
-	name = "External Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = -22;
-	specialfunctions = 4;
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line,
 /turf/open/floor/iron/dark,
 /area/shuttle/syndicate/slaver)
 "AK" = (
@@ -681,6 +661,16 @@
 /obj/item/pen/fountain,
 /turf/open/floor/wood,
 /area/shuttle/syndicate/slaver)
+"Ev" = (
+/obj/machinery/button/door{
+	id = "syndieprisoncaptainquarterdoor";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -22;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/black,
+/area/shuttle/syndicate/slaver)
 "EQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -705,30 +695,6 @@
 /obj/effect/turf_decal/bot,
 /obj/machinery/computer/shuttle/slaver,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/syndicate/slaver)
-"FU" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/button/door{
-	id = "prisonshipwreckdoorleft";
-	name = "External Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = -22;
-	specialfunctions = 4;
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/shuttle/syndicate/slaver)
-"GA" = (
-/obj/machinery/button/door{
-	id = "syndieprisoncaptainquarterdoor";
-	name = "External Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = -22;
-	specialfunctions = 4;
-	dir = 8
-	},
-/turf/open/floor/carpet/black,
 /area/shuttle/syndicate/slaver)
 "GG" = (
 /obj/effect/turf_decal/stripes/full,
@@ -913,6 +879,22 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/plating/airless,
 /area/shuttle/syndicate/slaver)
+"OX" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/bed,
+/obj/item/bedsheet/hos{
+	desc = "A thick cozy blanket that belongs to the Captain.";
+	name = "Captain's duvet"
+	},
+/obj/machinery/button/door{
+	id = "syndieprisoncaptainquarterdoor";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = 22;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/syndicate/slaver)
 "Po" = (
 /obj/machinery/power/shuttle_engine/heater,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -964,6 +946,17 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
+/area/shuttle/syndicate/slaver)
+"Qx" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/button/door{
+	id = "prisonshipwreckdoorright";
+	name = "Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = 22;
+	specialfunctions = 4
+	},
+/turf/open/floor/plating,
 /area/shuttle/syndicate/slaver)
 "QC" = (
 /obj/structure/chair/office/light{
@@ -1081,31 +1074,6 @@
 "TW" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/syndicate/slaver)
-"Vd" = (
-/obj/effect/turf_decal/trimline/yellow/warning,
-/obj/structure/closet/secure_closet{
-	icon_state = "eng";
-	name = "Equipment Locker";
-	req_access = list("syndicate")
-	},
-/obj/item/holosign_creator/atmos,
-/obj/item/stack/cable_coil,
-/obj/item/analyzer,
-/obj/item/storage/pouch/material,
-/obj/item/construction/rcd/loaded/upgraded,
-/obj/item/stack/sheet/plasteel/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/storage/backpack/satchel/flat/empty,
-/obj/item/storage/box,
-/obj/item/crowbar/power,
-/obj/item/screwdriver/power,
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 1
-	},
-/obj/item/storage/belt/utility/atmostech,
-/turf/open/floor/iron/dark,
-/area/shuttle/syndicate/slaver)
 "Ve" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 1
@@ -1136,6 +1104,21 @@
 /obj/machinery/autolathe,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/slaver)
+"Wh" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	id = "prisonshipwreckdock";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -22;
+	specialfunctions = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/turf/open/floor/iron/dark,
+/area/shuttle/syndicate/slaver)
 "Wp" = (
 /obj/machinery/suit_storage_unit/mining/eva,
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -1161,6 +1144,18 @@
 	},
 /obj/effect/turf_decal/trimline/dark_blue/warning,
 /turf/open/floor/iron/dark,
+/area/shuttle/syndicate/slaver)
+"Xh" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/button/door{
+	id = "prisonshipwreckdoorleft";
+	name = "External Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = -22;
+	specialfunctions = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/shuttle/syndicate/slaver)
 "Xw" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -1266,7 +1261,7 @@ VL
 VL
 TW
 XN
-AB
+Wh
 RZ
 Sz
 TW
@@ -1310,7 +1305,7 @@ Kw
 Ve
 jL
 Jz
-Vd
+Av
 Po
 Sh
 Yp
@@ -1318,7 +1313,7 @@ lH
 hp
 Bf
 pu
-fq
+OX
 Yr
 ba
 TW
@@ -1363,7 +1358,7 @@ cJ
 XN
 PJ
 Bx
-FU
+Xh
 XM
 Yp
 "}
@@ -1489,7 +1484,7 @@ HQ
 XN
 PA
 Hk
-uD
+Qx
 GG
 Yp
 "}
@@ -1528,7 +1523,7 @@ Yp
 Kw
 Ve
 kR
-GA
+Ev
 qp
 ba
 TW

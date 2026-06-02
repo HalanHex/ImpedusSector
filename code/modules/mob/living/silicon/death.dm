@@ -31,9 +31,9 @@
 /// Plays an animation of the player's hud flavored about their death somewhat
 /mob/living/silicon/proc/death_sequence()
 	var/cause_of_death
-	if(get_brute_loss() + get_fire_loss() > 100)
+	if(getBruteLoss() + getFireLoss() > 100)
 		cause_of_death = "Critical damage sustained."
-	if(get_oxy_loss() > 100)
+	if(getOxyLoss() > 100)
 		cause_of_death = "Critically low power."
 
 	var/atom/movable/screen/cyborg_death/deathhud = hud_used.add_screen_object(/atom/movable/screen/cyborg_death, HUD_CYBORG_DEATH, HUD_GROUP_SCREEN_OVERLAYS, update_screen = TRUE)

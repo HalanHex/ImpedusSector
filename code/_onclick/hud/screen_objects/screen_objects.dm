@@ -1305,7 +1305,7 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen) // I hate this place
 
 	if(!isliving(source))
 		return
-	maptext = FORMAT_BLOOD_LEVEL_HUD_MAPTEXT(source.get_blood_volume())
+	maptext = FORMAT_BLOOD_LEVEL_HUD_MAPTEXT(source.blood_volume)
 
 #undef FORMAT_BLOOD_LEVEL_HUD_MAPTEXT
 

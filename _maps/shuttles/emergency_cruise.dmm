@@ -301,24 +301,6 @@
 /obj/effect/turf_decal/tile/neutral/full,
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
-"eY" = (
-/obj/structure/table/optable,
-/obj/machinery/light/cold/directional/north,
-/obj/effect/turf_decal/siding/wideplating_new/light{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/bot_white{
-	color = "#52B4E9"
-	},
-/obj/machinery/vitals_reader/directional/north,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 1
-	},
-/area/shuttle/escape)
 "fI" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/food/sundae{
@@ -874,35 +856,6 @@
 	dir = 4
 	},
 /area/shuttle/escape)
-"lz" = (
-/obj/structure/table/reinforced/rglass,
-/obj/item/stack/medical/wrap/gauze/twelve{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/stack/medical/mesh/advanced{
-	pixel_x = 8;
-	pixel_y = 0
-	},
-/obj/item/stack/medical/suture/medicated{
-	pixel_x = 0;
-	pixel_y = -5
-	},
-/obj/machinery/button/door/directional/west{
-	name = "Infirmary Exit Button";
-	normaldoorcontrol = 1;
-	id = "cruise_med"
-	},
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/filled/mid_joiner{
-	dir = 8
-	},
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 8
-	},
-/area/shuttle/escape)
 "lC" = (
 /obj/effect/turf_decal/trimline/blue/corner{
 	dir = 4
@@ -1237,19 +1190,6 @@
 	dir = 8
 	},
 /area/shuttle/escape/brig)
-"rG" = (
-/obj/machinery/stasis,
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/blue/filled/mid_joiner{
-	dir = 4
-	},
-/obj/machinery/vitals_reader/directional/east,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 4
-	},
-/area/shuttle/escape)
 "rR" = (
 /obj/structure/chair/office/light{
 	dir = 4;
@@ -1958,6 +1898,24 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"BC" = (
+/obj/structure/table/optable,
+/obj/machinery/light/cold/directional/north,
+/obj/effect/turf_decal/siding/wideplating_new/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/bot_white{
+	color = "#52B4E9"
+	},
+/obj/machinery/vitals_reader/directional/north,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
+	},
+/area/shuttle/escape)
 "BD" = (
 /obj/structure/table/wood/shuttle_bar{
 	boot_dir = 4
@@ -2328,10 +2286,6 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/shuttle/escape/brig)
-"Fq" = (
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/carpet/red,
-/area/shuttle/escape)
 "FC" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
 	dir = 4
@@ -2708,6 +2662,19 @@
 	},
 /turf/open/floor/iron/dark/smooth_edge{
 	dir = 1
+	},
+/area/shuttle/escape)
+"KD" = (
+/obj/machinery/stasis,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner{
+	dir = 4
+	},
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 4
 	},
 /area/shuttle/escape)
 "KH" = (
@@ -3185,6 +3152,13 @@
 	},
 /turf/open/floor/carpet/red,
 /area/shuttle/escape)
+"QN" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32;
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/escape)
 "QP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -3591,6 +3565,35 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/green,
+/area/shuttle/escape)
+"XD" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/stack/medical/wrap/gauze/twelve{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/stack/medical/mesh/advanced{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/item/stack/medical/suture/medicated{
+	pixel_x = 0;
+	pixel_y = -5
+	},
+/obj/machinery/button/door/directional/west{
+	name = "Infirmary Exit Button";
+	normaldoorcontrol = 1;
+	id = "cruise_med"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 8
+	},
 /area/shuttle/escape)
 "XP" = (
 /obj/structure/table/wood/shuttle_bar{
@@ -4347,7 +4350,7 @@ bP
 bj
 QI
 hp
-La
+QN
 nk
 gv
 Ks
@@ -4394,7 +4397,7 @@ jt
 jt
 jt
 uV
-Fq
+La
 nk
 fI
 uu
@@ -4453,7 +4456,7 @@ py
 OH
 py
 py
-lz
+XD
 kn
 tR
 jt
@@ -4589,13 +4592,13 @@ jt
 ij
 pl
 jt
-eY
+BC
 Sr
 QD
 Up
-rG
+KD
 Um
-rG
+KD
 gm
 jt
 ki

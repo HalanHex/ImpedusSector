@@ -111,20 +111,9 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/royalblack,
 /area/virtual_domain)
-"cZ" = (
-/obj/structure/table/reinforced,
-/obj/item/gun/ballistic/automatic/l6_saw/unrestricted,
-/obj/item/ammo_box/magazine/m7mm,
-/obj/structure/sign/departments/cargo/directional/north,
-/turf/open/floor/mineral/plastitanium,
-/area/virtual_domain/protected_space)
 "da" = (
 /obj/machinery/stasis,
 /turf/open/floor/plastic,
-/area/virtual_domain)
-"dd" = (
-/obj/structure/sign/warning/vacuum/external/directional/north,
-/turf/open/floor/mineral/plastitanium,
 /area/virtual_domain)
 "di" = (
 /obj/machinery/power/terminal{
@@ -170,6 +159,10 @@
 /obj/item/card/id/advanced/black/syndicate_command/crew_id,
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain/protected_space)
+"eW" = (
+/obj/structure/sign/warning/vacuum/external/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain)
 "fd" = (
 /obj/structure/transit_tube/crossing,
 /turf/open/space/basic,
@@ -311,17 +304,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain/protected_space)
-"ln" = (
-/obj/machinery/turretid{
-	control_area = "/area/ruin/space/has_grav/syndicate_forgotten_ship";
-	enabled = 0;
-	lethal = 1;
-	name = "Ship turret control panel";
-	pixel_y = 32;
-	req_access = list("syndicate")
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/virtual_domain)
 "lo" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external/ruin{
@@ -380,6 +362,10 @@
 /obj/item/reagent_containers/cup/glass/trophy/silver_cup,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain)
+"oD" = (
+/obj/structure/sign/warning/vacuum/external/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain)
 "oM" = (
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium,
@@ -397,6 +383,18 @@
 	name = "Ship cameras console";
 	network = list("fsc","fsci");
 	screen_loc = ""
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/virtual_domain)
+"pE" = (
+/obj/machinery/turretid{
+	control_area = "/area/ruin/space/has_grav/syndicate_forgotten_ship";
+	enabled = 0;
+	icon_state = "control_kill";
+	lethal = 1;
+	name = "Ship turret control panel";
+	pixel_y = 32;
+	req_access = list("syndicate")
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain)
@@ -766,6 +764,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain)
+"Gk" = (
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/l6_saw/unrestricted,
+/obj/item/ammo_box/magazine/m7mm,
+/obj/structure/sign/departments/cargo/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/protected_space)
 "Gn" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -1000,10 +1005,6 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
-/area/virtual_domain)
-"PQ" = (
-/obj/structure/sign/warning/vacuum/external/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain)
 "PR" = (
@@ -2972,7 +2973,7 @@ ru
 uP
 uP
 ru
-dd
+eW
 uP
 uP
 Ox
@@ -2980,7 +2981,7 @@ aw
 uP
 uP
 uP
-PQ
+oD
 ru
 uP
 Qg
@@ -2993,7 +2994,7 @@ qx
 qx
 qx
 zN
-cZ
+Gk
 dp
 dp
 RU
@@ -3317,7 +3318,7 @@ qx
 qx
 qx
 ru
-ln
+pE
 Kz
 ru
 iB

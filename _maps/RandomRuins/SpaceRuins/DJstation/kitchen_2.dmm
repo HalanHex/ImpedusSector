@@ -18,6 +18,14 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/djstation)
+"p" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Kitchen"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/barricade/wooden/crude,
+/turf/template_noop,
+/area/template_noop)
 "r" = (
 /obj/structure/lattice,
 /obj/effect/spawner/random/structure/grille,
@@ -41,26 +49,9 @@
 	},
 /turf/template_noop,
 /area/space/nearstation)
-"J" = (
-/obj/modular_map_connector,
-/obj/machinery/door/airlock/public/glass{
-	name = "Kitchen"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/barricade/wooden/crude,
-/turf/template_noop,
-/area/space/nearstation)
 "L" = (
 /turf/closed/wall,
 /area/ruin/space/djstation)
-"O" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Kitchen"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/barricade/wooden/crude,
-/turf/template_noop,
-/area/space/nearstation)
 "S" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
@@ -74,6 +65,15 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/djstation)
+"Y" = (
+/obj/modular_map_connector,
+/obj/machinery/door/airlock/public/glass{
+	name = "Kitchen"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/barricade/wooden/crude,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 a
@@ -152,8 +152,8 @@ a
 a
 a
 a
-O
-J
+p
+Y
 L
 a
 V

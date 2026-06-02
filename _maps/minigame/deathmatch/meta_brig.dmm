@@ -16,11 +16,6 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/deathmatch)
-"al" = (
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/lattice/catwalk,
-/turf/template_noop,
-/area/space/nearstation)
 "aw" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/closed/indestructible/reinforced,
@@ -252,6 +247,21 @@
 	},
 /turf/open/indestructible/dark,
 /area/deathmatch)
+"dJ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 8
+	},
+/obj/structure/sign/warning/vacuum/external/directional/west,
+/turf/open/indestructible,
+/area/deathmatch)
+"ec" = (
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/template_noop)
 "ew" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -384,6 +394,10 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/grimy,
 /area/deathmatch)
+"gS" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "hi" = (
 /turf/open/floor/plating,
 /area/deathmatch)
@@ -507,6 +521,18 @@
 /area/deathmatch)
 "je" = (
 /obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/indestructible,
+/area/deathmatch)
+"jl" = (
+/obj/machinery/door/window/brigdoor/security/holding/left/directional/south{
+	id = "Holding Cell";
+	name = "Holding Cell"
+	},
+/obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
@@ -1124,6 +1150,11 @@
 	},
 /turf/open/indestructible/dark,
 /area/deathmatch)
+"qI" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/sign/warning/vacuum/external/directional/north,
+/turf/open/indestructible,
+/area/deathmatch)
 "qP" = (
 /obj/machinery/light/directional/east,
 /turf/open/indestructible/hotelwood,
@@ -1256,6 +1287,10 @@
 	},
 /turf/open/indestructible/dark,
 /area/deathmatch)
+"sP" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
 "sR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -1437,10 +1472,6 @@
 /obj/structure/table,
 /turf/open/indestructible/dark,
 /area/deathmatch)
-"vC" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "vD" = (
 /obj/structure/table,
 /obj/structure/cable,
@@ -2621,11 +2652,6 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/indestructible,
 /area/deathmatch)
-"Mb" = (
-/obj/machinery/light/small/directional/north,
-/obj/structure/sign/warning/vacuum/external/directional/north,
-/turf/open/indestructible,
-/area/deathmatch)
 "Mk" = (
 /obj/item/phone{
 	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
@@ -3297,16 +3323,6 @@
 	},
 /turf/open/indestructible,
 /area/deathmatch)
-"Wz" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/red/filled/corner{
-	dir = 8
-	},
-/obj/structure/sign/warning/vacuum/external/directional/west,
-/turf/open/indestructible,
-/area/deathmatch)
 "WD" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -3548,18 +3564,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/deathmatch)
-"Zj" = (
-/obj/machinery/door/window/brigdoor/security/holding{
-	id = "Holding Cell";
-	name = "Holding Cell"
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/open/indestructible,
-/area/deathmatch)
 "Zq" = (
 /turf/template_noop,
 /area/template_noop)
@@ -3723,7 +3727,7 @@ Yh
 Yh
 Yh
 XK
-Mb
+qI
 eC
 Kh
 "}
@@ -3743,7 +3747,7 @@ ph
 YZ
 XK
 XI
-Wz
+dJ
 Vr
 Jv
 YW
@@ -3924,10 +3928,10 @@ Wv
 IJ
 "}
 (12,1,1) = {"
-vC
-vC
-vC
-vC
+gS
+gS
+gS
+gS
 Yh
 oB
 pC
@@ -3952,7 +3956,7 @@ oD
 IJ
 "}
 (13,1,1) = {"
-vC
+gS
 Zq
 Zq
 Zq
@@ -3980,7 +3984,7 @@ sA
 Kh
 "}
 (14,1,1) = {"
-vC
+gS
 Zq
 Zq
 Zq
@@ -4008,7 +4012,7 @@ uI
 IJ
 "}
 (15,1,1) = {"
-al
+ec
 Zq
 Zq
 Zq
@@ -4036,7 +4040,7 @@ Wv
 Dp
 "}
 (16,1,1) = {"
-vC
+gS
 Zq
 Zq
 Zq
@@ -4064,7 +4068,7 @@ WI
 Dp
 "}
 (17,1,1) = {"
-vC
+gS
 Zq
 Zq
 Zq
@@ -4306,7 +4310,7 @@ AS
 Nw
 pc
 WI
-Zj
+jl
 xu
 bM
 nI
@@ -4484,7 +4488,7 @@ IJ
 IJ
 "}
 (32,1,1) = {"
-vC
+sP
 Fi
 Fi
 Fi

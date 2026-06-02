@@ -15,6 +15,7 @@ PROCESSING_SUBSYSTEM_DEF(reagents)
 	previous_world_time = world.time
 	//Build GLOB lists - see holder.dm
 	build_chemical_reactions_lists()
+
 	// NOVA EDIT ADDITION START
 	if(CONFIG_GET(flag/disable_erp_preferences))
 		for(var/reaction_path in GLOB.chemical_reactions_list)

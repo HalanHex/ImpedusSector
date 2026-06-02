@@ -50,6 +50,7 @@
 	set_density(FALSE)
 	if(!isnull(filler))
 		filler.set_density(FALSE)
+	update_freelook_sight()
 	flags_1 &= ~PREVENT_CLICK_UNDER_1
 	air_update_turf(TRUE, FALSE)
 	var/open_delay = forced == BYPASS_DOOR_CHECKS ? (0.2 SECONDS) : (animation_segment_delay(AIRLOCK_OPENING_FINISHED) - passable_delay)
@@ -107,6 +108,7 @@
 	set_density(TRUE)
 	if(!isnull(filler))
 		filler.set_density(TRUE)
+	update_freelook_sight()
 	flags_1 |= PREVENT_CLICK_UNDER_1
 	air_update_turf(TRUE, TRUE)
 	crush()

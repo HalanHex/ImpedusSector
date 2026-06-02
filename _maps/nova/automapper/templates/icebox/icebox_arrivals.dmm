@@ -45,6 +45,12 @@
 /obj/structure/fence/corner,
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"bE" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
+	},
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "bI" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -660,7 +666,9 @@
 	},
 /area/station/hallway/secondary/entry)
 "Ck" = (
-/obj/structure/sign/nanotrasen/directional/east,
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
+	},
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 10
 	},
@@ -903,7 +911,9 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Nz" = (
-/obj/structure/sign/nanotrasen/directional/north,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Ot" = (
@@ -1058,7 +1068,9 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "SQ" = (
-/obj/structure/sign/nanotrasen/directional/west,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
 	},
@@ -1166,7 +1178,6 @@
 /area/icemoon/surface/outdoors/nospawn)
 "WC" = (
 /obj/structure/flora/grass/brown/style_random,
-/obj/structure/sign/nanotrasen/directional/north,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Xd" = (
@@ -2505,7 +2516,7 @@ pq
 pY
 cp
 ej
-ej
+bE
 ej
 ej
 ej

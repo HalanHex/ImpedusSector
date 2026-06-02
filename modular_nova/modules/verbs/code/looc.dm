@@ -51,6 +51,11 @@
 
 	mob.log_talk(msg,LOG_OOC, tag="LOOC")
 	var/list/heard
+	if(wall_pierce)
+		heard = get_hearers_in_looc_range(mob.get_top_level_mob())
+	else
+		heard = get_hearers_in_view(LOOC_RANGE, mob.get_top_level_mob())
+
 	//so the ai can post looc text
 	if(istype(mob, /mob/living/silicon/ai))
 		var/mob/living/silicon/ai/ai = mob
@@ -58,19 +63,16 @@
 			heard = get_hearers_in_looc_range(ai.eyeobj)
 		else
 			heard = get_hearers_in_view(LOOC_RANGE, ai.eyeobj)
-	else
-		if(wall_pierce)
-			heard = get_hearers_in_looc_range(mob.get_top_level_mob())
-		else
-			heard = get_hearers_in_view(LOOC_RANGE, mob.get_top_level_mob())
-
-	heard = mob_only_listeners(heard)
+	//so the ai can see looc text
+	for(var/mob/living/silicon/ai/ai as anything in GLOB.ai_list)
+		if(ai.client && !(ai in heard) && (ai.eyeobj in heard))
+			heard += ai
 
 	var/list/admin_seen = list()
-	for(var/mob/hearing as anything in heard)
-		var/client/hearing_client = hearing.client
-		if(isnull(hearing_client))
+	for(var/mob/hearing in heard)
+		if(!hearing.client)
 			continue
+		var/client/hearing_client = hearing.client
 
 		var/is_holder = hearing_client.holder
 		if (is_holder)
@@ -81,10 +83,10 @@
 			continue //ghosts dont hear looc, apparantly
 
 		// do the runetext here so admins can still get the runetext
-		if(mob.runechat_prefs_check(hearing_client.mob) && hearing_client.prefs.read_preference(/datum/preference/toggle/enable_looc_runechat))
+		if(mob.runechat_prefs_check(hearing) && hearing.client?.prefs.read_preference(/datum/preference/toggle/enable_looc_runechat))
 			// EMOTE is close enough. We don't want it to treat the raw message with languages.
 			// I wish it didn't include the asterisk but it's modular this way.
-			hearing_client.mob?.create_chat_message(mob, raw_message = "(LOOC: [msg])", runechat_flags = EMOTE_MESSAGE)
+			hearing.create_chat_message(mob, raw_message = "(LOOC: [msg])", runechat_flags = EMOTE_MESSAGE)
 
 		if (is_holder)
 			continue //admins are handled afterwards

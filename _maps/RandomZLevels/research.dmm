@@ -1349,12 +1349,6 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
-"gP" = (
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "gQ" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 4
@@ -1471,13 +1465,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
-"hr" = (
-/obj/machinery/light/directional/east,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "hs" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/dark,
@@ -1539,13 +1526,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
-"hH" = (
-/obj/machinery/vending/security,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "hI" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/highsecurity{
@@ -1600,25 +1580,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
-"hP" = (
-/obj/structure/sign/directions/evac{
-	pixel_y = 10
-	},
-/obj/structure/sign/directions/medical,
-/turf/closed/wall/r_wall,
-/area/awaymission/research/interior)
 "hQ" = (
 /turf/open/floor/iron/white/corner{
 	dir = 1
 	},
 /area/awaymission/research/interior)
-"hR" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "hS" = (
 /obj/structure/closet/crate,
 /obj/item/disk/data{
@@ -1675,14 +1641,6 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
-"ij" = (
-/mob/living/basic/bot/secbot/genesky,
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 1
-	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
 "ik" = (
@@ -2818,22 +2776,6 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/security)
-"oO" = (
-/obj/structure/chair/stool/directional/west,
-/obj/effect/turf_decal/siding/yellow{
-	dir = 8
-	},
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/effect/mapping_helpers/apc/cell_5k,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/research/interior/dorm)
-"oT" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "pt" = (
 /obj/machinery/door/airlock/external/ruin{
 	name = "Escape Pod Three"
@@ -2902,6 +2844,11 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"ra" = (
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "rh" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -2927,6 +2874,26 @@
 "rK" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/light/directional/west,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior)
+"rO" = (
+/obj/structure/sign/directions/security{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 40
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 33
+	},
+/obj/structure/sign/directions/science{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 26
+	},
+/mob/living/basic/trooper/syndicate/ranged/smg,
+/obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
 "si" = (
@@ -3027,13 +2994,6 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/dark,
 /area/awaymission/research/interior/genetics)
-"vv" = (
-/obj/machinery/light/directional/west,
-/obj/effect/turf_decal/siding/yellow{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/research/interior/dorm)
 "vT" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
@@ -3121,20 +3081,6 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
-"yj" = (
-/obj/structure/sign/directions/science{
-	dir = 1;
-	pixel_y = 10
-	},
-/obj/structure/sign/directions/engineering{
-	dir = 1;
-	pixel_y = -10
-	},
-/obj/structure/sign/directions/security{
-	dir = 1
-	},
-/turf/closed/wall/r_wall,
-/area/awaymission/research/interior)
 "yn" = (
 /obj/item/ammo_casing/c45,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -3208,23 +3154,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
-"By" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "BN" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /mob/living/carbon/human/species/monkey,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/genetics)
-"BQ" = (
-/mob/living/basic/trooper/nanotrasen/ranged/smg,
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "BY" = (
 /obj/effect/turf_decal/siding/yellow,
 /obj/machinery/light/directional/south,
@@ -3247,6 +3182,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"Cv" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "CF" = (
 /obj/item/stack/rods,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -3307,6 +3248,13 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
+"DZ" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "Em" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/light/directional/east,
@@ -3403,6 +3351,19 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
+"Gt" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
+"GT" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "Ha" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -3486,11 +3447,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/research/interior/dorm)
-"Jg" = (
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "Jl" = (
 /obj/item/kirbyplants/organic/plant20{
 	pixel_y = 3
@@ -3582,11 +3538,22 @@
 	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"Lb" = (
+/mob/living/basic/trooper/nanotrasen/ranged/smg,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "Le" = (
 /obj/structure/table/optable,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"Lg" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "Lm" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/ammo_casing/c45,
@@ -3602,6 +3569,14 @@
 /area/awaymission/research/interior/dorm)
 "LX" = (
 /obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
+"Mg" = (
+/mob/living/basic/bot/secbot/genesky,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
+	},
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
 "Mo" = (
@@ -3632,6 +3607,13 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
+"Np" = (
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/awaymission/research/interior/dorm)
 "Nu" = (
 /obj/machinery/door/airlock/medical{
 	name = "Medical Surgery"
@@ -3653,6 +3635,18 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
+"NX" = (
+/obj/effect/mob_spawn/corpse/human/doctor{
+	brute_damage = 200
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/medbay)
 "Ob" = (
 /obj/effect/turf_decal/tile/red/fourcorners,
 /obj/machinery/light/directional/west,
@@ -3726,13 +3720,6 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/genetics)
-"PM" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/security)
 "Qd" = (
 /obj/machinery/door/airlock/medical{
 	name = "Medical"
@@ -3789,6 +3776,13 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
+"QO" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "QQ" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/red/fourcorners,
@@ -3815,18 +3809,6 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
-"Sf" = (
-/obj/effect/mob_spawn/corpse/human/doctor{
-	brute_damage = 200
-	},
-/obj/effect/decal/cleanable/blood,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/awaymission/research/interior/medbay)
 "SJ" = (
 /obj/structure/closet/wardrobe/grey,
 /obj/effect/turf_decal/siding/yellow{
@@ -3837,6 +3819,16 @@
 "SM" = (
 /turf/open/misc/asteroid,
 /area/awaymission/research/exterior)
+"Td" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/effect/mapping_helpers/apc/cell_5k,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/research/interior/dorm)
 "Th" = (
 /mob/living/basic/trooper/syndicate,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -4055,6 +4047,13 @@
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/security)
+"YT" = (
+/obj/machinery/vending/security,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior/security)
 "YV" = (
 /obj/machinery/power/shuttle_engine/propulsion/right{
 	dir = 1
@@ -4076,6 +4075,20 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
+"ZV" = (
+/obj/structure/sign/directions/medical{
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/structure/sign/directions/evac{
+	pixel_x = 32;
+	pixel_y = -24
+	},
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/awaymission/research/interior)
 
 (1,1,1) = {"
 aa
@@ -36858,9 +36871,9 @@ jC
 jT
 iX
 LP
-oO
+Td
 Jm
-vv
+Np
 jP
 iX
 lO
@@ -42239,7 +42252,7 @@ Nf
 eJ
 eJ
 hB
-kv
+ZV
 ia
 ia
 it
@@ -42250,7 +42263,7 @@ ia
 ia
 ia
 ia
-sn
+rO
 ut
 HS
 kv
@@ -42497,7 +42510,7 @@ eJ
 eJ
 hC
 hM
-hP
+cp
 cp
 eH
 cp
@@ -42506,7 +42519,7 @@ cp
 cp
 cp
 cp
-yj
+cp
 js
 ry
 ke
@@ -45832,9 +45845,9 @@ jp
 si
 hF
 fr
-Jg
-Jg
-Jg
+Lg
+Lg
+Lg
 ho
 hF
 si
@@ -46088,9 +46101,9 @@ do
 do
 do
 do
-By
+ra
 LX
-Jg
+Lg
 LX
 hn
 do
@@ -46627,7 +46640,7 @@ jR
 kY
 lf
 jz
-Sf
+NX
 iW
 hD
 aH
@@ -46860,9 +46873,9 @@ jp
 si
 hF
 fr
-BQ
+Lb
 QQ
-Jg
+Lg
 ho
 hF
 si
@@ -47117,7 +47130,7 @@ do
 do
 do
 fq
-PM
+QO
 Or
 LX
 hn
@@ -47633,11 +47646,11 @@ eS
 fq
 Kg
 yc
-oT
-Jg
-Jg
-Jg
-Jg
+Gt
+Lg
+Lg
+Lg
+Lg
 CW
 do
 bD
@@ -47895,7 +47908,7 @@ LX
 LX
 LX
 LX
-ij
+Mg
 do
 hD
 aH
@@ -48146,12 +48159,12 @@ KF
 do
 fv
 gc
-gP
-gP
-hr
-hH
-hR
-hR
+Cv
+Cv
+DZ
+YT
+GT
+GT
 ik
 iv
 bD

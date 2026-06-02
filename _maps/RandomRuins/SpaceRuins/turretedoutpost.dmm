@@ -50,6 +50,11 @@
 /obj/structure/girder,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/turretedoutpost)
+"eL" = (
+/obj/structure/lattice,
+/obj/structure/girder,
+/turf/open/floor/plating/rust/airless,
+/area/template_noop)
 "eR" = (
 /obj/structure/foamedmetal/iron,
 /turf/open/floor/plating/airless,
@@ -129,6 +134,10 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/turretedoutpost)
+"jo" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "ju" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -154,23 +163,6 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/turretedoutpost)
-"lw" = (
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 4
-	},
-/obj/machinery/light/broken/directional/south,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/disk/computer/syndicate/camera_app{
-	pixel_x = -5
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/turretedoutpost)
 "lF" = (
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 5
@@ -191,11 +183,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/turretedoutpost)
-"mf" = (
-/obj/structure/lattice,
-/obj/structure/girder,
-/turf/open/floor/plating/rust/airless,
-/area/space/nearstation)
 "my" = (
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 8
@@ -304,10 +291,6 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/turretedoutpost)
-"rK" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "sb" = (
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/turretedoutpost)
@@ -723,6 +706,23 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/turretedoutpost)
+"UV" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/light/broken/directional/south,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/disk/computer/syndicate/camera_app{
+	pixel_x = -5
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/turretedoutpost)
 "Vn" = (
 /obj/machinery/porta_turret_construct,
 /turf/open/floor/plating/airless,
@@ -1034,7 +1034,7 @@ Qk
 Df
 Df
 ro
-rK
+jo
 jM
 jM
 jM
@@ -1065,7 +1065,7 @@ Yy
 xa
 CC
 ro
-rK
+jo
 jM
 jM
 jM
@@ -1107,7 +1107,7 @@ jM
 VO
 bU
 jM
-rK
+jo
 ro
 Sw
 ro
@@ -1127,7 +1127,7 @@ vG
 TL
 rw
 ro
-rK
+jo
 jM
 jM
 jM
@@ -1158,8 +1158,8 @@ wQ
 aC
 XL
 ro
-mf
-rK
+eL
+jo
 jM
 jM
 jM
@@ -1169,7 +1169,7 @@ jM
 jM
 Ci
 jM
-rK
+jo
 ro
 eR
 Ny
@@ -1191,8 +1191,8 @@ vi
 ro
 ro
 ro
-rK
-rK
+jo
+jo
 jM
 jM
 "}
@@ -1222,7 +1222,7 @@ ro
 ro
 ID
 ro
-rK
+jo
 jM
 jM
 jM
@@ -1253,7 +1253,7 @@ zN
 ro
 ID
 ro
-rK
+jo
 jM
 jM
 jM
@@ -1280,7 +1280,7 @@ Hv
 ro
 sb
 Vx
-lw
+UV
 ro
 cD
 ro
@@ -1334,9 +1334,9 @@ Cu
 ro
 jM
 Ci
-rK
+jo
 bU
-rK
+jo
 ro
 ID
 ro
@@ -1365,7 +1365,7 @@ up
 ro
 jM
 jM
-rK
+jo
 VO
 jM
 ro
@@ -1453,10 +1453,10 @@ jM
 jM
 jM
 jM
-rK
-rK
-rK
-rK
+jo
+jo
+jo
+jo
 jM
 jM
 jM
@@ -1486,7 +1486,7 @@ jM
 jM
 jM
 jM
-rK
+jo
 jM
 jM
 jM

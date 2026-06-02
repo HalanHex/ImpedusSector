@@ -35,12 +35,6 @@
 /obj/item/pickaxe,
 /turf/open/misc/asteroid/basalt/airless,
 /area/ruin/space)
-"aC" = (
-/obj/effect/turf_decal/stripes/red/full,
-/obj/machinery/light/small/empty,
-/obj/item/light/bulb/broken,
-/turf/open/floor/iron/dark/smooth_large/airless,
-/area/ruin/space)
 "bz" = (
 /turf/template_noop,
 /area/template_noop)
@@ -626,6 +620,12 @@
 /obj/effect/spawner/random/entertainment/lighter,
 /turf/open/floor/mineral/plastitanium/airless,
 /area/ruin/space)
+"ym" = (
+/obj/effect/turf_decal/stripes/red/full,
+/obj/machinery/light/small/built,
+/obj/item/light/bulb/broken,
+/turf/open/floor/iron/dark/smooth_large/airless,
+/area/ruin/space)
 "yx" = (
 /obj/machinery/shower/directional/west,
 /obj/effect/decal/cleanable/dirt,
@@ -848,6 +848,13 @@
 /obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space)
+"HZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/stack/medical/wrap/sticky_tape/pointy/super,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space)
 "IF" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/paperplane/syndicate,
@@ -1052,13 +1059,6 @@
 	pixel_x = 9
 	},
 /turf/open/floor/iron/dark/textured/airless,
-/area/ruin/space)
-"Ue" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/stack/medical/wrap/sticky_tape/pointy/super,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/airless,
 /area/ruin/space)
 "Uf" = (
 /obj/item/ammo_casing/shotgun/buckshot/spent,
@@ -1955,7 +1955,7 @@ FV
 Ju
 FV
 eU
-Ue
+HZ
 SD
 wp
 ZO
@@ -2080,7 +2080,7 @@ ZC
 gN
 ZC
 ZO
-aC
+ym
 ED
 Er
 bz

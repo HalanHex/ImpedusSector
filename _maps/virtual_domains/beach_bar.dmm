@@ -805,15 +805,14 @@
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
-"Kd" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/sign/warning/secure_area/directional/west,
-/turf/open/floor/plating,
-/area/virtual_domain/fullbright)
 "KH" = (
 /obj/structure/mineral_door/wood{
 	name = "Croupier's Booth"
 	},
+/turf/open/floor/wood,
+/area/virtual_domain/fullbright)
+"KW" = (
+/obj/effect/spawner/random/entertainment/slot_machine,
 /turf/open/floor/wood,
 /area/virtual_domain/fullbright)
 "KZ" = (
@@ -874,6 +873,10 @@
 "NX" = (
 /obj/effect/landmark/bitrunning/loot_signal,
 /turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/virtual_domain/fullbright)
+"Ox" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/wall/mineral/sandstone,
 /area/virtual_domain/fullbright)
 "OE" = (
 /obj/effect/mob_spawn/ghost_role/human/virtual_domain/beach{
@@ -1003,10 +1006,6 @@
 /area/virtual_domain/fullbright)
 "Ve" = (
 /obj/machinery/processor,
-/turf/open/floor/wood,
-/area/virtual_domain/fullbright)
-"VA" = (
-/obj/effect/spawner/random/entertainment/slot_machine,
 /turf/open/floor/wood,
 /area/virtual_domain/fullbright)
 "VE" = (
@@ -1610,7 +1609,7 @@ LD
 LD
 Fn
 Fn
-Fn
+Ox
 Fn
 Fn
 bQ
@@ -1653,7 +1652,7 @@ pT
 LD
 EC
 LD
-Kd
+pT
 PM
 wD
 wD
@@ -1685,7 +1684,7 @@ kv
 kv
 Al
 Fn
-VA
+KW
 kT
 Zb
 TG
@@ -1728,7 +1727,7 @@ kv
 kv
 Al
 Fn
-VA
+KW
 yX
 ag
 kT

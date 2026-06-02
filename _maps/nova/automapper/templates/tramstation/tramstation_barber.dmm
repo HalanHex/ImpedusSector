@@ -27,8 +27,7 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/machinery/button/curtain{
 	pixel_x = 24;
-	id = "backbarbercurtains";
-	dir = 4
+	id = "backbarbercurtains"
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/barber)
@@ -241,8 +240,7 @@
 /obj/effect/turf_decal/tile/purple/opposingcorners,
 /obj/machinery/button/curtain{
 	id = "frontbarbercurtains";
-	pixel_y = 24;
-	dir = 1
+	pixel_y = 24
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron/dark,

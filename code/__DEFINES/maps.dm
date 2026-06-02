@@ -249,7 +249,6 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define AWAYSTART_MOONOUTPOST "AWAYSTART_MOONOUTPOST"
 #define AWAYSTART_SNOWCABIN "AWAYSTART_SNOWCABIN"
 #define AWAYSTART_UNDERGROUND "AWAYSTART_UNDERGROUND"
-#define AWAYSTART_HERETIC "AWAYSTART_HERETIC"
 
 // Minetypes for maps
 #define MINETYPE_NONE "none"

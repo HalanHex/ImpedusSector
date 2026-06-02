@@ -87,13 +87,9 @@
 
 	/**
 	 * Parent types.
-	 * 
-	 * Abstract-ness is a meta-property of a class that is used to indicate
-	 * that the class is intended to be used as a base class for others, and
-	 * should not (or cannot) be instantiated.
-	 * We have no such language concept in DM, and so we provide a datum member
-	 * that can be used to hint at abstractness for circumstances where we would
-	 * like that to be the case, such as base behavior providers.
+	 *
+	 * Use path Ex:(abstract_type = /obj/item). Generally for abstract code objects, atoms with a set abstract_type can never be selected by spawner.
+	 * These should be things that should never show up in a round, this does not include things that require init behavoir to function.
 	 */
 	var/abstract_type = /datum
 

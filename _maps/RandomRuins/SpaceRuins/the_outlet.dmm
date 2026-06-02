@@ -205,11 +205,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
-"fX" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/animalhide/carbon/lizard/five,
-/turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/the_outlet/researchrooms)
 "gc" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-1"
@@ -527,10 +522,6 @@
 /obj/structure/broken_flooring/pile/directional/east,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/the_outlet/employeesection)
-"nM" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "od" = (
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/the_outlet/storefront)
@@ -926,16 +917,6 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
-"wK" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/animalhide/carbon/human,
-/obj/item/stack/sheet/animalhide/carbon/human,
-/obj/item/stack/sheet/animalhide/carbon/human,
-/obj/item/stack/sheet/animalhide/carbon/human,
-/obj/item/stack/sheet/animalhide/carbon/human,
-/obj/item/knife/butcher,
-/turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav/the_outlet/researchrooms)
 "wW" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -951,6 +932,16 @@
 /obj/item/rack_parts,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/the_outlet/employeesection)
+"xm" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/animalhide/carbon/human,
+/obj/item/stack/sheet/animalhide/carbon/human,
+/obj/item/stack/sheet/animalhide/carbon/human,
+/obj/item/stack/sheet/animalhide/carbon/human,
+/obj/item/stack/sheet/animalhide/carbon/human,
+/obj/item/knife/butcher,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/the_outlet/researchrooms)
 "xA" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-2"
@@ -1148,6 +1139,11 @@
 /obj/effect/spawner/random/structure/crate_abandoned,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
+"BB" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/animalhide/carbon/lizard/five,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/the_outlet/researchrooms)
 "BC" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-0"
@@ -1559,10 +1555,6 @@
 /obj/item/stack/sheet/mineral/uranium/five,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
-"LA" = (
-/obj/item/stack/rods/two,
-/turf/template_noop,
-/area/space/nearstation)
 "LL" = (
 /mob/living/basic/construct/proteon/hostile,
 /obj/effect/decal/cleanable/crayon/rune2,
@@ -1761,6 +1753,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/the_outlet/employeesection)
+"Qk" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "Ql" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
@@ -1827,6 +1823,10 @@
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
+"RW" = (
+/obj/item/stack/rods/two,
+/turf/template_noop,
+/area/template_noop)
 "Sv" = (
 /obj/item/kirbyplants,
 /turf/open/floor/eighties,
@@ -2479,7 +2479,7 @@ Er
 Er
 Er
 UF
-fX
+BB
 HZ
 Vx
 gU
@@ -2525,7 +2525,7 @@ Er
 Er
 Er
 UF
-wK
+xm
 LL
 fO
 Nb
@@ -3107,8 +3107,8 @@ MV
 od
 HH
 HH
-nM
-LA
+Qk
+RW
 Kp
 Kp
 "}
@@ -3153,9 +3153,9 @@ xI
 UY
 HH
 RH
-nM
-nM
-nM
+Qk
+Qk
+Qk
 Kp
 "}
 (23,1,1) = {"
@@ -3201,7 +3201,7 @@ UY
 UY
 UY
 Kp
-LA
+RW
 Kp
 "}
 (24,1,1) = {"
@@ -3247,7 +3247,7 @@ vs
 FM
 SU
 An
-nM
+Qk
 Kp
 "}
 (25,1,1) = {"
@@ -3338,8 +3338,8 @@ UY
 UY
 UY
 UY
-LA
-nM
+RW
+Qk
 Kp
 "}
 (27,1,1) = {"
@@ -3383,9 +3383,9 @@ nq
 nx
 HH
 RH
-nM
-nM
-LA
+Qk
+Qk
+RW
 Kp
 "}
 (28,1,1) = {"
@@ -3430,8 +3430,8 @@ oI
 HH
 HH
 Kp
-nM
-nM
+Qk
+Qk
 Kp
 "}
 (29,1,1) = {"

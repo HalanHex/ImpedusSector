@@ -29,7 +29,6 @@
 	var/reagent_transfer_per_use = 0
 	///How far does the smoke reach per use?
 	var/smoke_range = 2
-	custom_materials = list(/datum/material/glass = SHEET_MATERIAL_AMOUNT * 10, /datum/material/iron = SHEET_MATERIAL_AMOUNT * 5)
 
 /obj/item/bong/Initialize(mapload)
 	. = ..()
@@ -187,7 +186,6 @@
 	chem_volume = 50
 	smoke_range = 7
 	moan_chance = 50
-	custom_materials = list(/datum/material/glass = SHEET_MATERIAL_AMOUNT * 20, /datum/material/iron = SHEET_MATERIAL_AMOUNT * 10)
 
 #define MAX_FAKE_STEAM_STAGES 5
 #define STAGE_DOWN_TIME (10 SECONDS)

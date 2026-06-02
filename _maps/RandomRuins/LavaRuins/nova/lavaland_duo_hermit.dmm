@@ -63,12 +63,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/wood/large,
 /area/ruin/powered/hermit)
-"jG" = (
-/obj/item/storage/medkit/regular,
-/obj/structure/decorative/shelf,
-/obj/item/storage/medkit/surgery,
-/turf/open/floor/wood/large,
-/area/ruin/powered/hermit)
 "lm" = (
 /obj/item/clothing/head/helmet/space/orange,
 /obj/item/clothing/suit/space/orange,
@@ -120,17 +114,6 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/ruin/powered/hermit)
-"qr" = (
-/obj/structure/closet/crate/grave/filled,
-/obj/effect/decal/remains/human,
-/obj/item/pickaxe/silver,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/matter_bin,
-/obj/item/stock_parts/servo,
-/obj/item/stack/cable_coil/five,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "re" = (
 /obj/structure/table/wood/fancy/black,
 /obj/effect/turf_decal/siding/wood{
@@ -144,10 +127,6 @@
 /area/ruin/powered/hermit)
 "rV" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors)
-"tn" = (
-/mob/living/basic/raptor/baby/red,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "tA" = (
 /obj/effect/turf_decal/siding/wood{
@@ -208,6 +187,10 @@
 	},
 /turf/open/floor/stone,
 /area/ruin/powered/hermit)
+"An" = (
+/mob/living/basic/raptor/baby_raptor/red,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
 "Ao" = (
 /obj/structure/glowshroom/single,
 /obj/structure/closet/crate/wooden/storage_barrel,
@@ -220,6 +203,17 @@
 	},
 /turf/open/floor/stone,
 /area/ruin/powered/hermit)
+"Bq" = (
+/obj/structure/closet/crate/grave/filled,
+/obj/effect/decal/remains/human,
+/obj/item/pickaxe/silver,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/servo,
+/obj/item/stack/cable_coil/five,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
 "BC" = (
 /obj/structure/mineral_door/wood/large_gate{
 	dir = 4
@@ -237,17 +231,32 @@
 "CR" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"Dh" = (
-/obj/structure/decorative/shelf,
-/obj/item/flashlight/lantern,
-/obj/item/storage/belt/utility/xenoarch/full,
-/turf/open/floor/wood/large,
-/area/ruin/powered/hermit)
 "Gs" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
 /turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"GD" = (
+/obj/structure/decorative/shelf,
+/obj/item/flashlight/lantern,
+/obj/item/storage/belt/utility/xenoarch/full,
+/turf/open/floor/wood/large,
+/area/ruin/powered/hermit)
+"Iy" = (
+/obj/item/storage/medkit/regular,
+/obj/structure/decorative/shelf,
+/obj/item/storage/medkit/surgery,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/wood/large,
+/area/ruin/powered/hermit)
+"IZ" = (
+/obj/structure/safe/floor,
+/obj/item/flatpacked_machine/wind_turbine,
+/obj/item/flatpacked_machine/wind_turbine,
+/obj/item/pipe_dispenser,
+/obj/item/circuitboard/machine/autolathe,
+/turf/open/floor/wood/large,
 /area/ruin/powered/hermit)
 "Jg" = (
 /obj/structure/table/wood,
@@ -262,14 +271,6 @@
 "Pa" = (
 /obj/structure/reagent_water_basin,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/ruin/powered/hermit)
-"PT" = (
-/obj/item/flatpacked_machine/wind_turbine,
-/obj/item/flatpacked_machine/wind_turbine,
-/obj/item/pipe_dispenser,
-/obj/item/circuitboard/machine/autolathe,
-/obj/structure/decorative/shelf,
-/turf/open/floor/wood/large,
 /area/ruin/powered/hermit)
 "Rd" = (
 /obj/item/tank/internals/oxygen,
@@ -371,7 +372,7 @@ Zj
 Zj
 Zj
 pM
-qr
+Bq
 rV
 rV
 "}
@@ -425,7 +426,7 @@ Uo
 Uo
 Uo
 Uo
-tn
+An
 CR
 rV
 "}
@@ -459,7 +460,7 @@ cs
 Uo
 tJ
 tJ
-Dh
+GD
 Uo
 CR
 CR
@@ -523,7 +524,7 @@ rV
 rV
 Uo
 Jg
-jG
+Iy
 Uo
 lm
 gT
@@ -547,7 +548,7 @@ NR
 lC
 Gs
 Uo
-PT
+IZ
 tJ
 rT
 Uo

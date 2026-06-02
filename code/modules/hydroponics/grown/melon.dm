@@ -37,7 +37,7 @@
 	return /datum/reagent/consumable/watermelonjuice
 
 /obj/item/food/grown/watermelon/make_processable()
-	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/watermelonslice, 5, 20, screentip_verb = "Slice", sound_to_play = SFX_KNIFE_SLICE)
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/watermelonslice, 5, 20, screentip_verb = "Slice")
 
 /obj/item/food/grown/watermelon/make_dryable()
 	return //No drying
@@ -104,7 +104,7 @@
 	return /datum/reagent/water/holywater
 
 /obj/item/food/grown/holymelon/make_processable()
-	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/holymelonslice, 5, 20, screentip_verb = "Slice", sound_to_play = SFX_KNIFE_SLICE)
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/holymelonslice, 5, 20, screentip_verb = "Slice")
 
 /obj/item/food/grown/holymelon/make_dryable()
 	return //No drying

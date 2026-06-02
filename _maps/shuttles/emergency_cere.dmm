@@ -351,13 +351,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
-"bL" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 8
-	},
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron,
-/area/shuttle/escape)
 "bM" = (
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
@@ -508,18 +501,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
-"cu" = (
-/obj/machinery/light/directional/east,
-/obj/machinery/stasis,
-/obj/machinery/wall_healer/free/directional/north{
-	use_power = 0
-	},
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 4
-	},
-/obj/machinery/vitals_reader/directional/east,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "cv" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 8
@@ -559,14 +540,6 @@
 	},
 /obj/machinery/iv_drip,
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"cD" = (
-/obj/machinery/stasis,
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/obj/machinery/vitals_reader/directional/east,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "cE" = (
@@ -617,12 +590,6 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
-"cI" = (
-/obj/structure/table/optable,
-/obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/machinery/vitals_reader/directional/south,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "cJ" = (
 /obj/structure/table,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -637,12 +604,6 @@
 "cM" = (
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"cN" = (
-/obj/machinery/stasis,
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
-/obj/machinery/vitals_reader/directional/east,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "cO" = (
@@ -877,6 +838,18 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"gY" = (
+/obj/machinery/light/directional/east,
+/obj/machinery/stasis,
+/obj/machinery/wall_healer/free/directional/north{
+	use_power = 0
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "hS" = (
 /obj/structure/table,
 /obj/item/storage/medkit/o2,
@@ -952,6 +925,19 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"Ap" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32;
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"Ca" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/vitals_reader/directional/south,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "CO" = (
 /obj/machinery/computer/records/security{
 	dir = 8
@@ -973,6 +959,20 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/shuttle/escape)
+"Fl" = (
+/obj/machinery/stasis,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
+"HH" = (
+/obj/machinery/stasis,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "Ie" = (
 /obj/structure/table,
@@ -1545,7 +1545,7 @@ bn
 bn
 ac
 ad
-bL
+aZ
 bc
 bc
 ba
@@ -1589,7 +1589,7 @@ aZ
 aZ
 aZ
 ME
-bc
+Ap
 bc
 bT
 bW
@@ -1694,7 +1694,7 @@ cp
 cw
 cB
 cB
-cI
+Ca
 ab
 cR
 cR
@@ -1910,11 +1910,11 @@ ac
 ab
 ab
 ad
-cu
+gY
 ok
-cD
+Fl
 IR
-cN
+HH
 ab
 cS
 ab

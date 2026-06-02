@@ -65,18 +65,29 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"eL" = (
-/turf/open/floor/catwalk_floor/iron,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"hD" = (
+"ep" = (
 /obj/structure/mannequin/wood{
 	desc = "Oh, so this is a dress-up game now. It makes eye contact."
 	},
 /obj/item/clothing/shoes/kindle_kicks{
 	pixel_y = -10
 	},
-/obj/structure/sign/warning/directional/south,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
+"eB" = (
+/obj/item/stack/spacecash/c500,
+/obj/item/coin/plastic,
+/obj/structure/safe,
+/obj/structure/spider/stickyweb,
+/obj/item/tank/jetpack/oxygen{
+	desc = "A tank of compressed oxygen for use as propulsion in zero-gravity areas. It's blue, and has a triangle chiselled into the paint."
+	},
+/obj/item/switchblade,
+/obj/item/survivalcapsule/bathroom,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
+"eL" = (
+/turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "hH" = (
 /obj/structure/spider/stickyweb/sealed/tough,
@@ -154,6 +165,13 @@
 /obj/effect/spawner/random/bureaucracy/pen,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"oA" = (
+/obj/machinery/airalarm{
+	pixel_y = 25
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "pi" = (
 /obj/item/chair/wood,
 /obj/item/c_tube,
@@ -219,6 +237,10 @@
 /obj/structure/grille,
 /turf/template_noop,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"rO" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/template_noop,
+/area/template_noop)
 "sh" = (
 /obj/item/food/badrecipe/moldy/bacteria,
 /obj/effect/decal/cleanable/ants,
@@ -302,18 +324,27 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"vw" = (
+/obj/structure/closet/cardboard,
+/obj/item/bodypart/chest/robot,
+/obj/item/storage/belt/sheath/katana/toy,
+/obj/item/toy/plush/snakeplushie,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "vz" = (
 /obj/structure/frame/computer,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
+"vK" = (
+/obj/item/dice/d10,
+/obj/structure/filingcabinet/chestdrawer,
+/obj/item/disk/computer/maintenance/modsuit_control,
+/obj/item/disk/computer/maintenance/modsuit_control,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "wo" = (
 /obj/machinery/door/airlock/shuttle,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"wu" = (
-/obj/structure/cable,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/catwalk_floor/iron,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "ww" = (
 /obj/machinery/door/airlock/external/glass,
@@ -481,6 +512,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"yH" = (
+/obj/structure/sign/warning,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "yP" = (
 /obj/structure/lattice,
 /obj/structure/grille,
@@ -597,13 +632,6 @@
 /obj/item/rwd/loaded,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"Ix" = (
-/obj/structure/closet/cardboard,
-/obj/item/bodypart/chest/robot,
-/obj/item/storage/belt/sheath/katana/toy,
-/obj/item/toy/plush/snakeplushie,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
 "IQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/broken_flooring/pile,
@@ -630,13 +658,6 @@
 /obj/item/clothing/head/hats/tophat{
 	desc = "It's a fancy looking hat. Inside is a label with a triangle drawn on it."
 	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"JI" = (
-/obj/item/dice/d10,
-/obj/structure/filingcabinet/chestdrawer,
-/obj/item/disk/computer/maintenance/modsuit_control,
-/obj/item/disk/computer/maintenance/modsuit_control,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "KR" = (
@@ -736,18 +757,6 @@
 /obj/effect/spawner/random/entertainment/toy,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"Rb" = (
-/obj/item/stack/spacecash/c500,
-/obj/item/coin/plastic,
-/obj/structure/safe,
-/obj/structure/spider/stickyweb,
-/obj/item/tank/jetpack{
-	desc = "A tank of compressed oxygen for use as propulsion in zero-gravity areas. It's blue, and has a triangle chiselled into the paint."
-	},
-/obj/item/switchblade,
-/obj/item/survivalcapsule/bathroom,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
 "Rl" = (
 /obj/item/paper/crumpled,
 /obj/item/stock_parts/power_store/cell/hyper,
@@ -779,13 +788,7 @@
 /obj/effect/spawner/random/decoration/paint,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"ST" = (
-/obj/machinery/power/terminal,
-/obj/structure/tank_dispenser/oxygen,
-/obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"TO" = (
+"So" = (
 /obj/item/mop,
 /obj/item/multitool{
 	pixel_x = 8;
@@ -793,8 +796,13 @@
 	},
 /obj/structure/mop_bucket,
 /obj/item/broken_bottle,
-/obj/structure/sign/warning/directional/south,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
+"ST" = (
+/obj/machinery/power/terminal,
+/obj/structure/tank_dispenser/oxygen,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "UD" = (
 /obj/structure/closet/preopen,
@@ -804,10 +812,6 @@
 /obj/item/instrument/banjo,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"VL" = (
-/obj/machinery/power/shuttle_engine/propulsion,
-/turf/template_noop,
-/area/space/nearstation)
 "Wl" = (
 /obj/structure/plasticflaps/opaque,
 /turf/open/floor/plating,
@@ -892,7 +896,7 @@ lg
 lg
 lg
 nM
-VL
+rO
 Zi
 Zi
 Zi
@@ -946,10 +950,10 @@ cf
 ZM
 WZ
 xC
-Ix
+vw
 dq
-TO
-Yr
+So
+yH
 "}
 (4,1,1) = {"
 yP
@@ -1000,7 +1004,7 @@ Hj
 dn
 jD
 nM
-wu
+oA
 wo
 Dv
 IS
@@ -1031,7 +1035,7 @@ ld
 IS
 ld
 Sb
-Rb
+eB
 IQ
 Yz
 PJ
@@ -1075,7 +1079,7 @@ pN
 Pn
 ld
 kj
-JI
+vK
 sh
 ld
 Xg
@@ -1102,8 +1106,8 @@ kz
 ld
 Hy
 Rl
-hD
-Yr
+ep
+yH
 "}
 (11,1,1) = {"
 Zi
@@ -1134,7 +1138,7 @@ lg
 lg
 ri
 nM
-VL
+rO
 Zi
 Zi
 Zi

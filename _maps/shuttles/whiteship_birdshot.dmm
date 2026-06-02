@@ -92,6 +92,22 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/abandoned/crew)
+"dE" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 10
+	},
+/obj/structure/cable,
+/obj/machinery/light/small/built/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/abandoned/engine)
 "dH" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -102,6 +118,13 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/cargo)
+"dL" = (
+/obj/machinery/light/small/built/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor,
+/area/shuttle/abandoned/crew)
 "eb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -188,28 +211,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/abandoned/bridge)
-"gs" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/glass{
-	amount = 10
-	},
-/obj/item/stack/sheet/iron/twenty,
-/obj/item/stack/sheet/mineral/plasma{
-	amount = 10
-	},
-/obj/structure/cable,
-/obj/machinery/light/small/empty/directional/south,
-/turf/open/floor/catwalk_floor,
-/area/shuttle/abandoned/engine)
-"gv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/empty/directional/east,
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/open/floor/iron/textured,
-/area/shuttle/abandoned/cargo)
 "gV" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 4
@@ -236,13 +237,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/cargo)
-"ia" = (
-/obj/machinery/atmospherics/components/tank/air{
-	dir = 1
-	},
-/obj/machinery/light/small/empty/directional/south,
-/turf/open/floor/catwalk_floor,
-/area/shuttle/abandoned/engine)
 "iB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/cold/directional/north,
@@ -283,12 +277,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/abandoned/bridge)
-"jY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/suit_storage_unit/standard_unit,
-/obj/machinery/light/small/empty/directional/east,
-/turf/open/floor/iron/smooth,
-/area/shuttle/abandoned/crew)
 "ku" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table,
@@ -317,6 +305,12 @@
 "kQ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/abandoned/cargo)
+"ld" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/light/small/built/directional/east,
+/turf/open/floor/iron/smooth,
+/area/shuttle/abandoned/crew)
 "ll" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -750,6 +744,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/abandoned/cargo)
+"zi" = (
+/obj/machinery/atmospherics/components/tank/air{
+	dir = 1
+	},
+/obj/machinery/light/small/built/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/abandoned/engine)
 "zo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -841,18 +842,30 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/pod)
+"Cc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/built/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/iron/textured,
+/area/shuttle/abandoned/cargo)
+"Cl" = (
+/obj/structure/rack,
+/obj/item/tank/internals/anesthetic{
+	pixel_x = -3
+	},
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
+/obj/item/clothing/mask/breath/medical{
+	pixel_y = 3
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/freezer,
+/area/shuttle/abandoned/medbay)
 "Cw" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/medbay)
-"Cz" = (
-/obj/machinery/light/small/empty/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/catwalk_floor,
-/area/shuttle/abandoned/crew)
 "CG" = (
 /obj/structure/closet/firecloset/full{
 	anchored = 1
@@ -1033,19 +1046,6 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/abandoned/bridge)
-"Ht" = (
-/obj/structure/rack,
-/obj/item/tank/internals/anesthetic{
-	pixel_x = -3
-	},
-/obj/item/stack/medical/wrap/sticky_tape/surgical,
-/obj/item/clothing/mask/breath/medical{
-	pixel_y = 3
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/freezer,
-/area/shuttle/abandoned/medbay)
 "Is" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -1334,6 +1334,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/abandoned/cargo)
+"Sy" = (
+/obj/structure/table,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/built/directional/west,
+/turf/open/floor/carpet/green,
+/area/shuttle/abandoned/bar)
 "SZ" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 8
@@ -1373,16 +1387,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/abandoned/bridge)
-"UK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/turretid{
-	lethal = 1;
-	locked = 0;
-	pixel_y = 28;
-	req_access = null
-	},
-/turf/open/floor/iron/dark/small,
-/area/shuttle/abandoned/bridge)
 "Vp" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/power/shuttle_engine/heater{
@@ -1413,20 +1417,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/abandoned/engine)
-"Wv" = (
-/obj/structure/table,
-/obj/item/reagent_containers/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/condiment/peppermill{
-	pixel_x = -8;
-	pixel_y = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/empty/directional/west,
-/turf/open/floor/carpet/green,
-/area/shuttle/abandoned/bar)
 "WW" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -1491,6 +1481,17 @@
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/abandoned/engine)
+"Zq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/turretid{
+	icon_state = "control_kill";
+	lethal = 1;
+	locked = 0;
+	pixel_y = 28;
+	req_access = null
+	},
+/turf/open/floor/iron/dark/small,
+/area/shuttle/abandoned/bridge)
 "Zy" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/all_access,
@@ -1586,7 +1587,7 @@ Gi
 CG
 bk
 Av
-ia
+zi
 Gi
 lt
 lt
@@ -1599,7 +1600,7 @@ Gi
 Nl
 Zn
 Jt
-gs
+dE
 Gi
 lt
 "}
@@ -1774,7 +1775,7 @@ FL
 dw
 nc
 FL
-Cz
+dL
 FL
 FL
 FL
@@ -1790,7 +1791,7 @@ Tg
 (13,1,1) = {"
 Tg
 JR
-gv
+Cc
 Qq
 eb
 nm
@@ -1842,7 +1843,7 @@ FL
 eH
 DT
 Xu
-Wv
+Sy
 cT
 pC
 kC
@@ -1882,7 +1883,7 @@ lt
 (17,1,1) = {"
 lt
 NK
-jY
+ld
 NK
 Bt
 eb
@@ -1892,7 +1893,7 @@ rZ
 Qs
 pC
 fl
-Ht
+Cl
 Wn
 pC
 eb
@@ -1987,7 +1988,7 @@ DT
 PC
 JP
 JP
-UK
+Zq
 Uu
 gj
 XB

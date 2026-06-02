@@ -1,0 +1,43 @@
+{
+	"version": 1,
+	"map_name": "Sczkolchenko Estate",
+	"map_path": "map_files/SczkolchenkoEstate",
+	"map_file": "SczkolchenkoEstate.dmm",
+	"planetary": 1,
+	"height_autosetup": 0,
+	"allow_space_when_planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_nova",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/misc/dirt/forest",
+			"Weather_Snowstorm": false,
+			"No Parallax": true
+		},
+		{
+			"Up": true,
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace/forest",
+			"Weather_Snowstorm": false,
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace/forest",
+			"Weather_Snowstorm": false,
+			"No Parallax": true
+		}
+	],
+	"minetype": "lavaland"
+}

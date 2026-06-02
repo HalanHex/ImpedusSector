@@ -1,22 +1,13 @@
 https://github.com/Skyrat-SS13/Skyrat-tg/pull/248
 
-## Title: Modular Weapons
+## Title: Modular Weapons & Weaponcrafting
 
 MODULE ID: MODULAR_WEAPONS
 
 ### Description:
 
-The forbidden hell-hole of god's mistakes
+Adds improvised weapons and new firearms to the game as well as new ammo and mob in-hands for the weapons.
 
-### Important Note:
-"Time To Down" notes:
-- The following assumes no armor, no healing, and no wound immunity:
-- rifles: 3-3.5s TTD
-- pistols: 3.5-4s TTD
-- snipers: 4s TTD
-- boltactions/pumpactions/anything-you-can-fumble: use rifles
-
-Keep wound chance for stuff doing over 20 damage on the lower-end, unless it's a gimmick for specifically wound chance
 ### TG Proc Changes:
 
 - N/A

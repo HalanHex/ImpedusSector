@@ -140,12 +140,9 @@
 /obj/structure/decorative/shelf/crates1,
 /turf/open/floor/iron/shuttle/exploration/hazard,
 /area/misc/condo)
-"fn" = (
-/turf/open/floor/fakespace,
-/area/misc/condo)
-"fs" = (
-/obj/item/toy/plush/carpplushie,
-/turf/open/floor/fakespace,
+"fD" = (
+/obj/structure/lattice,
+/turf/open/space/mirage,
 /area/misc/condo)
 "gr" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -186,6 +183,18 @@
 "hv" = (
 /obj/structure/decorative/shelf/milk_big,
 /turf/open/floor/iron/shuttle/exploration/hazard,
+/area/misc/condo)
+"iH" = (
+/obj/structure/medieval/bed_2x2{
+	dir = 4
+	},
+/obj/structure/marker_beacon/violet{
+	pixel_x = -16;
+	pixel_y = 16;
+	color = "#FFFFFF";
+	alpha = 0
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/misc/condo)
 "kk" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -282,10 +291,6 @@
 	},
 /turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/misc/condo)
-"mM" = (
-/obj/structure/lattice,
-/turf/open/floor/fakespace,
-/area/misc/condo)
 "nZ" = (
 /obj/effect/turf_decal/siding/wood/end,
 /obj/machinery/washing_machine,
@@ -377,6 +382,10 @@
 	},
 /turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/misc/condo)
+"sM" = (
+/obj/item/toy/plush/carpplushie,
+/turf/open/space/mirage,
+/area/misc/condo)
 "ta" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
@@ -412,18 +421,6 @@
 /area/misc/condo)
 "uw" = (
 /obj/structure/table/bronze,
-/turf/open/floor/iron/dark/smooth_large,
-/area/misc/condo)
-"vi" = (
-/obj/structure/medieval/bed_2x2{
-	dir = 4
-	},
-/obj/structure/marker_beacon/violet{
-	pixel_x = -16;
-	pixel_y = 16;
-	color = "#FFFFFF";
-	alpha = 0
-	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/misc/condo)
 "vs" = (
@@ -480,6 +477,9 @@
 	dir = 10
 	},
 /turf/open/floor/iron/shuttle/exploration/blanktile,
+/area/misc/condo)
+"wz" = (
+/turf/open/space/mirage,
 /area/misc/condo)
 "xI" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -1058,8 +1058,8 @@
 /area/misc/condo)
 
 (1,1,1) = {"
-fn
-fn
+wz
+wz
 lm
 lm
 lm
@@ -1158,11 +1158,11 @@ rX
 lm
 "}
 (5,1,1) = {"
-fn
-mM
-fn
-fn
-fn
+wz
+fD
+wz
+wz
+wz
 lm
 lm
 Of
@@ -1183,11 +1183,11 @@ rK
 lm
 "}
 (6,1,1) = {"
-fn
-mM
-fn
-fn
-fn
+wz
+fD
+wz
+wz
+wz
 um
 cz
 GS
@@ -1208,11 +1208,11 @@ Lt
 lm
 "}
 (7,1,1) = {"
-fn
-mM
-fn
-fn
-fn
+wz
+fD
+wz
+wz
+wz
 um
 rV
 dY
@@ -1233,11 +1233,11 @@ Lt
 lm
 "}
 (8,1,1) = {"
-fn
-mM
-fn
-fn
-fn
+wz
+fD
+wz
+wz
+wz
 lm
 lm
 kM
@@ -1270,7 +1270,7 @@ lm
 lm
 Af
 ta
-vi
+iH
 lm
 qK
 uw
@@ -1333,8 +1333,8 @@ kT
 lm
 "}
 (12,1,1) = {"
-fn
-fs
+wz
+sM
 lm
 lm
 lm

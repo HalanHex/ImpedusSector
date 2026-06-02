@@ -34,6 +34,7 @@
 	cell_hit_cost = STANDARD_CELL_CHARGE*0.75
 	convertible = FALSE
 	active_changes_inhand = TRUE
+	tip_changes_color = FALSE
 
 /obj/item/melee/baton/security/stun_gun/Initialize(mapload)
 	. = ..()
@@ -46,7 +47,8 @@
 	target.set_confusion_if_lower(4 SECONDS* (HAS_TRAIT(target, TRAIT_BATON_RESISTANCE) ? 0.5 : 1))
 	target.set_stutter_if_lower(3 SECONDS* (HAS_TRAIT(target, TRAIT_BATON_RESISTANCE) ? 0.5 : 1))
 	target.set_eye_blur_if_lower(5 SECONDS* (HAS_TRAIT(target, TRAIT_BATON_RESISTANCE) ? 0.5 : 1))
-	var/armour_block = target.run_armor_check(null, armour_type_against_stun, null, null, stun_armour_penetration)
+	var/effective_armour_penetration = get_stun_penetration_value()
+	var/armour_block = target.run_armor_check(null, armour_type_against_stun, null, null, effective_armour_penetration)
 	target.apply_damage(stamina_damage, STAMINA, blocked = armour_block)
 	SEND_SIGNAL(target, COMSIG_LIVING_MINOR_SHOCK)
 	stun_override = FALSE
@@ -94,7 +96,6 @@
 
 /obj/item/melee/baton/security/stun_gun/stun_knife/loaded
 	preload_cell_type = /obj/item/stock_parts/power_store/cell/high
-	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 6)
 
 /datum/crafting_recipe/knife_and_shocky
 	name = "Makeshift Stunknife"

@@ -285,7 +285,6 @@
 	mob_height = dna?.species?.update_species_heights(src) || base_mob_height
 	if(old_height != mob_height)
 		regenerate_icons()
-	SEND_SIGNAL(src, COMSIG_HUMAN_HEIGHT_UPDATED, old_height)
 
 /**
  * Gets the mob's base height, ignoring adjustments from traits or species

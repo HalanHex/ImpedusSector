@@ -296,8 +296,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
 	id = "driverwindows";
-	name = "Blast Shield Control";
-	dir = 8
+	name = "Blast Shield Control"
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
@@ -338,6 +337,13 @@
 /area/shuttle/tarkon_driver)
 "OJ" = (
 /obj/machinery/suit_storage_unit/industrial/tarkon,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/tarkon_driver)
+"Pn" = (
+/obj/machinery/power/smes/engineering{
+	input_level = 5000
+	},
+/obj/machinery/power/smes/tarkon_driver,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "Qe" = (
@@ -653,7 +659,7 @@ tV
 LG
 eP
 Vt
-eP
+Pn
 GN
 Cv
 "}

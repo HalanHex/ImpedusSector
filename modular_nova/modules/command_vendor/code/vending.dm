@@ -18,7 +18,7 @@
 	machine_name = "CommDrobe"
 
 /obj/machinery/vending/access/command/build_access_list(list/access_lists)
-	access_lists[ACCESS_CAPTAIN] = list(
+	access_lists["[ACCESS_CAPTAIN]"] = list(
 		// CAPTAIN
 		/obj/item/clothing/head/hats/caphat = 1,
 		/obj/item/clothing/head/caphat/beret/nova = 1,
@@ -67,7 +67,7 @@
 		/obj/item/storage/backpack/messenger/blueshield = 1,
 		/obj/item/clothing/shoes/laceup = 1,
 	)
-	access_lists[ACCESS_HOP] = list( // Best head btw
+	access_lists["[ACCESS_HOP]"] = list( // Best head btw
 		/obj/item/clothing/head/hats/hopcap = 1,
 		/obj/item/clothing/head/hopcap/beret = 1,
 		/obj/item/clothing/head/hopcap/beret/alt = 1,
@@ -94,7 +94,7 @@
 		/obj/item/clothing/suit/armor/hop_tailcoat = 1,
 		/obj/item/clothing/neck/tie/bunnytie/hop = 1,
 	)
-	access_lists[ACCESS_CMO] = list(
+	access_lists["[ACCESS_CMO]"] = list(
 		/obj/item/clothing/head/beret/medical/cmo = 1,
 		/obj/item/clothing/head/beret/medical/cmo/alt = 1,
 		/obj/item/clothing/head/hats/imperial/cmo = 1,
@@ -111,7 +111,7 @@
 		/obj/item/clothing/suit/toggle/labcoat/cmo/doctor_tailcoat = 1,
 		/obj/item/clothing/neck/tie/bunnytie/cmo = 1,
 	)
-	access_lists[ACCESS_RD] = list(
+	access_lists["[ACCESS_RD]"] = list(
 		/obj/item/clothing/head/beret/science/rd = 1,
 		/obj/item/clothing/head/beret/science/rd/alt = 1,
 		/obj/item/clothing/head/hats/imperial/rd = 1,
@@ -131,7 +131,7 @@
 		/obj/item/clothing/suit/toggle/labcoat/research_director/tailcoat = 1,
 		/obj/item/clothing/neck/tie/bunnytie/rd = 1,
 	)
-	access_lists[ACCESS_CE] = list(
+	access_lists["[ACCESS_CE]"] = list(
 		/obj/item/clothing/head/beret/engi/ce = 1,
 		/obj/item/clothing/head/hats/imperial/ce = 1,
 		/obj/item/clothing/under/rank/engineering/chief_engineer = 1,
@@ -146,7 +146,7 @@
 		/obj/item/clothing/suit/utility/fire/ce_tailcoat = 1,
 		/obj/item/clothing/neck/tie/bunnytie/ce = 1,
 	)
-	access_lists[ACCESS_HOS] = list(
+	access_lists["[ACCESS_HOS]"] = list(
 		/obj/item/clothing/under/rank/security/head_of_security/skirt = 1,
 		/obj/item/clothing/under/rank/security/head_of_security/alt = 1,
 		/obj/item/clothing/under/rank/security/head_of_security/alt/skirt = 1,
@@ -181,7 +181,7 @@
 		/obj/item/clothing/under/rank/security/head_of_security/bunnysuit = 1,
 		/obj/item/clothing/suit/armor/hos_tailcoat = 1,
 	)
-	access_lists[ACCESS_QM] = list(
+	access_lists["[ACCESS_QM]"] = list(
 		/obj/item/clothing/head/beret/cargo/qm = 1,
 		/obj/item/clothing/head/beret/cargo/qm/alt = 1,
 		/obj/item/clothing/head/hats/imperial/qm = 1,
@@ -206,7 +206,7 @@
 		/obj/item/clothing/neck/tie/bunnytie/cargo = 1,
 	)
 
-	access_lists[ACCESS_CENT_GENERAL] = list( // CC Rep Shiz
+	access_lists["[ACCESS_CENT_GENERAL]"] = list( // CC Rep Shiz
 		/obj/item/clothing/head/nanotrasen_consultant = 1,
 		/obj/item/clothing/head/nanotrasen_consultant/beret = 1,
 		/obj/item/clothing/head/beret/centcom_formal/nt_consultant = 1,
@@ -241,7 +241,7 @@
 		/obj/item/clothing/under/costume/playbunny/centcom = 1,
 	)
 
-	access_lists[ACCESS_COMMAND] = list(
+	access_lists["[ACCESS_COMMAND]"] = list(
 		/obj/item/clothing/head/hats/imperial = 5,
 		/obj/item/clothing/head/hats/caphat/naval/custom = 5,
 		/obj/item/clothing/head/hats/caphat/naval/custom/gold = 5,

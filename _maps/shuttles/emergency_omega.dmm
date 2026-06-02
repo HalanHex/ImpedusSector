@@ -11,14 +11,6 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
-"af" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
-/obj/item/radio/intercom/directional/north,
-/obj/structure/sign/nanotrasen/directional/east,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape/brig)
 "al" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
@@ -300,16 +292,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
-"bh" = (
-/obj/machinery/shower/directional/east{
-	name = "emergency shower"
-	},
-/obj/effect/turf_decal/tile/blue/opposingcorners{
-	dir = 1
-	},
-/obj/machinery/vitals_reader/directional/west,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "bk" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/decal/cleanable/dirt,
@@ -430,6 +412,19 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"fg" = (
+/obj/item/storage/medkit/toxin,
+/obj/item/storage/medkit/o2{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "fm" = (
 /obj/machinery/recharge_station,
 /obj/machinery/status_display/evac/directional/west,
@@ -445,17 +440,14 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"gu" = (
-/obj/item/storage/medkit/toxin,
-/obj/item/storage/medkit/o2{
-	pixel_x = 3;
-	pixel_y = 3
+"gd" = (
+/obj/machinery/shower/directional/east{
+	name = "emergency shower"
 	},
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 4
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
-/obj/machinery/vitals_reader/directional/east,
+/obj/machinery/vitals_reader/directional/west,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "iz" = (
@@ -471,6 +463,10 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"kN" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/escape/brig)
 "pj" = (
 /obj/item/kirbyplants/organic/plant21{
 	pixel_x = -3;
@@ -528,6 +524,17 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
+"ur" = (
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/obj/machinery/status_display/ai{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "vu" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Cockpit"
@@ -564,6 +571,13 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"yq" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/escape/brig)
 "yF" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -583,11 +597,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/shuttle/escape)
-"Am" = (
-/obj/machinery/light/directional/south,
-/obj/structure/sign/nanotrasen/directional/south,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape/brig)
 "Dh" = (
 /obj/machinery/computer/communications,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -596,18 +605,6 @@
 "Dr" = (
 /obj/machinery/computer/emergency_shuttle,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"Et" = (
-/obj/machinery/computer/crew{
-	dir = 8
-	},
-/obj/machinery/status_display/ai{
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/light/directional/south,
-/obj/structure/sign/nanotrasen/directional/south,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "Ge" = (
@@ -628,6 +625,10 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /turf/open/floor/iron,
 /area/shuttle/escape/brig)
+"Ja" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/escape)
 "Kj" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
@@ -682,7 +683,7 @@ aa
 aa
 aa
 qX
-aa
+Ja
 ay
 aa
 sY
@@ -690,7 +691,7 @@ sY
 sY
 aa
 aP
-aa
+Ja
 aP
 aa
 aa
@@ -702,7 +703,7 @@ bu
 aa
 dW
 sI
-Am
+kN
 aZ
 az
 aD
@@ -763,7 +764,7 @@ bv
 "}
 (5,1,1) = {"
 aa
-af
+yq
 al
 ar
 sY
@@ -783,7 +784,7 @@ bt
 bv
 "}
 (6,1,1) = {"
-aa
+Ja
 ab
 IX
 sY
@@ -818,7 +819,7 @@ aI
 aQ
 sY
 ba
-bh
+gd
 bn
 aa
 bt
@@ -870,7 +871,7 @@ bv
 sY
 iz
 eH
-Et
+ur
 aa
 pj
 aF
@@ -881,7 +882,7 @@ aF
 zr
 sY
 bc
-gu
+fg
 tH
 aa
 br
@@ -892,15 +893,15 @@ aa
 sY
 sY
 aa
+Ja
 aa
-aa
 sY
 sY
 sY
 sY
 sY
 aa
-aa
+Ja
 aa
 aa
 aa

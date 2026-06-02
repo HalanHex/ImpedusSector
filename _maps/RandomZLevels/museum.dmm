@@ -118,12 +118,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/large,
 /area/awaymission/museum)
-"bg" = (
-/obj/structure/signpost{
-	name = "if youre reading this you stink and also made by jimmyl"
-	},
-/turf/open/floor/bluespace,
-/area/awaymission/museum)
 "bi" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/dark_blue{
@@ -731,17 +725,6 @@
 	dir = 1
 	},
 /area/awaymission/museum)
-"fK" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/sign/painting{
-	pixel_y = 32;
-	persistence_id = "museumgate";
-	dir = 1
-	},
-/obj/machinery/light/floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark,
-/area/awaymission/museum)
 "fT" = (
 /obj/structure/broken_flooring/corner/always_floorplane{
 	dir = 1
@@ -1043,23 +1026,6 @@
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/iron/dark,
 /area/awaymission/museum)
-"iF" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/effect/turf_decal/stripes/asteroid/line{
-	dir = 1
-	},
-/turf/open/indestructible/plating,
-/area/awaymission/museum)
-"iI" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/sign/painting{
-	pixel_y = 32;
-	persistence_id = "museumgate";
-	dir = 1
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/iron/dark,
-/area/awaymission/museum)
 "iJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/toilet/museum{
@@ -1078,6 +1044,24 @@
 	dir = 8
 	},
 /turf/open/floor/tram/plate,
+/area/awaymission/museum)
+"iM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "iN" = (
 /mob/living/basic/mothroach,
@@ -1293,6 +1277,15 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/chasm/true/no_smooth,
 /area/awaymission/museum)
+"kl" = (
+/obj/structure/transport/linear/tram/slow,
+/obj/structure/thermoplastic,
+/obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
+/obj/machinery/door/window/elevator/left/directional/south{
+	transport_linked_id = "museum_cargo"
+	},
+/turf/open/chasm/true/no_smooth,
+/area/awaymission/museum)
 "kq" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1406,6 +1399,15 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/catwalk_floor,
+/area/awaymission/museum)
+"lj" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/sign/painting{
+	pixel_y = 32;
+	persistence_id = "museumgate"
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/iron/dark,
 /area/awaymission/museum)
 "lk" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -1714,6 +1716,15 @@
 	},
 /turf/open/floor/cult,
 /area/awaymission/museum)
+"nL" = (
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
+/obj/structure/table,
+/obj/item/disk/computer{
+	name = "plant data disk";
+	icon_state = "datadisk_hydro"
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/museum)
 "nQ" = (
 /obj/effect/spawner/random/vending/colavend,
 /obj/effect/turf_decal/bot,
@@ -1752,15 +1763,6 @@
 "od" = (
 /obj/structure/fluff/fake_vent,
 /turf/open/floor/iron,
-/area/awaymission/museum)
-"oe" = (
-/obj/effect/turf_decal/tile/neutral/opposingcorners,
-/obj/effect/turf_decal/siding/dark_blue/corner{
-	dir = 1
-	},
-/obj/structure/table,
-/obj/item/food/sandwich/grilled_cheese,
-/turf/open/floor/iron/dark,
 /area/awaymission/museum)
 "of" = (
 /obj/effect/puzzle_poddoor_open{
@@ -1821,6 +1823,15 @@
 	},
 /obj/machinery/light/small/dim/directional/west,
 /turf/open/floor/iron/white/small,
+/area/awaymission/museum)
+"oH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/broken_flooring/side/directional/east,
+/obj/machinery/door/airlock/atmos/glass,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/access/all/away/generic3,
+/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "oI" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2126,6 +2137,10 @@
 /area/awaymission/museum)
 "rr" = (
 /turf/open/floor/wood/tile,
+/area/awaymission/museum)
+"rt" = (
+/obj/structure/sign/warning,
+/turf/closed/indestructible/reinforced,
 /area/awaymission/museum)
 "ry" = (
 /obj/machinery/door/airlock{
@@ -2462,11 +2477,6 @@
 	icon_state = "asteroid5"
 	},
 /area/awaymission/museum)
-"tK" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/sign/warning/directional/south,
-/turf/open/indestructible/plating,
-/area/awaymission/museum)
 "tM" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/contraband/cannabis,
@@ -2691,6 +2701,11 @@
 	dir = 4
 	},
 /turf/open/floor/bronze,
+/area/awaymission/museum)
+"vN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "vO" = (
 /turf/open/floor/iron/stairs/left{
@@ -2953,6 +2968,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/museum)
+"xN" = (
+/obj/structure/no_effect_signpost{
+	name = "if youre reading this you stink and also made by jimmyl"
+	},
+/turf/open/floor/bluespace,
+/area/awaymission/museum)
 "xO" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/soda_cans/canned_laughter,
@@ -3050,6 +3071,14 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
+/area/awaymission/museum)
+"yB" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/broken_flooring/side/always_floorplane{
+	dir = 8
+	},
+/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "yE" = (
 /obj/item/pickaxe/diamond,
@@ -3243,16 +3272,6 @@
 /obj/structure/tram/alt/titanium,
 /turf/open/chasm/true/no_smooth,
 /area/awaymission/museum)
-"Ai" = (
-/obj/structure/transport/linear/tram/slow,
-/obj/structure/thermoplastic,
-/obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
-/obj/machinery/door/window/elevator/left/directional/south{
-	transport_linked_id = "museum_cargo"
-	},
-/obj/structure/sign/warning/directional/east,
-/turf/open/chasm/true/no_smooth,
-/area/awaymission/museum)
 "Ak" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/dark_blue{
@@ -3412,6 +3431,15 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
+/area/awaymission/museum)
+"BC" = (
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
+/obj/effect/turf_decal/siding/dark_blue/corner{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/food/sandwich/cheese/grilled,
+/turf/open/floor/iron/dark,
 /area/awaymission/museum)
 "BF" = (
 /turf/open/misc/beach/coast{
@@ -4537,6 +4565,13 @@
 "Lm" = (
 /turf/open/floor/black,
 /area/awaymission/museum)
+"Ln" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/mineral/titanium/blue,
+/area/awaymission/museum)
 "Lp" = (
 /obj/machinery/status_display/random_message{
 	firstline_to_secondline = list(NO="LITTERING", "YOU ARE"="BEING WATCHED", "DO NOT TOUCH"="THE EXHIBITS")
@@ -4643,15 +4678,6 @@
 /obj/machinery/light/warm/directional/south,
 /turf/open/floor/wood/large,
 /area/awaymission/museum)
-"Ms" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/broken_flooring/side/always_floorplane{
-	dir = 8
-	},
-/obj/structure/sign/warning/directional/east,
-/turf/open/indestructible/plating,
-/area/awaymission/museum)
 "Mv" = (
 /mob/living/basic/statue/mannequin{
 	name = "Michael Trasen";
@@ -4753,14 +4779,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/awaymission/museum)
-"Ny" = (
-/obj/effect/turf_decal/siding/dark_blue{
-	dir = 1
-	},
-/obj/structure/closet/crate/bin,
-/obj/structure/sign/nanotrasen/directional/south,
-/turf/open/floor/mineral/titanium/blue,
-/area/awaymission/museum)
 "NB" = (
 /obj/effect/turf_decal/siding/wideplating/corner,
 /turf/open/misc/beach/sand,
@@ -4856,6 +4874,13 @@
 "Ov" = (
 /turf/open/chasm,
 /area/awaymission/museum)
+"OA" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/obj/item/kirbyplants/random/fullysynthetic,
+/turf/open/floor/mineral/titanium/blue,
+/area/awaymission/museum)
 "OD" = (
 /obj/machinery/computer/terminal/museum{
 	dir = 8;
@@ -4870,6 +4895,16 @@
 "OI" = (
 /obj/machinery/light/floor,
 /turf/open/floor/bronze/filled,
+/area/awaymission/museum)
+"ON" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/effect/turf_decal/stripes/asteroid/line{
+	dir = 1
+	},
+/obj/machinery/button{
+	pixel_y = 32
+	},
+/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "OP" = (
 /obj/effect/mapping_helpers/burnt_floor,
@@ -5187,26 +5222,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/indestructible/plating,
 /area/awaymission/museum)
-"Ri" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/remains/human,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/sign/warning/directional/west,
-/obj/structure/sign/warning/directional/east,
-/turf/open/indestructible/plating,
-/area/awaymission/museum)
 "Rl" = (
 /obj/structure/railing{
 	dir = 10
@@ -5259,6 +5274,10 @@
 /obj/effect/spawner/random/vending/colavend,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
+/area/awaymission/museum)
+"RP" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/indestructible/reinforced/titanium/nodiagonal,
 /area/awaymission/museum)
 "RQ" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -5321,6 +5340,16 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/awaymission/museum)
+"St" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/sign/painting{
+	pixel_y = 32;
+	persistence_id = "museumgate"
+	},
+/obj/machinery/light/floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/awaymission/museum)
 "Sv" = (
 /obj/machinery/status_display/random_message{
 	firstline_to_secondline = list(SOUVENIR="SHOP")
@@ -5347,6 +5376,16 @@
 /mob/living/basic/mothroach,
 /turf/open/misc/grass,
 /area/awaymission/museum/mothroachvoid)
+"SR" = (
+/obj/structure/transport/linear/tram/slow,
+/obj/structure/thermoplastic,
+/obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
+/obj/machinery/door/window/elevator/right/directional/south{
+	transport_linked_id = "museum_cargo"
+	},
+/obj/effect/spawner/random/maintenance/no_decals/seven,
+/turf/open/chasm/true/no_smooth,
+/area/awaymission/museum)
 "ST" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/dark_blue{
@@ -5374,11 +5413,6 @@
 	puzzle_id = "museum_right_wing"
 	},
 /turf/open/floor/iron/white/small,
-/area/awaymission/museum)
-"Tr" = (
-/obj/machinery/light/floor,
-/obj/structure/plaque/static_plaque/golden/commission/kilo,
-/turf/open/floor/mineral/gold,
 /area/awaymission/museum)
 "Tt" = (
 /obj/structure/holosign/barrier/engineering,
@@ -5443,14 +5477,6 @@
 /obj/machinery/light/floor,
 /turf/open/floor/iron,
 /area/awaymission/museum)
-"TN" = (
-/obj/effect/turf_decal/siding/dark_blue{
-	dir = 1
-	},
-/obj/item/kirbyplants/random/fullysynthetic,
-/obj/structure/sign/nanotrasen/directional/south,
-/turf/open/floor/mineral/titanium/blue,
-/area/awaymission/museum)
 "TO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/structure/crate_abandoned,
@@ -5475,17 +5501,6 @@
 /area/awaymission/museum)
 "TY" = (
 /turf/open/floor/iron/showroomfloor,
-/area/awaymission/museum)
-"Ue" = (
-/obj/structure/transport/linear/tram/slow,
-/obj/structure/thermoplastic,
-/obj/effect/spawner/random/structure/closet_empty/crate/with_loot,
-/obj/machinery/door/window/elevator/right/directional/south{
-	transport_linked_id = "museum_cargo"
-	},
-/obj/effect/spawner/random/maintenance/no_decals/seven,
-/obj/structure/sign/warning/directional/west,
-/turf/open/chasm/true/no_smooth,
 /area/awaymission/museum)
 "Um" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -5531,15 +5546,6 @@
 /area/awaymission/museum)
 "Uu" = (
 /turf/open/floor/mineral/titanium/white,
-/area/awaymission/museum)
-"Ux" = (
-/obj/effect/turf_decal/tile/neutral/opposingcorners,
-/obj/structure/table,
-/obj/item/disk/computer{
-	name = "plant data disk";
-	icon_state = "datadisk_hydro"
-	},
-/turf/open/floor/iron/dark,
 /area/awaymission/museum)
 "UB" = (
 /obj/structure/fluff/minepost,
@@ -5729,6 +5735,11 @@
 /obj/item/clothing/under/rank/medical/scrubs/coroner,
 /turf/open/indestructible/plating,
 /area/awaymission/museum)
+"VQ" = (
+/obj/structure/plaque/static_plaque/golden/commission/kilo,
+/obj/machinery/light/floor,
+/turf/open/floor/mineral/gold,
+/area/awaymission/museum)
 "VS" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/dark_blue/corner,
@@ -5762,12 +5773,6 @@
 	id = "nothing"
 	},
 /turf/open/floor/iron/dark,
-/area/awaymission/museum)
-"We" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/structure/sign/warning/directional/south,
-/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "Wf" = (
 /obj/effect/turf_decal/siding/wood,
@@ -6024,15 +6029,6 @@
 /obj/item/plate/large,
 /obj/item/food/khachapuri,
 /turf/open/floor/wood/large,
-/area/awaymission/museum)
-"Yd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/broken_flooring/side/directional/east,
-/obj/machinery/door/airlock/atmos/glass,
-/obj/structure/barricade/wooden/crude,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/effect/mapping_helpers/airlock/access/all/away/generic3,
-/turf/open/indestructible/plating,
 /area/awaymission/museum)
 "Yg" = (
 /obj/effect/mob_spawn/cockroach,
@@ -29527,8 +29523,8 @@ Fi
 iW
 go
 iW
-TN
-fe
+OA
+RP
 FK
 FK
 FK
@@ -30076,7 +30072,7 @@ Qk
 Ma
 Ma
 Ma
-FK
+rt
 FK
 FK
 Kh
@@ -30292,14 +30288,14 @@ re
 re
 fe
 hM
-iF
+ON
 ro
 Fi
 DU
 iW
 iW
-Ny
-fe
+Ln
+RP
 FK
 FK
 FK
@@ -30326,14 +30322,14 @@ FK
 FK
 bF
 FK
-We
-FK
+vN
+rt
 Ma
 VE
 zr
 Ma
 Ma
-Ri
+iM
 nT
 Dx
 XK
@@ -30590,7 +30586,7 @@ do
 Ma
 Ma
 Ma
-FK
+rt
 FK
 FK
 Kh
@@ -32124,8 +32120,8 @@ DY
 FK
 TB
 ZZ
-tK
-FK
+XK
+rt
 Kh
 Kh
 FK
@@ -32136,7 +32132,7 @@ FK
 lU
 lU
 lU
-FK
+rt
 FK
 FK
 Uq
@@ -32393,7 +32389,7 @@ Ma
 Cb
 ED
 bk
-Ue
+SR
 tU
 PB
 re
@@ -32869,7 +32865,7 @@ QU
 sd
 Xt
 FK
-fK
+St
 VS
 zg
 qj
@@ -33153,7 +33149,7 @@ FK
 zL
 qj
 qj
-Ms
+yB
 Ma
 Ma
 Ma
@@ -33164,7 +33160,7 @@ Ma
 RU
 ED
 WJ
-Ai
+kl
 tU
 PB
 re
@@ -33410,7 +33406,7 @@ FK
 FK
 FK
 FK
-FK
+rt
 FK
 FK
 FK
@@ -33421,7 +33417,7 @@ FK
 FK
 PB
 PB
-FK
+rt
 FK
 FK
 Uq
@@ -33640,7 +33636,7 @@ re
 re
 re
 FK
-fK
+St
 lb
 uY
 uY
@@ -35182,7 +35178,7 @@ re
 re
 re
 FK
-iI
+lj
 aa
 qj
 uY
@@ -35953,7 +35949,7 @@ Vz
 PP
 Qo
 FK
-iI
+lj
 WX
 RC
 uY
@@ -36491,7 +36487,7 @@ FK
 FK
 FK
 FK
-Yd
+oH
 FO
 NO
 dZ
@@ -37494,7 +37490,7 @@ ZB
 FK
 FK
 FK
-Ux
+nL
 Op
 wJ
 FK
@@ -39041,7 +39037,7 @@ uY
 tD
 GV
 Lw
-Tr
+VQ
 Lw
 ud
 lb
@@ -40335,7 +40331,7 @@ lf
 bV
 nw
 bV
-oe
+BC
 FK
 re
 re
@@ -71008,7 +71004,7 @@ re
 re
 re
 re
-bg
+xN
 DD
 fu
 re

@@ -1,6 +1,6 @@
 /datum/reagent/medicine/brain_neuroware
 	name = "ntnetsys.robot-diag.exe"
-	description = "Repairs basic brain traumas."
+	description = "Repairs basic brain traumas in synthetics."
 	chemical_flags = REAGENT_NEUROWARE
 	process_flags = REAGENT_SYNTHETIC
 	self_consuming = TRUE
@@ -15,7 +15,7 @@ NEUROWARE_METABOLIZE_HELPER(/datum/reagent/medicine/brain_neuroware)
 
 /datum/reagent/medicine/reset_neuroware
 	name = "ntnetsys.robot-antivirus.exe"
-	description = "Deletes neuroware programs."
+	description = "Deletes neuroware programs in synthetics."
 	chemical_flags = REAGENT_NEUROWARE
 	process_flags = REAGENT_SYNTHETIC
 	self_consuming = TRUE
@@ -66,4 +66,4 @@ NEUROWARE_METABOLIZE_HELPER(/datum/reagent/medicine/morphine/synth)
 	self_consuming = TRUE
 	purge_multiplier = 0
 
-NEUROWARE_METABOLIZE_HELPER(/datum/reagent/medicine/lidocaine/synth)
+NEUROWARE_METABOLIZE_HELPER(/datum/reagent/medicine/morphine/synth)

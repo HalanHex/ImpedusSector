@@ -638,10 +638,6 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
-"cN" = (
-/obj/effect/spawner/random/entertainment/slot_machine,
-/turf/open/floor/carpet,
-/area/awaymission/cabin)
 "cO" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -1529,10 +1525,6 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/carpet,
 /area/awaymission/cabin/caves/mountain)
-"hL" = (
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/misc/ice/smooth,
-/area/awaymission/cabin/caves)
 "hM" = (
 /turf/closed/wall/mineral/snow,
 /area/awaymission/cabin/caves/mountain)
@@ -1547,6 +1539,14 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/caves)
+"hY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/hatch,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/mineral/plastitanium/red{
+	name = "soviet floor"
+	},
+/area/awaymission/cabin/caves/sovietcave)
 "ii" = (
 /turf/closed/indestructible/syndicate,
 /area/awaymission/cabin/caves/sovietcave)
@@ -1579,14 +1579,6 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/wood,
 /area/awaymission/cabin)
-"ip" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/hatch,
-/obj/structure/barricade/wooden/crude,
-/turf/open/floor/mineral/plastitanium/red{
-	name = "soviet floor"
-	},
-/area/awaymission/cabin/caves/sovietcave)
 "iq" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/basic/hivebot/range{
@@ -1655,13 +1647,6 @@
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/caves)
 "iM" = (
-/turf/open/floor/wood,
-/area/awaymission/cabin/caves)
-"iP" = (
-/obj/structure/sign/picture_frame{
-	pixel_y = 32;
-	dir = 1
-	},
 /turf/open/floor/wood,
 /area/awaymission/cabin/caves)
 "iQ" = (
@@ -2285,6 +2270,10 @@
 	name = "Reinforced Soviet Hatch"
 	},
 /area/awaymission/cabin/caves/sovietcave)
+"li" = (
+/obj/structure/sign/poster/official/soft_cap_pop_art/directional/north,
+/turf/open/floor/wood,
+/area/awaymission/cabin)
 "lk" = (
 /obj/item/reagent_containers/applicator/patch/libital,
 /obj/effect/light_emitter{
@@ -2484,13 +2473,6 @@
 /obj/structure/sign/warning/explosives,
 /turf/closed/indestructible/syndicate,
 /area/awaymission/cabin/caves/sovietcave)
-"no" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/directional/south,
-/turf/open/floor/mineral/plastitanium/red{
-	name = "soviet floor"
-	},
-/area/awaymission/cabin/caves/sovietcave)
 "np" = (
 /turf/closed/indestructible/fakedoor{
 	desc = "Can you just stop?";
@@ -2665,6 +2647,25 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating,
 /area/awaymission/cabin)
+"pe" = (
+/obj/structure/statue/snow/snowman{
+	anchored = 1;
+	name = "I Don't Know"
+	},
+/obj/item/clothing/head/chaplain/bishopmitre{
+	pixel_x = -1;
+	pixel_y = 16
+	},
+/obj/item/gun/magic/wand/nothing/fake_resurrection{
+	    pixel_y = -2
+	},
+/obj/effect/light_emitter{
+	set_cap = 3;
+	set_luminosity = 6;
+	light_color = "#9bbbff"
+	},
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "pj" = (
 /obj/structure/sign/warning/engine_safety{
 	desc = "A sign detailing the various safety protocols when working on-site to ensure a safe shift. It seems to particularly focus on how dangerous the sawblade is.";
@@ -2775,6 +2776,10 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/snowforest)
+"pC" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/snow,
+/area/awaymission/cabin/caves/mountain)
 "pE" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/snow/snow_cabin,
@@ -2846,14 +2851,6 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
-"qx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spider/stickyweb,
-/obj/structure/sign/warning/directional/south,
-/turf/open/floor/mineral/plastitanium/red{
-	name = "soviet floor"
-	},
-/area/awaymission/cabin/caves/sovietcave)
 "qz" = (
 /obj/effect/light_emitter{
 	set_cap = 3;
@@ -3314,18 +3311,6 @@
 	},
 /turf/open/floor/plating/snowed/snow_cabin,
 /area/awaymission/cabin/snowforest)
-"vD" = (
-/obj/effect/turf_decal/weather/snow,
-/obj/item/modular_computer/pda/syndicate{
-	desc = "A portable microcomputer by Thinktronic Systems, LTD.";
-	inserted_disk = /obj/item/disk/computer/virus/clown;
-	name = "soviet tablet"
-	},
-/obj/effect/decal/remains/human{
-	color = "#72e4fa"
-	},
-/turf/open/floor/iron/dark/snowdin,
-/area/awaymission/cabin/caves)
 "vG" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/grenade/chem_grenade/large,
@@ -3350,25 +3335,6 @@
 	color = "4040ff"
 	},
 /obj/effect/decal/cleanable/plasma,
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
-"wf" = (
-/obj/structure/statue/snow/snowman{
-	anchored = 1;
-	name = "I Don't Know"
-	},
-/obj/item/clothing/head/chaplain/bishopmitre{
-	pixel_x = -1;
-	pixel_y = 16
-	},
-/obj/item/gun/magic/wand/nothing/fake_resurrection{
-	    pixel_y = -2
-	},
-/obj/effect/light_emitter{
-	set_cap = 3;
-	set_luminosity = 6;
-	light_color = "#9bbbff"
-	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
 "wq" = (
@@ -3595,11 +3561,6 @@
 	},
 /turf/open/floor/plating/snowed/snow_cabin,
 /area/awaymission/cabin/snowforest/sovietsurface)
-"yJ" = (
-/obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/structure/sign/poster/contraband/free_drone/directional/west,
-/turf/open/indestructible,
-/area/awaymission/cabin/caves/mountain)
 "yP" = (
 /obj/structure/kitchenspike,
 /obj/effect/decal/cleanable/blood/gibs,
@@ -4049,13 +4010,10 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/snowforest)
-"EK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/directional/north,
-/turf/open/floor/mineral/plastitanium/red{
-	name = "soviet floor"
-	},
-/area/awaymission/cabin/caves/sovietcave)
+"EJ" = (
+/obj/effect/spawner/random/entertainment/slot_machine,
+/turf/open/floor/carpet,
+/area/awaymission/cabin)
 "EL" = (
 /obj/machinery/light/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -4076,6 +4034,18 @@
 	light_color = "#9bbbff"
 	},
 /turf/open/floor/plating/snowed/smoothed,
+/area/awaymission/cabin/caves)
+"ES" = (
+/obj/effect/turf_decal/weather/snow,
+/obj/item/modular_computer/pda/syndicate{
+	desc = "A portable microcomputer by Thinktronic Systems, LTD.";
+	inserted_disk = /obj/item/disk/computer/virus/clown;
+	name = "soviet tablet"
+	},
+/obj/effect/decal/remains/human{
+	color = "#72e4fa"
+	},
+/turf/open/floor/iron/dark/snowdin,
 /area/awaymission/cabin/caves)
 "EU" = (
 /obj/effect/decal/cleanable/glitter{
@@ -4154,10 +4124,6 @@
 /obj/structure/flora/tree/pine/style_random,
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
-"Gf" = (
-/obj/structure/sign/poster/official/soft_cap_pop_art/directional/north,
-/turf/open/floor/wood,
-/area/awaymission/cabin)
 "Gk" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light/small/directional/east,
@@ -4512,6 +4478,12 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"Lq" = (
+/obj/structure/sign/picture_frame{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/awaymission/cabin/caves)
 "Lt" = (
 /obj/structure/sign/warning/no_smoking/directional/east,
 /turf/open/floor/wood/freezing,
@@ -4611,6 +4583,18 @@
 	},
 /turf/open/floor/plating/snowed/smoothed,
 /area/awaymission/cabin/caves)
+"MH" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/structure/sign/nanotrasen,
+/obj/effect/light_emitter{
+	set_cap = 3;
+	set_luminosity = 6;
+	light_color = "#9bbbff"
+	},
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "MR" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/reagent_containers/applicator/patch/libital,
@@ -4705,6 +4689,20 @@
 	},
 /turf/open/floor/plating/snowed,
 /area/awaymission/cabin/snowforest)
+"Oz" = (
+/obj/structure/table/reinforced,
+/obj/item/modular_computer/pda/syndicate{
+	desc = "A portable microcomputer by Thinktronic Systems, LTD.";
+	inserted_disk = /obj/item/disk/computer/virus/mime;
+	name = "soviet tablet"
+	},
+/obj/effect/light_emitter{
+	set_cap = 3;
+	set_luminosity = 6;
+	light_color = "#9bbbff"
+	},
+/turf/open/floor/plating/snowed/snow_cabin,
+/area/awaymission/cabin/snowforest/sovietsurface)
 "OF" = (
 /obj/structure/table/wood,
 /obj/structure/sign/warning/no_smoking/circle{
@@ -4758,6 +4756,10 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"Pp" = (
+/obj/structure/sign/warning,
+/turf/closed/indestructible/syndicate,
+/area/awaymission/cabin/caves/sovietcave)
 "Pu" = (
 /obj/machinery/vending/sovietsoda,
 /obj/effect/light_emitter{
@@ -5171,6 +5173,13 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
+"TP" = (
+/obj/structure/sign/poster/contraband/free_drone{
+	desc = "This poster seems to be meant for a bunch of machines that used to be deployed on space stations."
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/turf/open/indestructible,
+/area/awaymission/cabin/caves/mountain)
 "TU" = (
 /obj/effect/decal/cleanable/glitter{
 	desc = "It looks like fancy glitter to me.";
@@ -5314,20 +5323,6 @@
 	},
 /turf/open/misc/ice/smooth,
 /area/awaymission/cabin/caves)
-"Wb" = (
-/obj/structure/table/reinforced,
-/obj/item/modular_computer/pda/syndicate{
-	desc = "A portable microcomputer by Thinktronic Systems, LTD.";
-	inserted_disk = /obj/item/disk/computer/virus/mime;
-	name = "soviet tablet"
-	},
-/obj/effect/light_emitter{
-	set_cap = 3;
-	set_luminosity = 6;
-	light_color = "#9bbbff"
-	},
-/turf/open/floor/plating/snowed/snow_cabin,
-/area/awaymission/cabin/snowforest/sovietsurface)
 "We" = (
 /obj/structure/easel{
 	desc = "An ancient canvas that was used to produce art so fine, the universe can't handle it!";
@@ -5542,14 +5537,6 @@
 	},
 /turf/open/floor/plating/snowed/smoothed,
 /area/awaymission/cabin/caves)
-"Zb" = (
-/obj/effect/light_emitter{
-	set_cap = 3;
-	set_luminosity = 6;
-	light_color = "#9bbbff"
-	},
-/turf/closed/wall,
-/area/awaymission/cabin/caves)
 "Zf" = (
 /obj/structure/fence{
 	dir = 4
@@ -5589,16 +5576,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood/freezing,
 /area/awaymission/cabin/lumbermill)
-"ZZ" = (
-/obj/effect/light_emitter{
-	name = "cave light";
-	set_cap = 3;
-	set_luminosity = 6;
-	light_color = "#9bbbff"
-	},
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
 
 (1,1,1) = {"
 ab
@@ -9731,7 +9708,7 @@ fq
 fN
 fN
 fP
-yJ
+TP
 cx
 cx
 td
@@ -17135,8 +17112,8 @@ vh
 vh
 vh
 vh
-Zb
-ZZ
+MH
+Su
 oz
 oz
 oz
@@ -18934,8 +18911,8 @@ vh
 vh
 vh
 vh
-Zb
-ZZ
+MH
+Su
 oz
 oz
 oz
@@ -18955,7 +18932,7 @@ mU
 mU
 mU
 mJ
-vD
+ES
 mW
 mW
 ab
@@ -29088,7 +29065,7 @@ ab
 ab
 ab
 ue
-wf
+pe
 vh
 vh
 vh
@@ -29148,7 +29125,7 @@ an
 aq
 eg
 an
-cN
+EJ
 aq
 az
 aO
@@ -29402,7 +29379,7 @@ an
 an
 an
 an
-Gf
+li
 eg
 an
 jE
@@ -33950,7 +33927,7 @@ Oe
 Oe
 Oe
 iv
-iP
+Lq
 iM
 kl
 iM
@@ -43072,7 +43049,7 @@ Jz
 Jz
 Jz
 yD
-Wb
+Oz
 Ae
 SK
 uF
@@ -48307,8 +48284,8 @@ gx
 gx
 gx
 gx
-hM
-hL
+pC
+PV
 PV
 PV
 PV
@@ -49335,8 +49312,8 @@ gx
 gx
 gx
 gx
-hM
-hL
+pC
+PV
 PV
 PV
 PV
@@ -58736,7 +58713,7 @@ Oe
 Uu
 ik
 Rp
-ip
+hY
 jK
 im
 im
@@ -59250,7 +59227,7 @@ Oe
 Oe
 ik
 Rp
-ip
+hY
 im
 im
 im
@@ -68774,10 +68751,10 @@ gx
 gx
 gx
 gx
-ii
-EK
-no
-ii
+Pp
+im
+im
+Pp
 gx
 gx
 gx
@@ -69288,10 +69265,10 @@ gx
 gx
 gx
 gx
-ii
-EK
-qx
-ii
+Pp
+im
+lS
+Pp
 gx
 gx
 gx

@@ -99,6 +99,7 @@
 		title_screen_is_ready = TRUE
 		return
 
+
 /mob/dead/new_player/Login()
 	. = ..()
 	show_title_screen()

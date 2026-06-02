@@ -212,8 +212,8 @@
 	owner.SetKnockdown(0)
 	owner.SetImmobilized(0)
 	owner.SetParalyzed(0)
-	owner.set_stamina_loss(0)
-	addtimer(CALLBACK(owner, TYPE_PROC_REF(/mob/living, set_stamina_loss), 0), stun_resistance_time)
+	owner.setStaminaLoss(0)
+	addtimer(CALLBACK(owner, TYPE_PROC_REF(/mob/living, setStaminaLoss), 0), stun_resistance_time)
 
 	do_sparks(5, TRUE, src)
 

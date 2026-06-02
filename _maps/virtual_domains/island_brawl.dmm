@@ -429,6 +429,27 @@
 "en" = (
 /turf/open/floor/eighties,
 /area/virtual_domain)
+"eq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = 13;
+	pixel_x = 21
+	},
+/obj/item/clothing/glasses/hud/health{
+	pixel_y = 1;
+	pixel_x = 18
+	},
+/obj/item/stack/medical/wrap/gauze{
+	pixel_x = -15;
+	pixel_y = 10
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = 3;
+	pixel_x = -3
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/virtual_domain)
 "ev" = (
 /obj/structure/mineral_door/sandstone{
 	name = "Sandcastle"
@@ -502,6 +523,13 @@
 /obj/item/toy/seashell{
 	pixel_x = 12;
 	pixel_y = -9
+	},
+/turf/open/misc/beach/sand,
+/area/virtual_domain/fullbright)
+"fw" = (
+/obj/structure/no_effect_signpost{
+	pixel_y = 6;
+	desc = "Northwest: Hotel. South: Seaside Bar. East: Dressing Rooms."
 	},
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
@@ -1719,6 +1747,16 @@
 	},
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
+"vS" = (
+/obj/structure/sign/directions/dorms/directional/north{
+	pixel_y = 35
+	},
+/obj/structure/sign/directions/medical/directional/north{
+	pixel_y = 29
+	},
+/obj/effect/spawner/random/entertainment/slot_machine,
+/turf/open/floor/wood/large,
+/area/virtual_domain)
 "vU" = (
 /obj/machinery/chem_master/condimaster{
 	name = "CondiMaster Neo"
@@ -2221,16 +2259,6 @@
 	},
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
-"BV" = (
-/obj/structure/sign/directions/dorms/directional/north{
-	pixel_y = 35
-	},
-/obj/structure/sign/directions/medical/directional/north{
-	pixel_y = 29
-	},
-/obj/effect/spawner/random/entertainment/slot_machine,
-/turf/open/floor/wood/large,
-/area/virtual_domain)
 "BW" = (
 /obj/structure/dresser,
 /obj/structure/sign/clock/directional/east,
@@ -2550,13 +2578,6 @@
 /obj/item/clothing/glasses/salesman,
 /turf/open/floor/wood,
 /area/virtual_domain)
-"Gp" = (
-/obj/structure/signpost{
-	pixel_y = 6;
-	desc = "Northwest: Hotel. South: Seaside Bar. East: Dressing Rooms."
-	},
-/turf/open/misc/beach/sand,
-/area/virtual_domain/fullbright)
 "Gq" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -3077,27 +3098,6 @@
 	pixel_x = 8
 	},
 /turf/open/floor/wood/large,
-/area/virtual_domain)
-"Mx" = (
-/obj/structure/table/reinforced,
-/obj/machinery/cell_charger{
-	pixel_y = 13;
-	pixel_x = 21
-	},
-/obj/item/clothing/glasses/hud/health{
-	pixel_y = 1;
-	pixel_x = 18
-	},
-/obj/item/stack/medical/wrap/gauze{
-	pixel_x = -15;
-	pixel_y = 10
-	},
-/obj/item/storage/belt/medical{
-	pixel_y = 3;
-	pixel_x = -3
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/white/textured_large,
 /area/virtual_domain)
 "MA" = (
 /obj/effect/turf_decal/siding/dark_red/corner{
@@ -6352,7 +6352,7 @@ Bq
 Bq
 Bq
 Bq
-BV
+vS
 Mb
 Mb
 ho
@@ -6832,7 +6832,7 @@ Ld
 lW
 Rk
 Bq
-Mx
+eq
 gP
 gP
 up
@@ -7513,7 +7513,7 @@ ka
 sz
 ka
 ka
-Gp
+fw
 Ty
 Ty
 JN

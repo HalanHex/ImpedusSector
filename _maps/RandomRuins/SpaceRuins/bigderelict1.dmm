@@ -215,10 +215,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
-"aY" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "aZ" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/derelictoutpost)
@@ -532,15 +528,6 @@
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "cq" = (
 /obj/structure/barricade/wooden,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/derelictoutpost/powerstorage)
-"cr" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Power Storage"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/structure/barricade/wooden/crude,
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
@@ -1270,6 +1257,15 @@
 /obj/structure/alien/weeds/creature,
 /turf/closed/wall/mineral/iron,
 /area/ruin/space/has_grav/derelictoutpost/dockedship)
+"Bn" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Power Storage"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/structure/barricade/wooden/crude,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "BI" = (
 /obj/structure/closet/crate/medical,
 /obj/item/storage/medkit/brute,
@@ -1360,6 +1356,10 @@
 	},
 /turf/open/misc/asteroid,
 /area/ruin/space/has_grav/derelictoutpost)
+"HB" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "Io" = (
 /obj/structure/alien/weeds/creature,
 /obj/item/shard,
@@ -1728,7 +1728,7 @@ aS
 aS
 aS
 aS
-cr
+Bn
 aS
 cU
 qd
@@ -2299,7 +2299,7 @@ aa
 tu
 tu
 aa
-aY
+HB
 aK
 iK
 ye
@@ -2335,7 +2335,7 @@ aa
 aa
 aa
 aa
-aY
+HB
 aK
 iK
 PF
@@ -2371,7 +2371,7 @@ aa
 aa
 aa
 aa
-aY
+HB
 aK
 Ve
 Qo
@@ -2407,7 +2407,7 @@ aa
 aa
 aa
 aa
-aY
+HB
 aK
 Dk
 MT
@@ -2443,7 +2443,7 @@ aa
 aa
 aa
 aa
-aY
+HB
 aZ
 bC
 bU

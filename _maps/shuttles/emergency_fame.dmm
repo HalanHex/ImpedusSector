@@ -112,12 +112,6 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"fm" = (
-/obj/effect/spawner/random/vending/snackvend,
-/obj/effect/turf_decal/box,
-/obj/structure/sign/nanotrasen/directional/west,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "fS" = (
 /obj/structure/mineral_door/silver,
 /turf/open/floor/mineral/titanium,
@@ -331,26 +325,6 @@
 /obj/item/kirbyplants/organic/plant1,
 /turf/open/floor/mineral/silver,
 /area/shuttle/escape)
-"ni" = (
-/obj/item/scalpel{
-	pixel_y = 12
-	},
-/obj/item/circular_saw,
-/obj/item/retractor{
-	pixel_x = 4
-	},
-/obj/item/hemostat{
-	pixel_x = -4
-	},
-/obj/item/clothing/gloves/latex,
-/obj/item/clothing/mask/surgical,
-/obj/item/surgicaldrill,
-/obj/item/cautery,
-/obj/structure/table/glass,
-/obj/structure/extinguisher_cabinet/directional/south,
-/obj/machinery/vitals_reader/directional/west,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
 "nx" = (
 /obj/machinery/power/shuttle_engine/huge{
 	dir = 8
@@ -428,11 +402,6 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/silver,
-/area/shuttle/escape)
-"qM" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/structure/sign/nanotrasen/directional/west,
-/turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
 "qW" = (
 /obj/effect/turf_decal/siding{
@@ -533,16 +502,6 @@
 "wK" = (
 /obj/machinery/vending/boozeomat,
 /obj/machinery/status_display/evac/directional/south,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"wX" = (
-/obj/structure/sign/nanotrasen/directional/south,
-/turf/open/floor/wood,
-/area/shuttle/escape)
-"wY" = (
-/obj/structure/closet/emcloset/anchored,
-/obj/effect/turf_decal/bot,
-/obj/structure/sign/nanotrasen/directional/south,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "xc" = (
@@ -674,6 +633,10 @@
 "Bj" = (
 /turf/template_noop,
 /area/template_noop)
+"Cd" = (
+/obj/item/kirbyplants/organic/plant16,
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "Cg" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 8
@@ -708,11 +671,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/glass/reinforced,
 /area/shuttle/escape)
-"EF" = (
-/obj/item/kirbyplants/organic/plant16,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/wood,
-/area/shuttle/escape)
 "Fi" = (
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
@@ -733,6 +691,10 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
+/area/shuttle/escape)
+"FQ" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/escape)
 "FZ" = (
 /obj/structure/sign/picture_frame/hall_of_fame/two,
@@ -766,6 +728,26 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
+"HC" = (
+/obj/item/scalpel{
+	pixel_y = 12
+	},
+/obj/item/circular_saw,
+/obj/item/retractor{
+	pixel_x = 4
+	},
+/obj/item/hemostat{
+	pixel_x = -4
+	},
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/mask/surgical,
+/obj/item/surgicaldrill,
+/obj/item/cautery,
+/obj/structure/table/glass,
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/vitals_reader/directional/west,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/escape)
 "HS" = (
 /obj/structure/table/optable,
 /obj/item/surgical_drapes,
@@ -791,15 +773,6 @@
 "Km" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
-"KG" = (
-/obj/machinery/shower/directional/south{
-	dir = 4;
-	pixel_y = 0;
-	pixel_x = -16
-	},
-/obj/machinery/vitals_reader/directional/west,
-/turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "Ll" = (
 /obj/effect/turf_decal/siding{
@@ -867,6 +840,11 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
+"Nl" = (
+/obj/effect/spawner/random/vending/snackvend,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "Nw" = (
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/mineral/titanium,
@@ -995,10 +973,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plating,
 /area/shuttle/escape)
-"UW" = (
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
 "Vl" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/decal/cleanable/dirt,
@@ -1009,6 +983,15 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"We" = (
+/obj/machinery/shower/directional/south{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -16
+	},
+/obj/machinery/vitals_reader/directional/west,
+/turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "Wp" = (
 /obj/machinery/door/window/left/directional/east{
@@ -1231,7 +1214,7 @@ Uu
 Oa
 mr
 HS
-ni
+HC
 Oa
 Uu
 ct
@@ -1277,7 +1260,7 @@ LR
 LR
 cV
 gm
-KG
+We
 Fi
 Fi
 xt
@@ -1294,7 +1277,7 @@ iN
 Cz
 "}
 (9,1,1) = {"
-Oa
+FQ
 Oa
 aX
 Uu
@@ -1316,11 +1299,11 @@ Oa
 mc
 Oa
 Oa
-Oa
+FQ
 "}
 (10,1,1) = {"
 mz
-fm
+Nl
 MO
 NV
 xl
@@ -1340,7 +1323,7 @@ cu
 cu
 Yp
 Ty
-qM
+PP
 mz
 "}
 (11,1,1) = {"
@@ -1372,8 +1355,8 @@ mz
 mz
 NN
 eW
-wX
-Oa
+RZ
+FQ
 mz
 mz
 Ws
@@ -1387,14 +1370,14 @@ Oa
 Ws
 mz
 mz
-Oa
-UW
+FQ
+Yp
 Yp
 PP
 mz
 "}
 (13,1,1) = {"
-Oa
+FQ
 Oa
 FJ
 RZ
@@ -1415,12 +1398,12 @@ Bj
 mz
 Yp
 Yp
-wY
-Oa
+oc
+FQ
 "}
 (14,1,1) = {"
 Oa
-EF
+Cd
 RZ
 lV
 mz

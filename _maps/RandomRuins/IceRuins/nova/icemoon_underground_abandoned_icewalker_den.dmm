@@ -1470,7 +1470,7 @@
 /turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/abandoned_hearth)
 "YH" = (
-/obj/machinery/oven/primitive,
+/obj/machinery/oven/stone,
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
 	},

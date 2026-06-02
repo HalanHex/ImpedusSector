@@ -1,18 +1,54 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"b" = (
+"aa" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/security{
+	name = "Armory"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/cable,
+/obj/effect/turf_decal/delivery,
+/obj/effect/mapping_helpers/airlock/access/all/security/armory,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"ab" = (
 /obj/structure/rack/gunrack,
 /obj/effect/spawner/armory_spawn/shotguns,
 /obj/effect/turf_decal/delivery/red,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
-"e" = (
+"ac" = (
+/obj/structure/cable,
+/obj/machinery/button/door/directional/south{
+	id = "armory";
+	name = "Armory Shutters";
+	req_access = list("armory")
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"ad" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/armory/riot_armor,
+/obj/effect/spawner/random/armory/bulletproof_armor,
+/obj/machinery/requests_console/directional/north{
+	department = "Security";
+	name = "Security Requests Console"
+	},
+/obj/effect/mapping_helpers/requests_console/supplies,
+/obj/effect/mapping_helpers/requests_console/assistance,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"ae" = (
 /obj/machinery/airalarm/directional/north,
 /obj/structure/rack/gunrack,
 /obj/effect/turf_decal/delivery/red,
 /obj/effect/spawner/armory_spawn/mod_lasers_small,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
-"f" = (
+"af" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
 	},
@@ -21,41 +57,48 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"g" = (
+"ag" = (
 /obj/effect/turf_decal/bot_red,
 /obj/machinery/firealarm/directional/east,
 /obj/structure/closet/secure_closet/armory_kiboko,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"h" = (
+"ah" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"i" = (
+"ai" = (
 /turf/closed/wall/r_wall,
 /area/station/security/lockers)
-"j" = (
+"aj" = (
 /obj/machinery/dish_drive/bullet{
 	suck_distance = 0
 	},
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"l" = (
+"ak" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"al" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"n" = (
+"am" = (
+/turf/closed/wall/r_wall,
+/area/station/ai_monitored/security/armory)
+"an" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"o" = (
+"ao" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 8
 	},
@@ -64,7 +107,7 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"p" = (
+"ap" = (
 /obj/structure/rack,
 /obj/item/storage/barricade{
 	pixel_y = -5
@@ -75,13 +118,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"q" = (
+"aq" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /obj/effect/spawner/random/armory/riot_shield,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"r" = (
+"ar" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
@@ -89,10 +132,10 @@
 /obj/effect/spawner/random/armory/barrier_grenades,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"s" = (
+"as" = (
 /turf/template_noop,
 /area/template_noop)
-"t" = (
+"at" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
@@ -102,11 +145,18 @@
 /obj/item/melee/breaching_hammer,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"u" = (
+"au" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"w" = (
+"av" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aw" = (
 /obj/structure/closet/ammunitionlocker/useful,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/delivery/red,
@@ -116,28 +166,56 @@
 /obj/item/storage/box/lethalshot,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
-"y" = (
+"ax" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/ai_monitored/security/armory)
+"ay" = (
 /obj/effect/turf_decal/trimline/red/filled/corner,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"A" = (
+"az" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aA" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/security/armory)
-"C" = (
+"aB" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/door/poddoor/shutters/window{
+	id = "armory";
+	name = "Armory Shutters"
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aC" = (
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/rack/gunrack,
 /obj/effect/spawner/armory_spawn/mod_lasers_big,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
-"D" = (
+"aD" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"F" = (
+"aE" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/effect/spawner/random/armory/riot_shield,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aF" = (
 /obj/structure/rack,
 /obj/item/clothing/glasses/hud/security/sunglasses/gars{
 	pixel_x = 3;
@@ -163,7 +241,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"G" = (
+"aG" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 8
 	},
@@ -171,7 +249,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"H" = (
+"aH" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/door/poddoor/shutters/window{
 	id = "armory";
@@ -179,7 +257,7 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"I" = (
+"aI" = (
 /obj/structure/cable,
 /obj/machinery/button/door/directional/south{
 	id = "armory";
@@ -188,7 +266,7 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"J" = (
+"aJ" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/armory/riot_armor,
 /obj/effect/spawner/random/armory/bulletproof_armor,
@@ -201,7 +279,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"K" = (
+"aK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
 	name = "Armory"
@@ -215,22 +293,22 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"L" = (
+"aL" = (
 /obj/effect/turf_decal/bot,
-/mob/living/basic/bot/secbot/beepsky/armsky,
+/mob/living/simple_animal/bot/secbot/beepsky/armsky,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"M" = (
+"aM" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"N" = (
+"aN" = (
 /turf/closed/wall/r_wall,
 /area/station/security/armory)
-"O" = (
+"aO" = (
 /obj/structure/rack,
 /obj/machinery/light/directional/west,
 /obj/structure/cable,
@@ -239,7 +317,7 @@
 /obj/effect/spawner/random/armory/bulletproof_helmet,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"P" = (
+"aP" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 1
 	},
@@ -247,14 +325,14 @@
 /obj/effect/spawner/armory_spawn/smg,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"Q" = (
+"aQ" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/red/filled/corner,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"R" = (
+"aR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Weapon Distribution";
@@ -268,14 +346,33 @@
 /obj/item/pen,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"T" = (
+"aS" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/left/directional/north{
+	name = "Weapon Distribution";
+	req_access = list("armory")
+	},
+/obj/item/paper,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/left/directional/south{
+	name = "Requests Window"
+	},
+/obj/item/pen,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aT" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"V" = (
+"aU" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aV" = (
 /obj/structure/rack,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
@@ -291,115 +388,315 @@
 /obj/item/gun/ballistic/automatic/battle_rifle,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"X" = (
+"aW" = (
+/obj/structure/rack,
+/obj/machinery/light/directional/west,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/effect/spawner/random/armory/riot_armor,
+/obj/effect/spawner/random/armory/bulletproof_helmet,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"aX" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
-"Y" = (
+"aY" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/armory/barrier_grenades,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
+"aZ" = (
+/obj/machinery/dish_drive/bullet{
+	suck_distance = 0
+	},
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"eM" = (
+/obj/effect/turf_decal/trimline/red/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"iI" = (
+/obj/effect/turf_decal/trimline/red/filled/warning{
+	dir = 1
+	},
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/smg,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"jU" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"kz" = (
+/obj/effect/turf_decal/trimline/red/filled/corner,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"kR" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/effect/spawner/random/armory/barrier_grenades,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"lZ" = (
+/obj/structure/closet/ammunitionlocker/useful,
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/delivery/red,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/turf/open/floor/iron/smooth,
+/area/station/ai_monitored/security/armory)
+"qg" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"qv" = (
+/obj/structure/rack,
+/obj/item/storage/barricade{
+	pixel_y = -5
+	},
+/obj/item/storage/barricade,
+/obj/item/storage/barricade{
+	pixel_y = 5
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"qZ" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"tx" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"xU" = (
+/obj/structure/rack,
+/obj/item/gun/energy/ionrifle,
+/obj/item/gun/energy/temperature/security,
+/obj/item/clothing/suit/hooded/ablative,
+/obj/item/gun/grenadelauncher,
+/obj/item/storage/box/teargas{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/item/storage/box/flashes{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"yv" = (
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"yG" = (
+/obj/effect/turf_decal/trimline/red/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/corner,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"zE" = (
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/shotguns,
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/smooth,
+/area/station/ai_monitored/security/armory)
+"DH" = (
+/obj/effect/turf_decal/bot_red,
+/obj/machinery/firealarm/directional/east,
+/obj/structure/closet/secure_closet/armory_kiboko,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"GE" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/armory/barrier_grenades,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"IQ" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/rack/gunrack,
+/obj/effect/turf_decal/delivery/red,
+/obj/effect/spawner/armory_spawn/mod_lasers_small,
+/turf/open/floor/iron/smooth,
+/area/station/ai_monitored/security/armory)
+"JC" = (
+/obj/effect/turf_decal/delivery/red,
+/obj/structure/rack/gunrack,
+/obj/effect/spawner/armory_spawn/mod_lasers_big,
+/turf/open/floor/iron/smooth,
+/area/station/ai_monitored/security/armory)
+"Qh" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/item/melee/breaching_hammer,
+/obj/item/melee/breaching_hammer,
+/obj/item/melee/breaching_hammer,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"Qk" = (
+/obj/structure/rack,
+/obj/item/clothing/glasses/hud/security/sunglasses/gars{
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses/gars{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/machinery/airalarm/directional/west,
+/obj/machinery/camera/motion/directional/west{
+	c_tag = "Armory - Internal"
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"XY" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
+"Zp" = (
+/obj/effect/turf_decal/bot,
+/mob/living/basic/bot/secbot/beepsky/armsky,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/security/armory)
 
 (1,1,1) = {"
-s
-s
-s
-s
-s
-N
-N
-A
-N
+as
+as
+as
+as
+as
+am
+am
+ax
+am
 "}
 (2,1,1) = {"
-s
-s
-s
-s
-s
-A
-O
-u
-H
+as
+as
+as
+as
+as
+ax
+aW
+ak
+aB
 "}
 (3,1,1) = {"
-s
-s
-s
-s
-s
-N
-J
-u
-H
+as
+as
+as
+as
+as
+am
+ad
+ak
+aB
 "}
 (4,1,1) = {"
-N
-N
-N
-N
-N
-N
-q
-I
-N
+am
+am
+am
+am
+am
+am
+aE
+ac
+am
 "}
 (5,1,1) = {"
-N
-b
-P
-r
-t
-F
-L
-h
-N
+am
+zE
+iI
+kR
+Qh
+Qk
+Zp
+aU
+am
 "}
 (6,1,1) = {"
-N
-w
-Q
-n
-y
-n
-y
-T
-R
+am
+lZ
+yG
+jU
+kz
+jU
+kz
+av
+aS
 "}
 (7,1,1) = {"
-N
-e
-o
-M
-l
-X
-G
-f
-K
+am
+IQ
+yv
+XY
+qZ
+qg
+tx
+az
+aa
 "}
 (8,1,1) = {"
-N
-C
-D
-p
-V
-g
-Y
-j
-A
+am
+JC
+eM
+qv
+xU
+DH
+GE
+aZ
+ax
 "}
 (9,1,1) = {"
-i
-N
-A
-A
-N
-N
-N
-N
-N
+ai
+am
+ax
+ax
+am
+am
+am
+am
+am
 "}

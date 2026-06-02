@@ -50,15 +50,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
-"aG" = (
-/obj/structure/table/reinforced,
-/obj/item/tgui_book/manual/idc{
-	pixel_y = 4;
-	pixel_x = 3
-	},
-/obj/item/gun/energy/floragun,
-/turf/open/floor/iron/dark/side,
-/area/ruin/space/has_grav/abandonedzoo)
 "aI" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/records/medical/laptop{
@@ -67,10 +58,6 @@
 	},
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
-"aK" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/turf/template_noop,
-/area/space/nearstation)
 "aL" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -82,10 +69,6 @@
 /obj/item/reagent_containers/dropper,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
-"aQ" = (
-/obj/structure/window/reinforced/spawner/directional/west,
-/turf/template_noop,
-/area/space/nearstation)
 "aT" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/space/eva,
@@ -212,10 +195,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/abandonedzoo)
-"bK" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "bN" = (
 /obj/structure/grille/broken,
 /obj/item/stack/cable_coil/cut,
@@ -228,17 +207,6 @@
 /obj/item/shard,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/abandonedzoo)
-"bP" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
-"bR" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/obj/structure/disposaloutlet,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "bT" = (
 /obj/structure/grille,
 /obj/item/shard{
@@ -250,10 +218,6 @@
 /obj/structure/grille/broken,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/abandonedzoo)
-"bW" = (
-/obj/item/shard,
-/turf/template_noop,
-/area/space/nearstation)
 "bX" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/abandonedzoo)
@@ -263,6 +227,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
+"ct" = (
+/obj/item/shard,
+/turf/template_noop,
+/area/template_noop)
 "eY" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/tile/green/fourcorners,
@@ -314,16 +282,24 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/abandonedzoo)
+"jQ" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"ke" = (
+/obj/machinery/power/shieldwallgen/unlocked,
+/turf/template_noop,
+/area/template_noop)
 "kp" = (
 /obj/machinery/light/small/directional/west,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
-"ly" = (
-/obj/machinery/power/shieldwallgen/unlocked,
+"kV" = (
+/obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/template_noop)
 "nI" = (
 /obj/structure/alien/resin/wall,
 /obj/machinery/light/floor/broken,
@@ -367,6 +343,10 @@
 /obj/effect/mapping_helpers/apc/unlocked,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
+"tj" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/template_noop,
+/area/template_noop)
 "vU" = (
 /mob/living/basic/mining/goldgrub,
 /turf/open/misc/asteroid,
@@ -380,6 +360,15 @@
 "Ap" = (
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/asteroid,
+/area/ruin/space/has_grav/abandonedzoo)
+"AB" = (
+/obj/structure/table/reinforced,
+/obj/item/tgui_book/manual/idc{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/obj/item/gun/energy/floragun,
+/turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
 "Bh" = (
 /obj/structure/cable,
@@ -407,6 +396,13 @@
 /obj/item/circular_saw,
 /turf/open/floor/iron/dark/side,
 /area/ruin/space/has_grav/abandonedzoo)
+"FI" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet,
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "Gh" = (
 /obj/machinery/power/shieldwallgen/unlocked/anchored,
 /obj/structure/cable,
@@ -463,6 +459,10 @@
 /obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
+"Rn" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/template_noop,
+/area/template_noop)
 "Rr" = (
 /obj/machinery/light/small/directional/east,
 /obj/effect/turf_decal/tile/green/fourcorners,
@@ -569,12 +569,12 @@ Ua
 Xx
 ah
 ac
-aK
-aK
-aK
-aK
-aK
-aK
+tj
+tj
+tj
+tj
+tj
+tj
 ac
 bu
 bv
@@ -683,9 +683,9 @@ at
 at
 by
 bF
-bK
-bK
-bR
+jQ
+jQ
+FI
 aa
 "}
 (8,1,1) = {"
@@ -694,7 +694,7 @@ aa
 aa
 ag
 Vq
-aG
+AB
 Bt
 aV
 oS
@@ -875,7 +875,7 @@ bB
 Ng
 bO
 bU
-bW
+ct
 "}
 (17,1,1) = {"
 ac
@@ -884,18 +884,18 @@ gE
 av
 aC
 ac
-aQ
-aQ
-aQ
-aQ
-aQ
-aQ
+Rn
+Rn
+Rn
+Rn
+Rn
+Rn
 ac
 bB
 bB
 bB
 bX
-bP
+kV
 aa
 "}
 (18,1,1) = {"
@@ -915,7 +915,7 @@ ix
 ac
 ac
 bN
-bP
+kV
 aa
 aa
 "}
@@ -937,6 +937,6 @@ aa
 aa
 aa
 aa
-ly
+ke
 aa
 "}

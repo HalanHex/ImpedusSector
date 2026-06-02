@@ -89,17 +89,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
-"cM" = (
-/obj/effect/turf_decal/bot_white,
-/obj/structure/rack,
-/obj/item/stack/medical/wrap/gauze,
-/obj/item/stack/medical/bruise_pack,
-/obj/item/stack/medical/ointment{
-	pixel_x = 5
-	},
-/obj/item/stack/medical/bone_gel,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/escape)
 "df" = (
 /obj/effect/turf_decal/stripes/red/corner{
 	dir = 4
@@ -175,17 +164,6 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
-"ga" = (
-/obj/machinery/computer/operating{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
-	dir = 1
-	},
-/obj/machinery/light/small/directional/south,
-/obj/machinery/vitals_reader/directional/south,
-/turf/open/floor/iron/dark/side,
-/area/shuttle/escape)
 "gr" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Shuttle Medical Center"
@@ -275,6 +253,14 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
+"iH" = (
+/obj/machinery/stasis,
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted,
+/obj/machinery/vitals_reader/directional/north,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/shuttle/escape)
 "ji" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
@@ -616,11 +602,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
-"ry" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/structure/sign/nanotrasen/directional/west,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/escape)
 "sn" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/item/radio/intercom/directional/west,
@@ -656,6 +637,19 @@
 /obj/structure/sign/warning/electric_shock/directional/east,
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating,
+/area/shuttle/escape)
+"tB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/turretid{
+	control_area = "/area/shuttle/escape";
+	desc = "Used to control the Lance's automated defenses.";
+	icon_state = "control_kill";
+	lethal = 1;
+	pixel_y = -26;
+	req_access = list("command")
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "tH" = (
 /obj/machinery/power/shuttle_engine/propulsion,
@@ -843,6 +837,19 @@
 	},
 /turf/open/floor/iron/dark/side,
 /area/shuttle/escape)
+"Bf" = (
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/obj/machinery/button/door/directional/south{
+	id = "lance_psych";
+	name = "Panic Room Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/shuttle/escape)
 "Bp" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/decal/cleanable/dirt,
@@ -928,18 +935,6 @@
 /turf/open/floor/iron/dark/side{
 	dir = 9
 	},
-/area/shuttle/escape)
-"EL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/turretid{
-	control_area = "/area/shuttle/escape";
-	desc = "Used to control the Lance's automated defenses.";
-	lethal = 1;
-	pixel_y = -26;
-	req_access = list("command")
-	},
-/obj/effect/turf_decal/tile/blue/half/contrasted,
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "ET" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1126,6 +1121,17 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/shuttle/escape)
+"Kf" = (
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/obj/machinery/vitals_reader/directional/south,
+/turf/open/floor/iron/dark/side,
+/area/shuttle/escape)
 "Kz" = (
 /obj/machinery/power/shuttle_engine/large,
 /turf/open/floor/plating/airless,
@@ -1207,6 +1213,13 @@
 	},
 /obj/effect/turf_decal/trimline/dark_blue/arrow_ccw,
 /turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"LE" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
 "LI" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1337,17 +1350,6 @@
 	dir = 4
 	},
 /area/shuttle/escape)
-"Pe" = (
-/obj/machinery/button/door/directional/south{
-	id = "lance_psych";
-	name = "Panic Room Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/obj/machinery/light/small/directional/north,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron/white/textured_large,
-/area/shuttle/escape)
 "Px" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/turf_decal/bot_white,
@@ -1401,14 +1403,6 @@
 	name = "Cockpit Blast Door"
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
-"RO" = (
-/obj/machinery/stasis,
-/obj/effect/turf_decal/tile/dark_blue/half/contrasted,
-/obj/machinery/vitals_reader/directional/north,
-/turf/open/floor/iron/dark/side{
-	dir = 1
-	},
 /area/shuttle/escape)
 "So" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1515,7 +1509,7 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/escape)
-"VA" = (
+"Vq" = (
 /obj/machinery/stasis{
 	dir = 1
 	},
@@ -1581,6 +1575,17 @@
 "XA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"XP" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/rack,
+/obj/item/stack/medical/wrap/gauze,
+/obj/item/stack/medical/bruise_pack,
+/obj/item/stack/medical/ointment{
+	pixel_x = 5
+	},
+/obj/item/stack/medical/bone_gel,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/escape)
 "XY" = (
 /obj/machinery/light/small/directional/north,
@@ -1831,7 +1836,7 @@ oe
 Yt
 Yt
 Yt
-EL
+tB
 WQ
 WQ
 WQ
@@ -1937,9 +1942,9 @@ eW
 ai
 UG
 WQ
-Pe
+Bf
 WQ
-VA
+Vq
 WI
 WI
 WI
@@ -1982,7 +1987,7 @@ WQ
 qH
 WQ
 WQ
-ry
+LE
 WI
 WQ
 WQ
@@ -1996,7 +2001,7 @@ TQ
 WI
 WI
 WI
-ga
+Kf
 WQ
 pK
 Kz
@@ -2060,7 +2065,7 @@ qH
 bV
 WQ
 WQ
-cM
+XP
 kN
 So
 Xz
@@ -2308,7 +2313,7 @@ WI
 WI
 WI
 ao
-ga
+Kf
 WQ
 pK
 pK
@@ -2355,7 +2360,7 @@ kz
 yB
 Ao
 WQ
-RO
+iH
 WI
 WI
 WI

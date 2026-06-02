@@ -14,11 +14,6 @@
 	/// where we store access to the client colour we make
 	var/datum/client_colour/echolocation_custom/esp_color
 
-/datum/quirk/echolocation/is_species_appropriate(datum/species/mob_species)
-	if(ispath(mob_species, /datum/species/dullahan))
-		return FALSE
-	return ..()
-
 /datum/quirk/echolocation/add(client/client_source)
 	// echolocation component handles blinding us already so we don't need to worry about that
 	var/mob/living/carbon/human/human_holder = quirk_holder

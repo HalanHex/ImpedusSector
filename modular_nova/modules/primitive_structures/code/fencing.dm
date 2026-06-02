@@ -9,7 +9,6 @@
 	flags_1 = ON_BORDER_1
 	/// If we randomize our icon on spawning
 	var/random_icons = TRUE
-	custom_materials = list(/datum/material/wood = SHEET_MATERIAL_AMOUNT * 5)
 
 /obj/structure/railing/wooden_fencing/Initialize(mapload)
 	. = ..()
@@ -43,7 +42,6 @@
 	random_icons = FALSE
 	/// Has the gate been opened or not?
 	var/opened = FALSE
-	custom_materials = list(/datum/material/wood = SHEET_MATERIAL_AMOUNT * 5)
 
 /obj/structure/railing/wooden_fencing/gate/attack_hand(mob/user, list/modifiers)
 	. = ..()

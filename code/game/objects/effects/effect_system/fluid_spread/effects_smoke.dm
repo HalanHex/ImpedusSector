@@ -205,7 +205,7 @@
 	if(!.)
 		return
 	smoker.drop_all_held_items()
-	smoker.adjust_oxy_loss(1)
+	smoker.adjustOxyLoss(1)
 	smoker.emote("cough")
 
 /**

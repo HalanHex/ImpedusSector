@@ -32,6 +32,11 @@
 /obj/item/stack/cable_coil/cut,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
+"aA" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/engineering/atmos)
 "aE" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
@@ -305,11 +310,6 @@
 "fR" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/service/chapel)
-"fT" = (
-/obj/structure/reagent_dispensers/watertank/high,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/service/botany)
 "fW" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/airless,
@@ -348,6 +348,11 @@
 	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/bb13/bridge)
+"gL" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/engineering/engine)
 "gM" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/vending/sovietsoda,
@@ -382,10 +387,6 @@
 /obj/structure/frame/machine/secured,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
-"hr" = (
-/obj/structure/girder,
-/turf/template_noop,
-/area/space/nearstation)
 "hv" = (
 /obj/structure/frame/computer{
 	anchored = 1;
@@ -419,11 +420,6 @@
 "id" = (
 /turf/template_noop,
 /area/ruin/space/bb13/research)
-"ie" = (
-/obj/structure/table,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/medical)
 "ih" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -705,6 +701,11 @@
 /obj/item/kirbyplants/random/dead,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
+"ls" = (
+/obj/structure/lattice,
+/obj/machinery/light/small/directional/west,
+/turf/template_noop,
+/area/ruin/space/bb13/research)
 "lx" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
@@ -735,10 +736,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/research)
-"lY" = (
-/obj/structure/table_frame,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/medical)
 "lZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
@@ -756,17 +753,16 @@
 /obj/item/stack/cable_coil/cut,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/hallway/central)
-"mh" = (
-/obj/structure/table,
-/obj/item/tank/internals/oxygen/empty,
-/obj/item/tank/internals/oxygen/empty,
-/obj/item/disk/computer/engineering,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/engineering/engine)
 "mj" = (
 /obj/item/kirbyplants/random/dead,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/hallway/central)
+"my" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/medical/genetics)
 "mF" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
@@ -827,11 +823,6 @@
 /obj/structure/door_assembly/door_assembly_med,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
-"nF" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/medical/genetics)
 "nH" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -913,6 +904,13 @@
 "pb" = (
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service/kitchen)
+"pd" = (
+/obj/structure/table,
+/obj/item/tank/internals/oxygen/empty,
+/obj/item/tank/internals/oxygen/empty,
+/obj/item/disk/computer/engineering,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/engineering/engine)
 "pe" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -949,11 +947,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
-"pL" = (
-/obj/structure/lattice,
-/obj/structure/chair,
-/turf/template_noop,
-/area/ruin/space/bb13/security)
 "pM" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/bb13/medical/genetics)
@@ -1143,11 +1136,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/research/toxins)
-"sd" = (
-/obj/structure/chair,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/security)
 "sf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -1453,17 +1441,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/medical/genetics)
-"xp" = (
-/obj/structure/rack,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/hallway/central)
 "xu" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -1522,10 +1499,6 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/engineering/atmos)
-"yv" = (
-/obj/machinery/vending/hydroseeds,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/service/botany)
 "yw" = (
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
@@ -1699,6 +1672,13 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/hallway)
+"Bb" = (
+/obj/structure/table,
+/obj/item/stock_parts/matter_bin,
+/obj/item/pai_card,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/research)
 "Bc" = (
 /obj/structure/chair{
 	dir = 4
@@ -1792,6 +1772,12 @@
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/engineering/engine)
+"CD" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/maintenance,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/security)
 "CF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
@@ -1881,6 +1867,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
+"Eg" = (
+/obj/machinery/vending/hydroseeds,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/service/botany)
 "Eo" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 4
@@ -1935,13 +1926,6 @@
 /obj/effect/spawner/random/engineering/tool,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
-"Fy" = (
-/obj/structure/table,
-/obj/item/stock_parts/matter_bin,
-/obj/item/reagent_containers/cup/beaker/large,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/research)
 "FJ" = (
 /obj/machinery/door/airlock/engineering,
 /obj/effect/mapping_helpers/broken_floor,
@@ -2017,10 +2001,6 @@
 /obj/structure/frame/computer,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/security)
-"GF" = (
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/service/kitchen)
 "GI" = (
 /obj/structure/girder,
 /turf/template_noop,
@@ -2105,6 +2085,18 @@
 /obj/effect/mapping_helpers/apc/no_charge,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/research)
+"HW" = (
+/obj/structure/rack,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/hallway/central)
 "HZ" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -2139,6 +2131,10 @@
 /obj/structure/frame/machine,
 /turf/open/floor/circuit/red/airless,
 /area/ruin/space/bb13/security)
+"IH" = (
+/obj/structure/chair,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/security)
 "II" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -2167,11 +2163,6 @@
 /obj/structure/table_frame,
 /turf/template_noop,
 /area/ruin/space/bb13/medical)
-"Jd" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/medical/genetics)
 "Je" = (
 /obj/structure/frame/computer{
 	anchored = 1;
@@ -2274,6 +2265,14 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/engineering/engine)
+"Lb" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space/bb13/service/chapel)
 "Lc" = (
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/research)
@@ -2402,6 +2401,10 @@
 /obj/structure/frame/machine,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
+"Ne" = (
+/obj/structure/girder,
+/turf/template_noop,
+/area/template_noop)
 "Nh" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/beaker/large,
@@ -2470,6 +2473,12 @@
 "Oj" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/engineering/n_solars_control)
+"Om" = (
+/obj/structure/table,
+/obj/item/stock_parts/matter_bin,
+/obj/item/reagent_containers/cup/beaker/large,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/research)
 "Op" = (
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/iron/airless,
@@ -2750,6 +2759,12 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/security)
+"SU" = (
+/obj/structure/table,
+/obj/structure/frame/machine,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/service/kitchen)
 "Tl" = (
 /obj/structure/rack,
 /obj/item/circuitboard/machine/turbine_compressor{
@@ -2853,6 +2868,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/security)
+"Us" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/service/botany)
 "Uu" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/structure/cable,
@@ -2862,6 +2881,11 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/ruin/space/bb13/engineering/s_solars_control)
+"Ux" = (
+/obj/structure/table_frame,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/medical)
 "UB" = (
 /obj/structure/bodycontainer/morgue,
 /turf/open/floor/iron/dark/airless,
@@ -2929,12 +2953,6 @@
 	color = "#FF8888"
 	},
 /area/ruin/space/bb13/engineering/vault)
-"VQ" = (
-/obj/structure/table,
-/obj/item/stock_parts/matter_bin,
-/obj/item/pai_card,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/research)
 "VR" = (
 /turf/template_noop,
 /area/ruin/space/bb13/hallway/central)
@@ -3084,12 +3102,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
-"XG" = (
-/obj/structure/rack,
-/obj/effect/spawner/random/maintenance,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/security)
 "XL" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/airless,
@@ -3221,6 +3233,12 @@
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/wood/airless,
 /area/ruin/space/bb13/bridge)
+"ZO" = (
+/obj/structure/lattice,
+/obj/structure/chair,
+/obj/machinery/light/small/directional/north,
+/turf/template_noop,
+/area/ruin/space/bb13/security)
 "ZW" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -3869,7 +3887,7 @@ HZ
 yZ
 SE
 SE
-SE
+nK
 nK
 SE
 yZ
@@ -4863,7 +4881,7 @@ qO
 tX
 Kl
 WC
-WC
+Lb
 KH
 xw
 YF
@@ -4954,7 +4972,7 @@ sD
 mG
 mG
 Ru
-mG
+ku
 mG
 aX
 Wj
@@ -5033,14 +5051,14 @@ uj
 Qx
 xw
 yE
-vd
+sD
 no
 PX
 Ru
 km
 DH
 aX
-fT
+Us
 dY
 vq
 vq
@@ -5099,7 +5117,7 @@ yZ
 UF
 Pj
 RI
-ie
+RI
 bf
 en
 UF
@@ -5123,7 +5141,7 @@ vd
 sD
 vd
 Hc
-yv
+Eg
 CF
 dY
 dY
@@ -5180,7 +5198,7 @@ yZ
 yZ
 yZ
 UF
-lY
+Ux
 dy
 Wn
 Al
@@ -5343,7 +5361,7 @@ HR
 NK
 tN
 tN
-HR
+NK
 HR
 bf
 bf
@@ -5352,7 +5370,7 @@ bf
 bf
 bf
 bf
-bf
+UF
 UF
 UF
 iO
@@ -5422,8 +5440,8 @@ yZ
 yZ
 HZ
 qV
-nF
-Jd
+Kd
+my
 nt
 fM
 fa
@@ -5540,7 +5558,7 @@ RG
 lZ
 lZ
 Zo
-sv
+SU
 vz
 yZ
 yZ
@@ -5623,7 +5641,7 @@ ns
 Nh
 pb
 ve
-GF
+pb
 pr
 yZ
 yZ
@@ -5927,7 +5945,7 @@ lo
 Rs
 vA
 kh
-kh
+gL
 kh
 kh
 kh
@@ -6003,7 +6021,7 @@ qy
 qy
 Uh
 Rs
-mh
+pd
 hZ
 hZ
 Lk
@@ -6284,8 +6302,8 @@ Pc
 Pc
 Hv
 xm
+CD
 aI
-XG
 Gz
 aI
 Ui
@@ -6857,8 +6875,8 @@ VR
 VR
 VR
 yZ
-Ui
-sd
+xm
+IH
 kM
 Pc
 jj
@@ -6941,7 +6959,7 @@ UX
 VR
 yZ
 xm
-pL
+ZO
 Pc
 CL
 Ui
@@ -7112,7 +7130,7 @@ NT
 NT
 Wd
 NT
-Wd
+NT
 Wd
 Wd
 yZ
@@ -7419,7 +7437,7 @@ SD
 yh
 nq
 nq
-sI
+aA
 sI
 sI
 Uu
@@ -7771,12 +7789,12 @@ Am
 ih
 gb
 iZ
-Lr
+ls
 Lc
 lE
 Yi
-Fy
-VQ
+Om
+Bb
 Wh
 zr
 yZ
@@ -8578,7 +8596,7 @@ qE
 yZ
 US
 yZ
-hr
+Ne
 zZ
 zZ
 zZ
@@ -8930,7 +8948,7 @@ KV
 mF
 wq
 By
-xp
+HW
 KV
 yZ
 nN

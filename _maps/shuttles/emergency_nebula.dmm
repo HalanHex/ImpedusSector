@@ -32,6 +32,18 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/corner,
 /area/shuttle/escape)
+"bR" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark/end{
+	dir = 4
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/drinks/beer,
+/obj/machinery/status_display/evac/directional/north,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/shuttle/escape)
 "bV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -116,14 +128,6 @@
 /obj/item/storage/lockbox/loyalty,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape)
-"ej" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/obj/effect/turf_decal/bot,
-/obj/structure/sign/nanotrasen/directional/west,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "eU" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -188,6 +192,10 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/shuttle/escape)
+"gK" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/escape)
 "gQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -218,15 +226,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"ii" = (
-/obj/effect/turf_decal/trimline/dark/corner{
-	dir = 8
-	},
-/obj/structure/sign/nanotrasen/directional/east,
-/turf/open/floor/iron/dark/corner{
-	dir = 8
-	},
 /area/shuttle/escape)
 "is" = (
 /obj/machinery/light/directional/south,
@@ -275,6 +274,11 @@
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
+/area/shuttle/escape)
+"iQ" = (
+/obj/machinery/stasis,
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white/herringbone,
 /area/shuttle/escape)
 "iZ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
@@ -492,6 +496,15 @@
 "kZ" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape)
+"lb" = (
+/obj/machinery/stasis,
+/obj/item/radio/intercom/directional/north,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/obj/machinery/vitals_reader/directional/east,
+/turf/open/floor/iron/white/herringbone,
+/area/shuttle/escape)
 "ld" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -501,14 +514,6 @@
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/dark/herringbone,
-/area/shuttle/escape)
-"li" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/machinery/status_display/evac/directional/north,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/escape)
 "ly" = (
 /obj/effect/turf_decal/trimline/neutral/warning{
@@ -862,6 +867,16 @@
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
+/area/shuttle/escape)
+"se" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/end{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "so" = (
 /obj/structure/chair/office{
@@ -1244,15 +1259,6 @@
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /turf/open/floor/iron/dark/corner,
 /area/shuttle/escape)
-"Bm" = (
-/obj/machinery/stasis,
-/obj/item/radio/intercom/directional/north,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
-/obj/machinery/vitals_reader/directional/east,
-/turf/open/floor/iron/white/herringbone,
-/area/shuttle/escape)
 "Bu" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/medkit/fire{
@@ -1391,6 +1397,18 @@
 	},
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
+"Dy" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/item/radio/intercom/directional/north,
+/obj/machinery/status_display/evac/directional/west,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/escape)
 "DP" = (
 /obj/machinery/computer/crew{
 	dir = 4
@@ -1466,18 +1484,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/small,
-/area/shuttle/escape)
-"Fo" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 9
-	},
-/obj/item/radio/intercom/directional/north,
-/obj/machinery/status_display/evac/directional/west,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape)
 "Fp" = (
 /obj/item/reagent_containers/cup/bottle/epinephrine{
@@ -1605,93 +1611,6 @@
 	dir = 1
 	},
 /area/shuttle/escape)
-"GE" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/reagent_dispensers/fueltank,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron/dark/small,
-/area/shuttle/escape)
-"GM" = (
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/structure/closet/crate/internals,
-/obj/effect/turf_decal/bot,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron/dark/small,
-/area/shuttle/escape)
 "GW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/trimline/neutral/filled/line,
@@ -1701,10 +1620,13 @@
 "Hb" = (
 /turf/closed/wall/mineral/titanium/overspace,
 /area/shuttle/escape)
-"Ho" = (
-/obj/machinery/stasis,
-/obj/machinery/vitals_reader/directional/east,
-/turf/open/floor/iron/white/herringbone,
+"Hd" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/machinery/status_display/evac/directional/north,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
 /area/shuttle/escape)
 "HL" = (
 /obj/structure/chair/comfy/shuttle{
@@ -1712,6 +1634,14 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"HY" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "Id" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1920,15 +1850,6 @@
 /obj/machinery/computer/communications,
 /turf/open/floor/carpet/royalblue,
 /area/shuttle/escape)
-"Nx" = (
-/obj/machinery/computer/operating{
-	dir = 1
-	},
-/obj/machinery/light/small/directional/south,
-/obj/machinery/vitals_reader/directional/south,
-/obj/item/radio/intercom/directional/west,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/shuttle/escape)
 "NI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -1953,11 +1874,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"Od" = (
-/obj/effect/turf_decal/trimline/dark/corner,
-/obj/structure/sign/nanotrasen/directional/west,
-/turf/open/floor/iron/dark/corner,
 /area/shuttle/escape)
 "OB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2089,6 +2005,15 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/escape)
+"PB" = (
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/obj/machinery/vitals_reader/directional/south,
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/shuttle/escape)
 "PF" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2234,11 +2159,6 @@
 /obj/structure/rack,
 /turf/open/floor/iron/white/herringbone,
 /area/shuttle/escape)
-"SH" = (
-/obj/structure/hedge,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron/dark/small,
-/area/shuttle/escape)
 "Tc" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -2294,12 +2214,6 @@
 	dir = 4
 	},
 /area/shuttle/escape)
-"UK" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/reagent_dispensers/watertank,
-/obj/structure/sign/nanotrasen/directional/north,
-/turf/open/floor/iron/dark/small,
-/area/shuttle/escape)
 "UQ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -2325,15 +2239,19 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape)
-"VY" = (
-/obj/machinery/light/directional/east,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
+"Vo" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
 	},
-/obj/effect/turf_decal/trimline/neutral/end{
-	dir = 4
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/dark/small,
+/area/shuttle/escape)
+"VN" = (
+/obj/structure/hedge,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
 	},
-/obj/structure/sign/nanotrasen/directional/east,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "VZ" = (
@@ -2389,18 +2307,6 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/wood/large,
 /area/shuttle/escape)
-"WW" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark/end{
-	dir = 4
-	},
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/chem_dispenser/drinks/beer,
-/obj/machinery/status_display/evac/directional/north,
-/obj/machinery/camera/autoname{
-	dir = 1
-	},
-/turf/open/floor/grass,
-/area/shuttle/escape)
 "Xi" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/escape)
@@ -2433,6 +2339,89 @@
 /obj/structure/table/optable,
 /obj/item/surgical_drapes,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/shuttle/escape)
+"XD" = (
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/tank/internals/emergency_oxygen{
+	pixel_x = 3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/structure/closet/crate/internals,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "XI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -2683,13 +2672,13 @@ kZ
 kZ
 kZ
 kZ
-kZ
+gK
 kZ
 kZ
 UU
 UU
 UU
-kZ
+gK
 kZ
 kZ
 kZ
@@ -2710,16 +2699,16 @@ om
 bb
 Ra
 kZ
-GM
+XD
 rF
-ej
+wP
 fD
 Kv
 qJ
 wP
 fD
 Kv
-Od
+Am
 Jy
 kZ
 Bu
@@ -2735,7 +2724,7 @@ Ba
 (3,1,1) = {"
 rU
 kZ
-li
+Hd
 fN
 Sq
 pe
@@ -2757,7 +2746,7 @@ cs
 Mg
 UU
 yS
-Nx
+PB
 kZ
 bB
 Ig
@@ -2770,7 +2759,7 @@ xV
 Tc
 Ra
 kZ
-GM
+XD
 GW
 wP
 Xj
@@ -2842,9 +2831,9 @@ Xi
 bF
 Jy
 kZ
-Bm
+lb
 SC
-Ho
+iQ
 kZ
 Ji
 kZ
@@ -2890,7 +2879,7 @@ xo
 EN
 jx
 kZ
-SH
+VN
 Zc
 mu
 Ss
@@ -2980,7 +2969,7 @@ pg
 WK
 RV
 kZ
-SH
+VN
 Cf
 IZ
 BD
@@ -3052,7 +3041,7 @@ Xi
 oS
 fm
 kZ
-Fo
+Dy
 dy
 eU
 kZ
@@ -3100,7 +3089,7 @@ Zh
 YV
 jb
 kZ
-GE
+HY
 GW
 fs
 kF
@@ -3125,7 +3114,7 @@ Ig
 (16,1,1) = {"
 rU
 kZ
-WW
+bR
 zR
 sN
 is
@@ -3160,16 +3149,16 @@ WT
 jY
 Id
 kZ
-UK
+Vo
 Rp
 Df
-VY
+se
 NI
 Gh
 wP
 fD
 Kv
-ii
+CZ
 fm
 kZ
 mw
@@ -3193,13 +3182,13 @@ kZ
 kZ
 kZ
 vk
-kZ
+gK
 YB
 kZ
 UU
 UU
 UU
-kZ
+gK
 sU
 kZ
 CH

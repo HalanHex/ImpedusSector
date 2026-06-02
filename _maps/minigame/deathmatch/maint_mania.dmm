@@ -31,10 +31,6 @@
 /obj/item/storage/backpack/duffelbag/syndie/ammo,
 /turf/open/indestructible,
 /area/deathmatch)
-"ga" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
 "gJ" = (
 /obj/item/ammo_casing/shotgun/stunslug,
 /turf/open/indestructible,
@@ -46,6 +42,10 @@
 "hB" = (
 /turf/closed/indestructible/fakedoor,
 /area/deathmatch)
+"hE" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/template_noop)
 "ih" = (
 /obj/item/reagent_containers/applicator/pill/maintenance,
 /turf/open/indestructible,
@@ -61,12 +61,6 @@
 /area/deathmatch)
 "jX" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/indestructible,
-/area/deathmatch)
-"jY" = (
-/obj/item/stack/medical/wrap/gauze{
-	amount = 1
-	},
 /turf/open/indestructible,
 /area/deathmatch)
 "ka" = (
@@ -101,6 +95,12 @@
 "lN" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/caution/stand_clear,
+/turf/open/indestructible,
+/area/deathmatch)
+"lW" = (
+/obj/item/stack/medical/wrap/gauze{
+	amount = 1
+	},
 /turf/open/indestructible,
 /area/deathmatch)
 "mS" = (
@@ -150,6 +150,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/indestructible,
 /area/deathmatch)
+"sO" = (
+/obj/structure/lattice/catwalk,
+/obj/item/storage/toolbox/mechanical/old/clean{
+	desc = "An old, blue toolbox, it looks soulful."
+	},
+/turf/open/space/basic,
+/area/template_noop)
 "sV" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/delivery,
@@ -167,10 +174,6 @@
 /obj/item/assembly/igniter,
 /turf/open/indestructible,
 /area/deathmatch)
-"ur" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "vB" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/indestructible,
@@ -196,13 +199,6 @@
 /obj/effect/spawner/random/junk_shell,
 /turf/open/indestructible,
 /area/deathmatch)
-"AG" = (
-/obj/structure/lattice/catwalk,
-/obj/item/storage/toolbox/mechanical/old/clean{
-	desc = "An old, blue toolbox, it looks soulful."
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "Bs" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt,
@@ -216,11 +212,6 @@
 /obj/structure/table/reinforced,
 /turf/open/indestructible,
 /area/deathmatch)
-"Dh" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/mob_spawn/corpse/human/engineer/mod,
-/turf/template_noop,
-/area/space/nearstation)
 "Dt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/loading_area{
@@ -294,11 +285,10 @@
 /obj/structure/table/reinforced,
 /turf/open/indestructible,
 /area/deathmatch)
-"HE" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/statue/sandstone/assistant,
-/turf/template_noop,
-/area/space/nearstation)
+"HI" = (
+/obj/structure/closet/wardrobe,
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "Ij" = (
 /turf/open/space/basic,
 /area/template_noop)
@@ -332,10 +322,11 @@
 /obj/effect/landmark/deathmatch_player_spawn,
 /turf/open/indestructible,
 /area/deathmatch)
-"MC" = (
-/obj/effect/mob_spawn/corpse/human/assistant,
+"ML" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/statue/sandstone/assistant,
 /turf/template_noop,
-/area/space/nearstation)
+/area/template_noop)
 "Na" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/cup/soda_cans/starkist,
@@ -393,10 +384,10 @@
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/indestructible,
 /area/deathmatch)
-"Qr" = (
-/obj/structure/closet/wardrobe,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
+"QI" = (
+/obj/effect/mob_spawn/corpse/human/assistant,
+/turf/template_noop,
+/area/template_noop)
 "QN" = (
 /obj/item/razor,
 /obj/structure/table/reinforced,
@@ -446,6 +437,11 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/indestructible,
 /area/deathmatch)
+"UK" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/mob_spawn/corpse/human/engineer/mod,
+/turf/template_noop,
+/area/template_noop)
 "Vb" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
@@ -468,6 +464,10 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/indestructible,
 /area/deathmatch)
+"XT" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 FL
@@ -475,26 +475,26 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
 FL
-ur
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-ur
+XT
 FL
 FL
 FL
 FL
 FL
-ur
+FL
+FL
+XT
+FL
+FL
+FL
+FL
+FL
+XT
 FL
 FL
 FL
@@ -505,28 +505,28 @@ FL
 FL
 FL
 FL
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-HE
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+ML
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
 FL
 FL
 FL
@@ -537,26 +537,26 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
 FL
-ur
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-ur
+XT
 FL
 FL
 FL
 FL
 FL
-ur
+FL
+FL
+XT
+FL
+FL
+FL
+FL
+FL
+XT
 FL
 FL
 FL
@@ -568,26 +568,26 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
 FL
-ur
-FL
-FL
-FL
-FL
-FL
-FL
-FL
-ur
+XT
 FL
 FL
 FL
 FL
 FL
-ur
+FL
+FL
+XT
+FL
+FL
+FL
+FL
+FL
+XT
 FL
 FL
 FL
@@ -805,8 +805,8 @@ aD
 aD
 Vb
 hB
-ur
-Dh
+XT
+UK
 FL
 FL
 "}
@@ -822,7 +822,7 @@ aD
 Ij
 Ij
 Ij
-ga
+hE
 Ij
 Ij
 Ij
@@ -848,12 +848,12 @@ cy
 cy
 cn
 ho
-jY
+lW
 ho
 Ij
 Ij
 Ij
-AG
+sO
 Ij
 Ij
 Ij
@@ -884,14 +884,14 @@ aD
 Ij
 Ij
 Ij
-ga
+hE
 Ij
 Ij
 Ij
 aD
 jc
 aD
-jY
+lW
 PW
 nQ
 cn
@@ -962,7 +962,7 @@ cn
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (17,1,1) = {"
@@ -991,10 +991,10 @@ cn
 cn
 nQ
 aD
-ur
-ur
-ur
-ur
+XT
+XT
+XT
+XT
 "}
 (18,1,1) = {"
 aP
@@ -1024,7 +1024,7 @@ Mt
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (19,1,1) = {"
@@ -1047,7 +1047,7 @@ cn
 Om
 aD
 Ij
-ga
+hE
 Ij
 Ij
 aD
@@ -1055,7 +1055,7 @@ mZ
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (20,1,1) = {"
@@ -1077,16 +1077,16 @@ KW
 cn
 cn
 ho
-ga
-Qr
-ga
+hE
+HI
+hE
 Ij
 ho
 cn
 ho
 FL
 FL
-ur
+XT
 FL
 "}
 (21,1,1) = {"
@@ -1110,15 +1110,15 @@ cn
 ho
 Ij
 Ij
-ga
-ga
+hE
+hE
 ho
 nQ
 ho
 FL
 FL
-ur
-MC
+XT
+QI
 "}
 (22,1,1) = {"
 FL
@@ -1126,7 +1126,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 aD
 cn
@@ -1141,14 +1141,14 @@ cn
 aD
 Ij
 Ij
-ga
+hE
 Ij
 aD
 XC
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (23,1,1) = {"
@@ -1157,7 +1157,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 aD
 cn
@@ -1179,7 +1179,7 @@ cn
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (24,1,1) = {"
@@ -1188,7 +1188,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 aD
 nS
@@ -1208,19 +1208,19 @@ cn
 sk
 XD
 aD
-ur
-ur
-ur
-ur
+XT
+XT
+XT
+XT
 "}
 (25,1,1) = {"
 FL
 FL
 FL
 FL
-ur
-ur
-ur
+XT
+XT
+XT
 aD
 cn
 aD
@@ -1241,7 +1241,7 @@ aD
 aD
 FL
 FL
-ur
+XT
 FL
 "}
 (26,1,1) = {"
@@ -1250,7 +1250,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 ho
 cn
@@ -1268,11 +1268,11 @@ aD
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (27,1,1) = {"
@@ -1281,7 +1281,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 ho
 pT
@@ -1299,11 +1299,11 @@ aD
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (28,1,1) = {"
@@ -1311,9 +1311,9 @@ FL
 FL
 FL
 FL
-ur
-ur
-ur
+XT
+XT
+XT
 aD
 aD
 aD
@@ -1330,11 +1330,11 @@ ho
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (29,1,1) = {"
@@ -1343,7 +1343,7 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
@@ -1361,11 +1361,11 @@ aD
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (30,1,1) = {"
@@ -1388,15 +1388,15 @@ ho
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (31,1,1) = {"
@@ -1419,15 +1419,15 @@ aD
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}
 (32,1,1) = {"
@@ -1447,19 +1447,19 @@ ho
 ho
 aD
 aD
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
-ur
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
+XT
 "}
 (33,1,1) = {"
 FL
@@ -1481,14 +1481,14 @@ FL
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 FL
 FL
-ur
+XT
 FL
 "}

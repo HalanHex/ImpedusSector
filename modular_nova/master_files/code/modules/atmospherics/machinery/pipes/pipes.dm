@@ -1,3 +1,3 @@
-// Disables pipe gas visuals (causes clientside lag/connection issues)
+// Disables pipe gas visuals
 /obj/machinery/atmospherics/pipe
 	has_gas_visuals = FALSE

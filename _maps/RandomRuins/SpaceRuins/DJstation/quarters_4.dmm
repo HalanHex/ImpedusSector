@@ -5,6 +5,15 @@
 "b" = (
 /turf/open/floor/carpet/airless,
 /area/ruin/space/djstation)
+"e" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Rest Room"
+	},
+/obj/modular_map_connector,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/barricade/wooden/crude,
+/turf/template_noop,
+/area/template_noop)
 "g" = (
 /obj/structure/girder,
 /obj/effect/mapping_helpers/broken_floor,
@@ -22,14 +31,19 @@
 "i" = (
 /turf/closed/wall,
 /area/ruin/space/djstation)
-"p" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Rest Room"
+"j" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/obj/item/stack/rods{
+	pixel_x = -7;
+	pixel_y = -1
 	},
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/barricade/wooden/crude,
 /turf/template_noop,
-/area/space/nearstation)
+/area/template_noop)
+"k" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "q" = (
 /obj/structure/girder,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -64,24 +78,14 @@
 /obj/structure/grille/broken,
 /turf/template_noop,
 /area/space/nearstation)
-"P" = (
+"Q" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Rest Room"
 	},
-/obj/modular_map_connector,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/barricade/wooden/crude,
 /turf/template_noop,
-/area/space/nearstation)
-"W" = (
-/obj/structure/lattice,
-/obj/structure/grille/broken,
-/obj/item/stack/rods{
-	pixel_x = -7;
-	pixel_y = -1
-	},
-/turf/template_noop,
-/area/space/nearstation)
+/area/template_noop)
 "Y" = (
 /obj/structure/lattice,
 /obj/effect/spawner/random/structure/grille,
@@ -101,12 +105,12 @@ a
 a
 a
 a
-p
-P
+Q
+e
 i
 a
 i
-C
+k
 "}
 (2,1,1) = {"
 a
@@ -130,7 +134,7 @@ x
 g
 E
 i
-W
+j
 "}
 (4,1,1) = {"
 a

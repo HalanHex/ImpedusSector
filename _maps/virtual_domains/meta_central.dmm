@@ -201,6 +201,13 @@
 	},
 /turf/open/floor/plating,
 /area/virtual_domain)
+"bE" = (
+/obj/machinery/door/airlock{
+	name = "Central Emergency Storage"
+	},
+/obj/effect/mapping_helpers/airlock/unres,
+/turf/open/floor/plating,
+/area/virtual_domain)
 "bO" = (
 /obj/structure/bed/maint,
 /obj/item/bedsheet/pirate,
@@ -672,14 +679,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/virtual_domain)
-"fr" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/machinery/light/directional/north,
-/obj/structure/sign/warning/secure_area/directional/north,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "fz" = (
 /obj/machinery/pdapainter{
 	pixel_y = 2
@@ -793,6 +792,15 @@
 	},
 /obj/structure/fluff/paper/stack,
 /obj/item/flashlight/lamp/green,
+/turf/open/floor/iron,
+/area/virtual_domain)
+"gl" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/fluff/paper/stack{
+	dir = 6
+	},
 /turf/open/floor/iron,
 /area/virtual_domain)
 "gt" = (
@@ -2373,14 +2381,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/virtual_domain)
-"tI" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/item/trash/can/food/pine_nuts,
-/obj/structure/sign/warning/secure_area/directional/south,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "tM" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/crowbar,
@@ -2533,6 +2533,13 @@
 	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/carpet,
+/area/virtual_domain)
+"uQ" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/trash/can/food/pine_nuts,
+/turf/open/floor/iron,
 /area/virtual_domain)
 "uS" = (
 /turf/closed/wall/r_wall,
@@ -3007,14 +3014,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain)
-"zg" = (
-/obj/structure/extinguisher_cabinet/directional/west,
-/obj/structure/table/glass,
-/obj/item/stack/medical/wrap/gauze,
-/obj/item/stack/medical/mesh,
-/obj/item/stack/medical/suture,
-/turf/open/floor/plating,
-/area/virtual_domain)
 "zj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3171,6 +3170,13 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plating,
+/area/virtual_domain)
+"AG" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/trash/energybar,
+/turf/open/floor/iron,
 /area/virtual_domain)
 "AM" = (
 /obj/structure/fluff/paper/stack{
@@ -3502,6 +3508,10 @@
 /obj/structure/water_source/puddle,
 /turf/open/misc/dirt/jungle,
 /area/virtual_domain)
+"Do" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/wall/r_wall,
+/area/virtual_domain)
 "Dp" = (
 /obj/structure/chair/sofa/bench/solo,
 /turf/open/floor/iron/dark,
@@ -3780,13 +3790,6 @@
 	},
 /turf/open/floor/iron,
 /area/virtual_domain)
-"FF" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/structure/sign/warning/secure_area/directional/north,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "FG" = (
 /obj/effect/turf_decal/trimline/green/filled/corner,
 /obj/effect/turf_decal/weather/dirt{
@@ -3857,16 +3860,6 @@
 /obj/structure/marker_beacon/bronze,
 /turf/open/floor/plating,
 /area/virtual_domain)
-"Gi" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 6
-	},
-/obj/structure/sign/warning/secure_area/directional/north,
-/turf/open/floor/iron,
-/area/virtual_domain)
 "Gk" = (
 /obj/machinery/door/window/left/directional/south{
 	name = "HoP's Desk"
@@ -3925,17 +3918,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags,
 /turf/open/floor/wood,
-/area/virtual_domain)
-"GJ" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/cardboard/mothic{
-	pixel_y = 8
-	},
-/obj/structure/sign/warning/secure_area/directional/north,
-/turf/open/floor/iron,
 /area/virtual_domain)
 "GQ" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -4511,6 +4493,13 @@
 /obj/effect/landmark/bitrunning/mob_segment,
 /turf/open/floor/iron/dark,
 /area/virtual_domain)
+"Mi" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/virtual_domain)
 "Mj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -4842,6 +4831,14 @@
 	},
 /turf/open/floor/iron,
 /area/virtual_domain)
+"Oo" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/holosign/barrier,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron,
+/area/virtual_domain)
 "Oq" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
@@ -5165,23 +5162,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron,
-/area/virtual_domain)
-"Rz" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/item/trash/energybar,
-/obj/structure/sign/warning/secure_area/directional/south,
-/turf/open/floor/iron,
-/area/virtual_domain)
-"RB" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/holosign/barrier,
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/sign/warning/secure_area/directional/north,
 /turf/open/floor/iron,
 /area/virtual_domain)
 "RD" = (
@@ -5664,13 +5644,6 @@
 	},
 /turf/open/floor/plating,
 /area/virtual_domain)
-"VO" = (
-/obj/machinery/door/airlock{
-	name = "Central Emergency Storage"
-	},
-/obj/effect/mapping_helpers/airlock/unres/delayed,
-/turf/open/floor/plating,
-/area/virtual_domain)
 "VP" = (
 /obj/structure/rack,
 /obj/item/tank/internals/oxygen,
@@ -5802,6 +5775,14 @@
 /obj/item/trash/chips,
 /turf/open/floor/iron,
 /area/virtual_domain)
+"WZ" = (
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/structure/table/glass,
+/obj/item/stack/medical/wrap/gauze,
+/obj/item/stack/medical/mesh,
+/obj/item/stack/medical/suture,
+/turf/open/floor/plating,
+/area/virtual_domain)
 "Xa" = (
 /obj/machinery/requests_console/directional/east{
 	department = "Bridge";
@@ -5812,6 +5793,16 @@
 	},
 /obj/machinery/computer/old,
 /turf/open/floor/iron/dark,
+/area/virtual_domain)
+"Xf" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/cardboard/mothic{
+	pixel_y = 8
+	},
+/turf/open/floor/iron,
 /area/virtual_domain)
 "Xj" = (
 /obj/machinery/light/directional/north,
@@ -6691,8 +6682,8 @@ uS
 dX
 XK
 tq
-tI
-uS
+uQ
+Do
 mq
 oA
 wj
@@ -6867,7 +6858,7 @@ uS
 nU
 Vt
 bs
-VO
+bE
 ey
 sr
 fh
@@ -7027,8 +7018,8 @@ ny
 JP
 ul
 tq
-Rz
-uS
+AG
+Do
 iI
 MM
 Vr
@@ -7180,8 +7171,8 @@ Yo
 pH
 pK
 ep
-uS
-GJ
+Do
+Xf
 FR
 Hd
 Ka
@@ -7217,8 +7208,8 @@ ps
 Nl
 YG
 iH
-uS
-FF
+Do
+dd
 FK
 Of
 qu
@@ -7505,8 +7496,8 @@ ps
 Ht
 rJ
 VG
-uS
-RB
+Do
+Oo
 qL
 jd
 LP
@@ -7564,8 +7555,8 @@ oH
 Mj
 gE
 xI
-uS
-Gi
+Do
+gl
 Hd
 aC
 Uo
@@ -7701,7 +7692,7 @@ ul
 wa
 tM
 Nh
-zg
+WZ
 Fj
 NO
 RG
@@ -8092,8 +8083,8 @@ uS
 uS
 oo
 uS
-uS
-fr
+Do
+Mi
 DV
 MN
 EH
