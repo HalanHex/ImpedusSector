@@ -131,57 +131,57 @@
 /datum/loadout_item/neck/scarf_black
 	name = "Scarf (Black)"
 	item_path = /obj/item/clothing/neck/scarf/black
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_cyan
 	name = "Scarf (Cyan)"
 	item_path = /obj/item/clothing/neck/scarf/cyan
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_dark_blue
 	name = "Scarf (Dark Blue)"
 	item_path = /obj/item/clothing/neck/scarf/darkblue
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_green
 	name = "Scarf (Green)"
 	item_path = /obj/item/clothing/neck/scarf/green
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_pink
 	name = "Scarf (Pink)"
 	item_path = /obj/item/clothing/neck/scarf/pink
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_purple
 	name = "Scarf (Purple)"
 	item_path = /obj/item/clothing/neck/scarf/purple
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_red
 	name = "Scarf (Red)"
 	item_path = /obj/item/clothing/neck/scarf/red
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_orange
 	name = "Scarf (Orange)"
 	item_path = /obj/item/clothing/neck/scarf/orange
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_yellow
 	name = "Scarf (Yellow)"
 	item_path = /obj/item/clothing/neck/scarf/yellow
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_zebra
 	name = "Scarf (Zebra)"
 	item_path = /obj/item/clothing/neck/scarf/zebra
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_christmas
 	name = "Scarf - Christmas"
 	item_path = /obj/item/clothing/neck/scarf/christmas
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/greyscale_large
 	name = "Scarf - Large  (Colorable)"
@@ -189,17 +189,17 @@
 /datum/loadout_item/neck/scarf_red_striped
 	name = "Scarf - Large (Red)"
 	item_path = /obj/item/clothing/neck/large_scarf/red
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_blue_striped
 	name = "Scarf - Large (Blue)"
 	item_path = /obj/item/clothing/neck/large_scarf/blue
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_green_striped
 	name = "Scarf - Large (Green)"
 	item_path = /obj/item/clothing/neck/large_scarf/green
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/neck/scarf_infinity
 	name = "Scarf - Infinity"
@@ -265,7 +265,6 @@
 	name = "Colonial Cloak"
 	item_path = /obj/item/clothing/neck/cloak/colonial
 	group = "Cloaks and Shrouds"
-	species_blacklist = list(SPECIES_TESHARI)
 
 /datum/loadout_item/neck/coalition_police_cloak
 	name = "Colonial Cloak - Coalition Police"
@@ -326,7 +325,6 @@
 	name = "Seer Cloak (Colorable)"
 	item_path = /obj/item/clothing/neck/greyscaled/seecloak
 	group = "Cloaks and Shrouds"
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_ALLOW_RESKIN
 
 /datum/loadout_item/neck/matroncloak
 	name = "Matron Cloak (Colorable)"

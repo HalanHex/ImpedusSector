@@ -8,14 +8,6 @@
 	anchored = TRUE
 	density = FALSE
 	max_integrity = 15
-	/// Things that leave a longer lasting mark
-	var/static/list/long_trail = list(
-		"pawprint"  = TRUE,
-		"hoofprint" = TRUE,
-		"clawprint" = TRUE,
-		"footprint" = TRUE,
-		"shoeprint" = TRUE
-	)
 
 /obj/structure/mark_turf/Initialize(mapload, current_turf)
 	. = ..()
@@ -175,10 +167,12 @@
 			return
 
 /obj/structure/mark_turf/proc/turf_check(mob/living/user) //This gets called when a player leaves their turf
-	var/owner_turf_name = user.owned_turf.name
-	if(owner_turf_name == "tail") // no trail
+	var/list/no_trail = list("tail")
+	var/list/long_trail = list("pawprint", "hoofprint", "clawprint", "footprint", "shoeprint")
+
+	if(user.owned_turf.name in no_trail)
 		QDEL_NULL(src)
-	if(owner_turf_name in long_trail)
+	if(user.owned_turf.name in long_trail)
 		QDEL_IN(src, 150 SECONDS)
 		user.owned_turf = null
 	else

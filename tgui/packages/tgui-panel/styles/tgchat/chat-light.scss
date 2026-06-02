@@ -930,9 +930,7 @@ h2.alert {
 }
 
 .drone {
-  color: hsl(60 100% 50%);
-  background-color: hsl(287 62% 36%);
-  font-style: italic;
+  color: hsl(60, 0.8%, 51.4%);
 }
 
 .monkey {
@@ -1307,18 +1305,12 @@ $border-width-px: $border-width * 1px;
   color: #8a2be2;
 }
 .looc {
-  color: #113788;
+  color: #6699cc;
   font-weight: bold;
 }
 .rlooc {
-  color: #113788;
+  color: #507294;
   font-weight: bold;
-}
-.subtle {
-  color: #000099;
-}
-.subtler {
-  color: #4a00b3;
 }
 
 .crossooc {

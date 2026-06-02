@@ -18,8 +18,12 @@
 */
 
 /datum/loadout_item/head/wrussian
-	name = "Papakha (Recolorable)"
+	name = "Papakha (Black)"
 	item_path = /obj/item/clothing/head/costume/nova/papakha
+
+/datum/loadout_item/head/wrussianw
+	name = "Papakha (White)"
+	item_path = /obj/item/clothing/head/costume/nova/papakha/white
 
 /datum/loadout_item/head/standalone_hood
 	name = "Standalone Hood"
@@ -36,32 +40,32 @@
 /datum/loadout_item/head/black_beanie
 	name = "Beanie (Black)"
 	item_path = /obj/item/clothing/head/beanie/black
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/head/dark_blue_beanie
 	name = "Beanie (Dark Blue)"
 	item_path = /obj/item/clothing/head/beanie/darkblue
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/head/orange_beanie
 	name = "Beanie (Orange)"
 	item_path = /obj/item/clothing/head/beanie/orange
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/head/red_beanie
 	name = "Beanie (Red)"
 	item_path = /obj/item/clothing/head/beanie/red
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/head/yellow_beanie
 	name = "Beanie (Yellow)"
 	item_path = /obj/item/clothing/head/beanie/yellow
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /datum/loadout_item/head/christmas_beanie
 	name = "Beanie - Christmas"
 	item_path = /obj/item/clothing/head/beanie/christmas
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_BLOCK_GREYSCALING
+	can_be_greyscale = DONT_GREYSCALE
 
 /*
 *	BERETS
@@ -111,10 +115,6 @@
 	name = "Beret - Virologist"
 	item_path = /obj/item/clothing/head/beret/medical/virologist
 
-/datum/loadout_item/head/beret_clown
-	name = "Beret - Clown"
-	item_path = /obj/item/clothing/head/beret/clown
-
 /*
 *	CAPS
 */
@@ -139,7 +139,6 @@
 /datum/loadout_item/head/colonialcap
 	name = "Cap - Colonial"
 	item_path = /obj/item/clothing/head/hats/colonial
-	species_blacklist = list(SPECIES_TESHARI)
 
 /datum/loadout_item/head/frontiercap
 	name = "Cap - Frontier"
@@ -477,7 +476,7 @@
 
 /datum/loadout_item/head/tactical_headband
 	name = "Maid Headband - Tactical"
-	item_path = /obj/item/clothing/head/costume/maid_headband/syndicate/loadout_headband
+	item_path = /obj/item/clothing/head/costume/maidheadband/syndicate/loadout_headband
 	group = "Costumes"
 
 /datum/loadout_item/head/maidhead/get_item_information()
@@ -486,7 +485,7 @@
 
 /datum/loadout_item/head/maidhead2
 	name = "Maid Headband - Frilly"
-	item_path = /obj/item/clothing/head/costume/maid_headband
+	item_path = /obj/item/clothing/head/costume/maidheadband
 	group = "Costumes"
 
 /datum/loadout_item/head/maidhead2/get_item_information()
@@ -495,8 +494,13 @@
 
 //Christmas
 /datum/loadout_item/head/christmas
-	name = "Christmas Hat"
-	item_path = /obj/item/clothing/head/costume/santa/gags
+	name = "Christmas Hat - Red"
+	item_path = /obj/item/clothing/head/costume/nova/christmas
+	group = "Costumes"
+
+/datum/loadout_item/head/christmas/green
+	name = "Christmas Hat - Green"
+	item_path = /obj/item/clothing/head/costume/nova/christmas/green
 	group = "Costumes"
 
 //Chaplain

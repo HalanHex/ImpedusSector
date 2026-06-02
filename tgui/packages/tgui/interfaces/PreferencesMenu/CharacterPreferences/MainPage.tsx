@@ -12,12 +12,10 @@ import {
   Section,
   Stack,
 } from 'tgui-core/components';
-import { exhaustiveCheck } from 'tgui-core/exhaustive'; // NOVA EDIT ADDITION
 import { classes } from 'tgui-core/react';
 import { createSearch } from 'tgui-core/string';
 
 import { CharacterPreview } from '../../common/CharacterPreview';
-import { PageButton } from '../components/PageButton'; // NOVA EDIT ADDITION
 import { RandomizationButton } from '../components/RandomizationButton';
 import { features } from '../preferences/features';
 import {
@@ -512,46 +510,6 @@ export function MainPage(props: MainPageProps) {
     // server doesn't know whether the random toggle is on.
     delete nonContextualPreferences.random_name;
   }
-  // NOVA EDIT ADDITION BEGIN: SWAPPABLE PREF MENUS
-  enum PrefPage {
-    Visual, // The visual parts
-    Profile, // Flavor Text, Age, Records, PDA ringtone, etc
-  }
-
-  const [currentPrefPage, setCurrentPrefPage] = useState(PrefPage.Visual);
-
-  let prefPageContents;
-  switch (currentPrefPage) {
-    case PrefPage.Visual:
-      prefPageContents = (
-        <PreferenceList
-          randomizations={getRandomization(
-            contextualPreferences,
-            serverData,
-            randomBodyEnabled,
-          )}
-          preferences={contextualPreferences}
-          maxHeight="auto"
-        />
-      );
-      break;
-    case PrefPage.Profile:
-      prefPageContents = (
-        <PreferenceList
-          randomizations={getRandomization(
-            nonContextualPreferences,
-            serverData,
-            randomBodyEnabled,
-          )}
-          preferences={nonContextualPreferences}
-          maxHeight="auto"
-        />
-      );
-      break;
-    default:
-      exhaustiveCheck(currentPrefPage);
-  }
-  // NOVA EDIT ADDITION END
 
   return (
     <>
@@ -689,12 +647,9 @@ export function MainPage(props: MainPageProps) {
           </Stack>
         </Stack.Item>
 
-        {/* NOVA EDIT CHANGE: Swappable pref menus */}
-        {/* ORIGINAL: <Stack.Item grow basis={0}> */}
-        <Stack.Item grow basis={0} ml="4px">
+        <Stack.Item grow basis={0}>
           <Stack vertical fill>
-            {/* NOVA EDIT REMOVAL START
-             <PreferenceList
+            <PreferenceList
               randomizations={getRandomization(
                 contextualPreferences,
                 serverData,
@@ -713,33 +668,8 @@ export function MainPage(props: MainPageProps) {
               preferences={nonContextualPreferences}
               maxHeight="auto"
             />
-            */ // NOVA EDIT REMOVAL END
-            }
-            {/* NOVA EDIT ADDITION BEGIN: Swappable pref menus */}
-            <Stack>
-              <Stack.Item grow={2}>
-                <PageButton
-                  currentPage={currentPrefPage}
-                  page={PrefPage.Visual}
-                  setPage={setCurrentPrefPage}
-                >
-                  Character Visuals
-                </PageButton>
-              </Stack.Item>
-              <Stack.Item grow={2}>
-                <PageButton
-                  currentPage={currentPrefPage}
-                  page={PrefPage.Profile}
-                  setPage={setCurrentPrefPage}
-                >
-                  Character Profile
-                </PageButton>
-              </Stack.Item>
-            </Stack>
-            {prefPageContents}
           </Stack>
         </Stack.Item>
-        {/* NOVA EDIT ADDITION END: Swappable pref menus */}
       </Stack>
     </>
   );

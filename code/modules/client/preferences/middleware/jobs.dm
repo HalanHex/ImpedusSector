@@ -160,19 +160,12 @@
 //NOVA EDIT ADDITION BEGIN - CHECKING FOR INCOMPATIBLE SPECIES
 //This returns a list of jobs that are unavailable for the player's current species
 /datum/preference_middleware/jobs/proc/get_unavailable_jobs_for_species()
-	var/static/list/cached_unavailable_jobs = list()
-	var/datum/species/species = preferences.read_preference(/datum/preference/choiced/species)
-	var/species_id = species::id
+	var/list/data = list()
 
-	if (cached_unavailable_jobs[species_id])
-		return cached_unavailable_jobs[species_id]
-
-	// Build the full list once and remember for future runs
-	var/list/unavailable = list()
 	for (var/datum/job/job as anything in SSjob.all_occupations)
-		if (job.has_banned_species(preferences, species_id))
-			unavailable += job.title
+		if (job.has_banned_species(preferences))
+			data += job.title
 
-	cached_unavailable_jobs[species_id] = unavailable
-	return unavailable
+	return data
+
 //NOVA EDIT ADDITION END

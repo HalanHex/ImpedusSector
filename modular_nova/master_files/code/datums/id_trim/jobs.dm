@@ -1,10 +1,5 @@
 // MODULAR ID TRIM ACCESS OVERRIDES GO HERE!!
 
-/datum/id_trim/job/medical_doctor/New()
-	. = ..()
-
-	extra_access  |= ACCESS_MORGUE_SECURE
-
 /datum/id_trim/job/chief_engineer/New()
 	. = ..()
 
@@ -136,7 +131,6 @@
 		ACCESS_MAINT_TUNNELS,
 		ACCESS_SECURITY,
 		ACCESS_WEAPONS,
-		ACCESS_MINERAL_STOREROOM,
 	)
 	template_access = list(
 		ACCESS_CAPTAIN,
@@ -158,7 +152,6 @@
 		ACCESS_MAINT_TUNNELS,
 		ACCESS_SERVICE,
 		ACCESS_THEATRE,
-		ACCESS_MINERAL_STOREROOM,
 	)
 	template_access = list(
 		ACCESS_CAPTAIN,
@@ -192,6 +185,3 @@
 		ACCESS_CMO,
 		)
 	job = /datum/job/virologist
-
-/datum/id_trim/job/warden
-	honorifics = list("Officer", "Watchman", "Sergeant", "Sgt.") // Changed from Lieutenant and Lt to Sergeant and Sgt since we use Brig Sergeant and such. (original: honorifics = list("Officer", "Watchman", "Lieutenant", "Lt."))

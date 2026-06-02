@@ -20,7 +20,7 @@
 
 /obj/projectile/bullet/c40sol
 	name = ".40 Sol Long bullet"
-	damage = 27
+	damage = 35
 
 	wound_bonus = 5
 	exposed_wound_bonus = 10
@@ -58,8 +58,8 @@
 
 /obj/projectile/bullet/c40sol/fragmentation
 	name = ".40 Sol Long fragmentation bullet"
-	damage = 10
-	stamina = 26
+	damage = 15
+	stamina = 30
 
 	weak_against_armour = TRUE
 
@@ -113,7 +113,7 @@
 
 	speed = 2
 
-	damage = 20
+	damage = 25
 	armour_penetration = 20
 
 	wound_bonus = -30
@@ -168,7 +168,7 @@
 	name = ".40 Sol Long incendiary bullet"
 	icon_state = "redtrac"
 
-	damage = 18
+	damage = 25
 
 	/// How many firestacks the bullet should impart upon a target when impacting
 	var/firestacks_to_give = 1

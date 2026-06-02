@@ -35,7 +35,6 @@
 		TPACKB,
 		TPACKA,
 		TPACKC,
-		UDCPACK,
 		GUNCASE,
 		// NOVA EDIT ADDITION END
 	)
@@ -61,8 +60,6 @@
 			return /obj/item/storage/backpack/tinypaka
 		if (TPACKC)
 			return /obj/item/storage/backpack/tinypakc
-		if (UDCPACK)
-			return /obj/item/storage/backpack/udc
 		if (GUNCASE)
 			return /obj/item/storage/toolbox/guncase/nova
 		// NOVA EDIT ADDITION END

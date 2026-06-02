@@ -233,7 +233,7 @@
 	. = ..()
 	set_holdable(/obj/item/ammo_casing/harpoon)
 
-///Rebar quiver bag
+///Rebar quiber bag
 /datum/storage/bag/rebar_quiver
 	max_specific_storage = WEIGHT_CLASS_TINY
 	max_slots = 10

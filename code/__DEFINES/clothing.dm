@@ -75,8 +75,6 @@
 #define TPACKA "Waistpack"
 /// Backpack type: Chest pack
 #define TPACKC "Chest pack"
-/// Backpack type: U.D.C.
-#define UDCPACK "U.D.C"
 /// Backpack type: Large Gun Case
 #define GUNCASE "Guncase"
 // NOVA EDIT ADDITION END

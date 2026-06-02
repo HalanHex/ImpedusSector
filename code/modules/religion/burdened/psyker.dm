@@ -8,7 +8,6 @@
 		/datum/action/cooldown/spell/forcewall/psychic_wall,
 	)
 	w_class = WEIGHT_CLASS_NORMAL
-	shade_color = "blue"
 	var/does_it_blind = FALSE
 	variant_traits_added = list(TRAIT_ANTIMAGIC_NO_SELFBLOCK)
 

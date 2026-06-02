@@ -60,16 +60,9 @@ GLOBAL_LIST_EMPTY(customizable_races)
 
 /datum/species/dullahan
 	mutant_bodyparts = list()
-	nova_stars_only = TRUE
-	outfit_important_for_life = /datum/outfit/dullahan
-
-/datum/species/dullahan/pre_equip_species_outfit(datum/job/job, mob/living/carbon/human/equipping, visuals_only)
-	. = ..()
-	give_important_for_life(equipping)
 
 /datum/species/human/felinid
 	mutant_bodyparts = list()
-	mutant_organs = list()
 
 /datum/species/human/felinid/get_default_mutant_bodyparts()
 	return list(
@@ -91,6 +84,7 @@ GLOBAL_LIST_EMPTY(customizable_races)
 	return to_add
 
 /datum/species/human
+	mutant_bodyparts = list()
 	digitigrade_customization = DIGITIGRADE_OPTIONAL
 	mutant_bodyparts = list("legs" = "Normal Legs")
 
@@ -104,7 +98,6 @@ GLOBAL_LIST_EMPTY(customizable_races)
 
 /datum/species/mush
 	mutant_bodyparts = list()
-	mutant_organs = list()
 
 /datum/species/human/vampire
 	mutant_bodyparts = list()
@@ -244,8 +237,10 @@ GLOBAL_LIST_EMPTY(customizable_races)
 /proc/generate_customizable_races()
 	var/list/customizable_races = list()
 
-	for(var/datum/species/species_type as anything in subtypesof(/datum/species))
-		if(species_type::always_customizable)
-			customizable_races[species_type::id] = TRUE
+	for(var/species_type in subtypesof(/datum/species))
+		var/datum/species/species = new species_type
+		if(species.always_customizable)
+			customizable_races += species.id
+			qdel(species)
 
 	return customizable_races

@@ -331,8 +331,7 @@
 /area/station/service/barber)
 "aL" = (
 /obj/structure/sign/barber{
-	pixel_x = -13;
-	dir = 8
+	pixel_x = -13
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1

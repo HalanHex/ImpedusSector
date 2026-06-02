@@ -35,8 +35,6 @@
 #define TRAIT_PET_OWNER "pet_owner"
 /// Trait to spawn with a lunch box!
 #define TRAIT_LUNCHBOX_OWNER "lunchbox_owner"
-/// Trait used to block telepathy types (Genetics, Xenomorph, Revenant, Slime. Ideally should be all.)
-#define TRAIT_PSIONIC_DAMPENER "psionic_dampener"
 
 //AdditionalEmotes *turf traits
 #define TRAIT_WATER_ASPECT "water_aspect"
@@ -183,8 +181,5 @@
 
 ///Insanity trait for Reality Dissociation Syndrome (to make it easier to work with)
 #define TRAIT_INSANITY "insanity"
-
-/// Skillchip trait that lets the player expertly brush or cut hair faster
-#define TRAIT_HAIR_EXPERT "hair_expert"
 
 // END TRAIT DEFINES

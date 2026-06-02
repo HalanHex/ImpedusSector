@@ -97,7 +97,5 @@
 /atom/movable/screen/alert/status_effect/void_prison
 	name = "Void Prison"
 	desc = "A Yawning void encases your mortal coil." //Go straight to jail, do not pass GO, do not collect 200$
-	use_user_hud_icon = TRUE
-	icon_state = "heretic_template"
-	overlay_icon = 'icons/mob/actions/actions_ecult.dmi'
-	overlay_state = "voidball_effect"
+	icon = 'icons/mob/actions/actions_ecult.dmi'
+	icon_state = "voidball_effect"

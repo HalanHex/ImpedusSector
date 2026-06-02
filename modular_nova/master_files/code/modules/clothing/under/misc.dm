@@ -24,8 +24,6 @@
 	slot_flags = ITEM_SLOT_ICLOTHING | ITEM_SLOT_OCLOTHING
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-/obj/item/clothing/under/misc/nova/gear_harness/suit // Functionally the same, this is just so the loadout system allows you to pick either one
-
 /obj/item/clothing/under/misc/nova/gear_harness/Initialize(mapload)
 	. = ..()
 	allowed += GLOB.colonist_suit_allowed

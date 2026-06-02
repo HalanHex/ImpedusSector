@@ -213,6 +213,9 @@
 
 	return not_handled //For future deeper overrides
 
+/mob/living/carbon/human/get_equipped_speed_mod_items()
+	return ..() - list(l_store, r_store, s_store)
+
 /mob/living/carbon/human/doUnEquip(obj/item/item_dropping, force, newloc, no_move, invdrop = TRUE, silent = FALSE)
 	. = ..() //See mob.dm for an explanation on this and some rage about people copypasting instead of calling ..() like they should.
 	if(!. || !item_dropping)
@@ -358,7 +361,7 @@
 
 //delete all equipment without dropping anything
 /mob/living/carbon/human/proc/delete_equipment()
-	for(var/slot in get_equipped_items(INCLUDE_POCKETS|INCLUDE_HELD))//order matters, dependant slots go first
+	for(var/slot in get_equipped_items(INCLUDE_POCKETS))//order matters, dependant slots go first
 		qdel(slot)
 	for(var/obj/item/held_item in held_items)
 		qdel(held_item)

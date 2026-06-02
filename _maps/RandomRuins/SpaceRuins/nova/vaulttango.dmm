@@ -1,8 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ag" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "ai" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space/has_grav/vaulttango)
@@ -326,11 +322,6 @@
 /mob/living/basic/trooper/syndicate/melee,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
-"iY" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/template_noop,
-/area/space/nearstation)
 "jc" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -423,10 +414,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
-"mM" = (
-/obj/structure/grille,
-/turf/template_noop,
-/area/space/nearstation)
 "mQ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 4
@@ -488,6 +475,10 @@
 /obj/structure/rack/shelf,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
+"nK" = (
+/obj/structure/grille,
+/turf/template_noop,
+/area/template_noop)
 "nO" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 5
@@ -558,6 +549,11 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
+"pQ" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "qb" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -565,12 +561,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
-"qT" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/obj/effect/spawner/random/maintenance/no_decals,
-/turf/template_noop,
-/area/space/nearstation)
 "rq" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /obj/effect/decal/cleanable/dirt,
@@ -676,6 +666,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
+"ww" = (
+/obj/machinery/power/solar{
+	id = "vaultsolarwest";
+	name = "Port Auxiliary Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/template_noop)
+"xm" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
 "xE" = (
 /turf/template_noop,
 /area/ruin/space/has_grav/vaulttango)
@@ -696,11 +699,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
-"yc" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/template_noop,
-/area/space/nearstation)
 "yd" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -713,6 +711,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
+"yL" = (
+/obj/machinery/power/solar{
+	id = "vaultsolareast";
+	name = "Starboard Auxiliary Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/template_noop)
 "zm" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
@@ -754,6 +760,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/vaulttango)
+"Ai" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/template_noop)
 "AT" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
@@ -765,6 +776,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
+"By" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/obj/effect/spawner/random/maintenance/no_decals,
+/turf/template_noop,
+/area/template_noop)
 "BK" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -929,11 +946,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/vaulttango)
-"Ir" = (
-/obj/structure/grille,
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
 "Iz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -971,6 +983,11 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/vaulttango)
+"JF" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/template_noop,
+/area/template_noop)
 "JG" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/cable,
@@ -979,14 +996,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/vaulttango)
-"JH" = (
-/obj/machinery/power/solar{
-	id = "vaultsolareast";
-	name = "Starboard Auxiliary Solar Array"
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
-/area/space/nearstation)
 "JQ" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -1307,6 +1316,10 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/vaulttango)
+"Su" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
 "SK" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
@@ -1388,11 +1401,6 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/vaulttango)
-"Um" = (
-/obj/machinery/power/tracker,
-/obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
-/area/space/nearstation)
 "Uw" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -1428,6 +1436,14 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 1
 	},
+/area/ruin/space/has_grav/vaulttango)
+"WB" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
 "WN" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -1528,14 +1544,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vaulttango)
-"Zd" = (
-/obj/machinery/power/solar{
-	id = "vaultsolarwest";
-	name = "Port Auxiliary Solar Array"
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
-/area/space/nearstation)
 "Zl" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 10
@@ -1580,13 +1588,13 @@ PK
 PK
 PK
 PK
-mM
-mM
-mM
-Ir
-mM
-mM
-mM
+nK
+nK
+nK
+pQ
+nK
+nK
+nK
 PK
 PK
 PK
@@ -1627,7 +1635,7 @@ PK
 PK
 PK
 PK
-ag
+Su
 PK
 PK
 PK
@@ -1667,15 +1675,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-Um
+Ai
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1711,15 +1719,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1755,15 +1763,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-Zd
-Zd
-iY
-Zd
-Zd
+ww
+ww
+xm
+ww
+ww
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1799,15 +1807,15 @@ PK
 PK
 PK
 PK
-Ir
-ag
-iY
-iY
-iY
-iY
-iY
-ag
-Ir
+pQ
+Su
+xm
+xm
+xm
+xm
+xm
+Su
+pQ
 PK
 PK
 PK
@@ -1843,15 +1851,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-Zd
-Zd
-iY
-Zd
-Zd
+ww
+ww
+xm
+ww
+ww
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1887,15 +1895,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1931,15 +1939,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-Zd
-Zd
-iY
-Zd
-Zd
+ww
+ww
+xm
+ww
+ww
 PK
-mM
+nK
 PK
 PK
 PK
@@ -1975,15 +1983,15 @@ PK
 PK
 PK
 PK
-Ir
-ag
-iY
-iY
-qT
-iY
-iY
-ag
-Ir
+pQ
+Su
+xm
+xm
+By
+xm
+xm
+Su
+pQ
 PK
 PK
 PK
@@ -2019,15 +2027,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-Zd
-Zd
-iY
-Zd
-Zd
+ww
+ww
+xm
+ww
+ww
 PK
-mM
+nK
 PK
 PK
 PK
@@ -2063,15 +2071,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -2282,9 +2290,9 @@ PK
 PK
 PK
 PK
-mM
-yc
-mM
+nK
+JF
+nK
 PK
 ai
 Cl
@@ -2295,12 +2303,12 @@ Tp
 Xn
 ai
 PK
-mM
-yc
-mM
-mM
-yc
-mM
+nK
+JF
+nK
+nK
+JF
+nK
 PK
 PK
 PK
@@ -2327,7 +2335,7 @@ PK
 PK
 PK
 PK
-ag
+Su
 PK
 PK
 ai
@@ -2340,10 +2348,10 @@ Yb
 ew
 dm
 PK
-ag
+Su
 PK
 PK
-ag
+Su
 PK
 PK
 PK
@@ -2366,7 +2374,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 Uc
 ai
@@ -2410,8 +2418,8 @@ PK
 PK
 PK
 PK
-Ir
-ag
+pQ
+Su
 ai
 ai
 oj
@@ -2454,7 +2462,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 ai
 mV
@@ -2498,7 +2506,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 ai
 bZ
@@ -2542,8 +2550,8 @@ PK
 PK
 PK
 PK
-Ir
-ag
+pQ
+Su
 ai
 nm
 ph
@@ -2577,7 +2585,7 @@ ai
 (24,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 ai
@@ -2586,7 +2594,7 @@ Iz
 ai
 ai
 PK
-mM
+nK
 PK
 ai
 nn
@@ -2621,8 +2629,8 @@ Om
 (25,1,1) = {"
 PK
 PK
-yc
-ag
+JF
+Su
 ai
 al
 cM
@@ -2665,7 +2673,7 @@ ai
 (26,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 aM
@@ -2673,9 +2681,9 @@ iR
 eC
 gK
 ai
-ag
-ag
-ag
+Su
+Su
+Su
 ai
 nm
 ph
@@ -2709,7 +2717,7 @@ PK
 (27,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 bb
@@ -2753,7 +2761,7 @@ PK
 (28,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 bn
@@ -2797,7 +2805,7 @@ PK
 (29,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 bZ
@@ -2841,7 +2849,7 @@ PK
 (30,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 cg
@@ -2885,7 +2893,7 @@ PK
 (31,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 cl
@@ -2929,7 +2937,7 @@ PK
 (32,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 cw
@@ -2973,7 +2981,7 @@ PK
 (33,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 cB
@@ -2981,9 +2989,9 @@ ek
 fv
 jI
 ai
-ag
-ag
-ag
+Su
+Su
+Su
 ai
 nm
 ph
@@ -3017,8 +3025,8 @@ PK
 (34,1,1) = {"
 PK
 PK
-yc
-ag
+JF
+Su
 ai
 cL
 ep
@@ -3061,7 +3069,7 @@ ai
 (35,1,1) = {"
 PK
 PK
-mM
+nK
 PK
 ai
 ai
@@ -3070,7 +3078,7 @@ Iz
 ai
 ai
 PK
-mM
+nK
 PK
 ai
 nm
@@ -3114,8 +3122,8 @@ PK
 PK
 PK
 PK
-Ir
-ag
+pQ
+Su
 ai
 nn
 ph
@@ -3158,7 +3166,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 ai
 bZ
@@ -3202,7 +3210,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 ai
 nO
@@ -3246,8 +3254,8 @@ PK
 PK
 PK
 PK
-Ir
-ag
+pQ
+Su
 ai
 ai
 pP
@@ -3290,7 +3298,7 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 Uc
 ai
@@ -3339,7 +3347,7 @@ PK
 PK
 PK
 PK
-ag
+Su
 PK
 PK
 ai
@@ -3352,10 +3360,10 @@ Zl
 ai
 PK
 PK
-ag
+Su
 PK
 PK
-ag
+Su
 PK
 PK
 PK
@@ -3382,25 +3390,25 @@ PK
 PK
 PK
 PK
-mM
-yc
-mM
+nK
+JF
+nK
 PK
 ai
 Im
 KW
 Qg
 RR
-RR
+WB
 ZM
 ai
 PK
-mM
-yc
-mM
-mM
-yc
-mM
+nK
+JF
+nK
+nK
+JF
+nK
 PK
 PK
 PK
@@ -3603,15 +3611,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3647,15 +3655,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-JH
-JH
-iY
-JH
-JH
+yL
+yL
+xm
+yL
+yL
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3691,15 +3699,15 @@ PK
 PK
 PK
 PK
-Ir
-ag
-iY
-iY
-iY
-iY
-iY
-ag
-Ir
+pQ
+Su
+xm
+xm
+xm
+xm
+xm
+Su
+pQ
 PK
 PK
 PK
@@ -3735,15 +3743,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-JH
-JH
-iY
-JH
-JH
+yL
+yL
+xm
+yL
+yL
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3779,15 +3787,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3823,15 +3831,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-JH
-JH
-iY
-JH
-JH
+yL
+yL
+xm
+yL
+yL
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3867,15 +3875,15 @@ PK
 PK
 PK
 PK
-Ir
-ag
-iY
-iY
-qT
-iY
-iY
+pQ
+Su
+xm
+xm
+By
+xm
+xm
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3911,15 +3919,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
-JH
-JH
-iY
-JH
-JH
-ag
-Ir
+yL
+yL
+xm
+yL
+yL
+Su
+pQ
 PK
 PK
 PK
@@ -3955,15 +3963,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-iY
+xm
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -3999,15 +4007,15 @@ PK
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
-Um
+Ai
 PK
 PK
 PK
-mM
+nK
 PK
 PK
 PK
@@ -4047,7 +4055,7 @@ PK
 PK
 PK
 PK
-ag
+Su
 PK
 PK
 PK
@@ -4088,13 +4096,13 @@ PK
 PK
 PK
 PK
-mM
-mM
-mM
-Ir
-mM
-mM
-mM
+nK
+nK
+nK
+pQ
+nK
+nK
+nK
 PK
 PK
 PK

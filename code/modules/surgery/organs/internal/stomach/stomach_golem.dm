@@ -63,8 +63,7 @@
 /atom/movable/screen/alert/status_effect/golem_statued
 	name = "Statued"
 	desc = "You no longer have the energy to move your body!"
-	use_user_hud_icon = TRUE
-	overlay_state = "golem_statued"
+	icon_state = "golem_statued"
 
 /datum/status_effect/golem_statued/on_apply()
 	. = ..()

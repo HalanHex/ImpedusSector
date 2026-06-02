@@ -2,6 +2,7 @@
 	title = JOB_BLUESHIELD
 	description = "Protect heads of staff, get your fancy gun stolen, cry as the captain touches the supermatter."
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
+	department_head = list(JOB_NT_REP)
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
@@ -88,7 +89,9 @@
 
 /// Blueshield's Custom Hellfire
 /obj/item/ammo_casing/energy/laser/hellfire/blueshield
-	e_cost = LASER_SHOTS(20, STANDARD_CELL_CHARGE)
+	projectile_type = /obj/projectile/beam/laser/hellfire
+	e_cost = LASER_SHOTS(25, STANDARD_CELL_CHARGE)
+	select_name = "maim"
 
 /obj/item/gun/energy/laser/hellgun/blueshield
 	name = "streamlined hellfire laser carbine"
@@ -106,13 +109,12 @@
 	lefthand_file = 'modular_nova/modules/modular_items/icons/inhand/mobs/lefthand_remote.dmi'
 	righthand_file = 'modular_nova/modules/modular_items/icons/inhand/mobs/righthand_remote.dmi'
 	company_source = "Nanotrasen Rapid Equipment Deployment Division"
-	company_message = span_bold("Supply pod incoming, please stand by.")
+	company_message = span_bold("Supply Pod incoming, please stand by.")
 
 /obj/item/choice_beacon/blueshield/generate_display_names()
 	var/static/list/selectable_gun_types = list(
-		"Blueshield Energy Shield" = /obj/item/shield/energy/returning/blueshield,
 		"Fendér Revolver Set" = /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/bluvolva,
-		"Custom Hellfire Laser Carbine" = /obj/item/gun/energy/laser/hellgun/blueshield,
+		"Custom Hellfire Laser Rifle" = /obj/item/gun/energy/laser/hellgun/blueshield,
 		"NT20 Submachinegun Gunset" = /obj/item/storage/toolbox/guncase/nova/ntspecial/nt20,
 		"Katyusha Shotgun Gunset" = /obj/item/storage/toolbox/guncase/nova/katyusha,
 	)

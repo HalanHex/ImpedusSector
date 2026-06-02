@@ -18,6 +18,9 @@
 	///Which color we default to on acquisition of the accessory (such as switching species, default color for character customization etc)
 	///You can also put down a a HEX color, to be used instead as the default
 	var/default_color
+	///Set this to a name, then the accessory will be shown in preferences, if a species can have it. Most accessories have this
+	///Notable things that have it set to FALSE are things that need special setup, such as genitals
+	var/generic
 
 	/// Whether or not this sprite accessory has an additional overlay added to
 	/// it as an "inner" part, which is pre-colored.
@@ -46,6 +49,8 @@
 	var/use_custom_mod_icon
 	///If defined, the accessory will be only available to ckeys inside the list. ITS ASSOCIATIVE, ie. ("ckey" = TRUE). For speed
 	var/list/ckey_whitelist
+	///Whether this feature is genetic, and thus modifiable by DNA consoles
+	var/genetic = FALSE
 	var/uses_emissives = FALSE
 	var/color_layer_names
 	/// If this sprite accessory will be inaccessable if ERP config is disabled
@@ -64,33 +69,21 @@
 				default_color = DEFAULT_MATRIXED
 			else
 				default_color = "#FFFFFF"
-
 	if(name == SPRITE_ACCESSORY_NONE)
 		factual = FALSE
-
-	if(color_src == USE_MATRIXED_COLORS)
-
-		if(default_color != DEFAULT_MATRIXED)
-			default_color = DEFAULT_MATRIXED
-
+	if(color_src == USE_MATRIXED_COLORS && default_color != DEFAULT_MATRIXED)
+		default_color = DEFAULT_MATRIXED
+	if (color_src == USE_MATRIXED_COLORS)
 		color_layer_names = list()
-
-		if(!SSaccessories.cached_mutant_icon_files[icon])
+		if (!SSaccessories.cached_mutant_icon_files[icon])
 			SSaccessories.cached_mutant_icon_files[icon] = icon_states(new /icon(icon))
-
-		var/icon_state_prefix = "m_[key]_[icon_state]"
-		var/list/icon_states_list = SSaccessories.cached_mutant_icon_files[icon]
-		for(var/layer in relevent_layers)
-			var/layertext = (layer == BODY_BEHIND_LAYER) ? "BEHIND" \
-							: ((layer == BODY_ADJ_LAYER) ? "ADJ" : "FRONT")
-
-			var/prefix = "[icon_state_prefix]_[layertext]"
-
-			if("[prefix]_primary" in icon_states_list)
+		for (var/layer in relevent_layers)
+			var/layertext = layer == BODY_BEHIND_LAYER ? "BEHIND" : (layer == BODY_ADJ_LAYER ? "ADJ" : "FRONT")
+			if ("m_[key]_[icon_state]_[layertext]_primary" in SSaccessories.cached_mutant_icon_files[icon])
 				color_layer_names["1"] = "primary"
-			if("[prefix]_secondary" in icon_states_list)
+			if ("m_[key]_[icon_state]_[layertext]_secondary" in SSaccessories.cached_mutant_icon_files[icon])
 				color_layer_names["2"] = "secondary"
-			if("[prefix]_tertiary" in icon_states_list)
+			if ("m_[key]_[icon_state]_[layertext]_tertiary" in SSaccessories.cached_mutant_icon_files[icon])
 				color_layer_names["3"] = "tertiary"
 
 /datum/sprite_accessory/proc/is_hidden(mob/living/carbon/human/owner)
@@ -128,7 +121,8 @@
 	return colors
 
 /datum/sprite_accessory/moth_markings
-	key = FEATURE_MOTH_MARKINGS
+	key = "moth_markings"
+	generic = "Moth markings"
 	// organ_type = /obj/item/organ/moth_markings // UNCOMMENT THIS IF THEY EVER FIX IT UPSTREAM, CAN'T BE BOTHERED TO FIX IT MYSELF
 
 /datum/sprite_accessory/moth_markings/is_hidden(mob/living/carbon/human/owner)
@@ -140,7 +134,7 @@
 
 /datum/sprite_accessory/pod_hair
 	icon = 'modular_nova/master_files/icons/mob/species/podperson_hair.dmi'
-	key = FEATURE_POD_HAIR
+	key = "pod_hair"
 	recommended_species = list(SPECIES_PODPERSON, SPECIES_PODPERSON_WEAK)
 	organ_type = /obj/item/organ/pod_hair
 
@@ -150,11 +144,13 @@
 	factual = FALSE
 
 /datum/sprite_accessory/caps
-	key = FEATURE_MUSH_CAP
+	key = "caps"
+	generic = "Caps"
 	icon = 'icons/mob/human/species/mush_cap.dmi'
 	relevent_layers = list(BODY_ADJ_LAYER)
 	color_src = USE_ONE_COLOR
 	organ_type = /obj/item/organ/mushroom_cap
+	genetic = TRUE
 
 /datum/sprite_accessory/caps/is_hidden(mob/living/carbon/human/human)
 	if(((human.head?.flags_inv & HIDEHAIR) || (human.wear_mask?.flags_inv & HIDEHAIR)) || (key in human.try_hide_mutant_parts))
@@ -173,7 +169,8 @@
 	icon_state = "round"
 
 /datum/sprite_accessory/lizard_markings
-	key = FEATURE_MARKING_GENERIC
+	key = "body_markings"
+	generic = "Body Markings"
 	default_color = DEFAULT_TERTIARY
 
 /datum/sprite_accessory/lizard_markings/none
@@ -185,8 +182,9 @@
 /datum/sprite_accessory/legs
 	icon = null
 	em_block = TRUE
-	key = FEATURE_LEGS
+	key = "legs"
 	color_src = null
+	genetic = TRUE
 
 /datum/sprite_accessory/legs/none
 	name = NORMAL_LEGS

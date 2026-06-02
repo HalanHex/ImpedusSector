@@ -1,2 +1,2 @@
-/obj/structure/bodycontainer/morgue
+/obj/structure/bodycontainer
 	icon = 'modular_nova/modules/aesthetics/morgue/icons/morgue.dmi'

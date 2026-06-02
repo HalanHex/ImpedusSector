@@ -85,17 +85,10 @@
 	icon_state = "secure"
 	base_icon_state = "secure"
 	inhand_icon_state = "sec-case"
-	var/stored_lock_code
 
 /obj/item/storage/briefcase/secure/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/lockable_storage, stored_lock_code)
-	RegisterSignal(src, COMSIG_LOCKABLE_STORAGE_SET_CODE, PROC_REF(update_lock_code))
-
-/obj/item/storage/briefcase/secure/proc/update_lock_code(obj/item/storage/briefcase/secure/briefacase, new_code)
-	SIGNAL_HANDLER
-
-	stored_lock_code = new_code
+	AddComponent(/datum/component/lockable_storage)
 
 /// Base container used for gimmick disks.
 /obj/item/storage/briefcase/secure/digital_storage

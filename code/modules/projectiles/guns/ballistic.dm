@@ -142,8 +142,6 @@
 	var/selector_switch_icon = FALSE
 	/// Suppressor attached to the gun, if any
 	var/obj/item/suppressor/suppressor = null
-	/// Sound played when the burst mode is changed
-	var/burst_select_sound = SFX_FIRE_MODE_SWITCH
 
 /obj/item/gun/ballistic/Initialize(mapload)
 	. = ..()
@@ -286,17 +284,14 @@
 	burst_fire_selection = !burst_fire_selection
 	if(!burst_fire_selection)
 		burst_size = 1
-		fire_delay = 0 SECONDS
+		fire_delay = 0
 		balloon_alert(user, "switched to semi-automatic")
 	else
 		burst_size = initial(burst_size)
 		fire_delay = initial(fire_delay)
 		balloon_alert(user, "switched to [burst_size]-round burst")
 
-	if(burst_select_sound)
-		playsound(user, burst_select_sound, 50, TRUE)
-	else
-		playsound(user, 'sound/items/weapons/empty.ogg', 100, TRUE)
+	playsound(user, 'sound/items/weapons/empty.ogg', 100, TRUE)
 	update_appearance()
 	update_item_action_buttons()
 
@@ -608,7 +603,6 @@
 	suppressor = new_suppressor
 	suppressed = suppressor.suppression
 	update_weight_class(w_class + suppressor.w_class) //so pistols do not fit in pockets when suppressed
-	can_muzzle_flash = FALSE
 	update_appearance()
 
 /obj/item/gun/ballistic/clear_suppressor()
@@ -618,7 +612,6 @@
 	if(suppressor)
 		update_weight_class(w_class - suppressor.w_class)
 		suppressor = null
-	can_muzzle_flash = initial(can_muzzle_flash)
 	update_appearance()
 
 /obj/item/gun/ballistic/click_alt(mob/user)

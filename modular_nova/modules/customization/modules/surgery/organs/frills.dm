@@ -1,5 +1,6 @@
 /obj/item/organ/frills
-	mutantpart_key = FEATURE_FRILLS
+	preference = "feature_frills"
+	mutantpart_key = "frills"
 	mutantpart_info = list(MUTANT_INDEX_NAME = "Divinity", MUTANT_INDEX_COLOR_LIST = list("#FFFFFF"))
 
 /datum/bodypart_overlay/mutant/frills
@@ -15,4 +16,4 @@
 	return !sprite_datum.is_hidden(human)
 
 /datum/bodypart_overlay/mutant/frills/get_global_feature_list()
-	return SSaccessories.sprite_accessories[FEATURE_FRILLS]
+	return SSaccessories.sprite_accessories["frills"]

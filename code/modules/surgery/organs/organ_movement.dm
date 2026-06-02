@@ -228,8 +228,7 @@
 	moveToNullspace()
 	bodypart_owner = null
 
-	if(!isnull(limb))
-		on_bodypart_remove(limb)
+	on_bodypart_remove(limb)
 
 	return TRUE
 

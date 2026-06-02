@@ -76,8 +76,8 @@
 		return interact(user)
 
 /obj/item/xenoarch/xenoarch_utilizer/interact(mob/user)
-	var/dat = "<b>Exotic Particles Energy Utilizer</b><br>"
 
+	var/dat = "<b>Exotic Particles Energy Utilizer</b><br>"
 	if(inserted_battery)
 		if(activated)
 			dat += "Device active"
@@ -88,33 +88,37 @@
 		else
 			dat += "Device is inactive.<br>"
 
-		dat += "<b>Total Power:</b> [round(inserted_battery.stored_charge, 1)]/[inserted_battery.capacity]<br><br>"
-
-		dat += "<b>Timed activation:</b> "
-		dat += "<A href='byond://?src=[REF(src)];neg_changetime_max=-100'>--</a> "
-		dat += "<A href='byond://?src=[REF(src)];neg_changetime=-10'>-</a> "
-		dat += "[time >= 1000 ? "[time/10]" : time >= 100 ? " [time/10]" : "  [time/10]" ] "
-		dat += "<A href='byond://?src=[REF(src)];changetime=10'>+</a> "
-		dat += "<A href='byond://?src=[REF(src)];changetime_max=100'>++</a><br>"
-
+		dat += "<b>Total Power:</b> [round(inserted_battery.stored_charge, 1)]/[inserted_battery.capacity]<BR><BR>"
+		dat += "<b>Timed activation:</b> <A href='byond://?src=[REF(src)];neg_changetime_max=-100'>--</a> <A href='byond://?src=[REF(src)];neg_changetime=-10'>-</a> [time >= 1000 ? "[time/10]" : time >= 100 ? " [time/10]" : "  [time/10]" ] <A href='byond://?src=[REF(src)];changetime=10'>+</a> <A href='byond://?src=[REF(src)];changetime_max=100'>++</a><BR>"
 		if(cooldown)
-			dat += "<font color=red>Cooldown in progress, please wait.</font><br><br>"
+			dat += "<font color=red>Cooldown in progress, please wait.</font><BR>"
+			dat += "<br>"
 		else if(!activated && world.time >= cooldown_to_start)
-			dat += "<A href='byond://?src=[REF(src)];startup=1'>Start</a><br>"
-			dat += "<A href='byond://?src=[REF(src)];startup=1;starttimer=1'>Start in timed mode</a><br><br>"
+			dat += "<A href='byond://?src=[REF(src)];startup=1'>Start</a><BR>"
+			dat += "<A href='byond://?src=[REF(src)];startup=1;starttimer=1'>Start in timed mode</a><BR>"
 		else
-			dat += "<A href='byond://?src=[REF(src)];shutdown=1'>Shutdown emission</a><br><br>"
-
-		dat += "<A href='byond://?src=[REF(src)];ejectbattery=1'>Eject battery</a><br>"
+			dat += "<a href='byond://?src=[REF(src)];shutdown=1'>Shutdown emission</a><br>"
+			dat += "<br>"
+		dat += "<A href='byond://?src=[REF(src)];ejectbattery=1'>Eject battery</a><BR>"
 	else
 		dat += "Please insert battery<br>"
 
+		dat += "<br>"
+		dat += "<br>"
+		dat += "<br>"
+
+		dat += "<br>"
+		dat += "<br>"
+		dat += "<br>"
+
 	dat += "<hr>"
-	dat += "<A href='byond://?src=[REF(src)];refresh=1'>Refresh</a>"
+	dat += "<a href='byond://?src=[REF(src)]'>Refresh</a>"
 
 	var/datum/browser/popup = new(user, "utilizer", name, 400, 500)
 	popup.set_content(dat)
 	popup.open()
+	if(usr)
+		interact(usr)
 
 /obj/item/xenoarch/xenoarch_utilizer/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change)
 	. = ..()
@@ -168,76 +172,70 @@
 	if(activated)
 		activated = FALSE
 		timing = FALSE
-		visible_message(span_notice("[src] buzzes."), blind_message = span_notice("You hear something buzz."))
+		visible_message(
+				span_notice("[src] buzzes."),
+				blind_message = span_notice("You hear something buzz."),
+		)
 		cooldown = COOLDOWN_TIME
-
-	if(inserted_battery?.battery_effect)
+	if(inserted_battery.battery_effect)
 		inserted_battery.battery_effect.turn_effect_off()
+	if(usr)
+		interact(usr)
 
 /obj/item/xenoarch/xenoarch_utilizer/Topic(href, href_list)
-	if(!usr || get_dist(src, usr) > 1)
+	if(!usr)
 		return
-
-	. = ..() // allow default handling first
-	if(.)
-		return .
-
-	var/should_refresh = FALSE
-
-	if(href_list["refresh"])
-		interact(usr)
+	if((get_dist(src, usr) > 1))
 		return
-	// -------- TIME ADJUSTMENT BUTTONS --------
-	else if(href_list["neg_changetime_max"])
-		time -= 10 SECONDS
-		should_refresh = TRUE
-	else if(href_list["neg_changetime"])
-		time -= 1 SECONDS
-		should_refresh = TRUE
-	else if(href_list["changetime"])
-		time += 1 SECONDS
-		should_refresh = TRUE
-	else if(href_list["changetime_max"])
-		time += 10 SECONDS
-		should_refresh = TRUE
-
-	if(should_refresh)
-		time = clamp(time, 0, inserted_battery?.capacity || time)
+	if(href_list["neg_changetime_max"])
 		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
-		interact(usr)
-		return
-
-	// -------- STARTUP --------
+		time += -100
+		if(time > inserted_battery.capacity)
+			time = inserted_battery.capacity
+		else if (time < 0)
+			time = 0
+	if(href_list["neg_changetime"])
+		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
+		time += -10
+		if(time > inserted_battery.capacity)
+			time = inserted_battery.capacity
+		else if (time < 0)
+			time = 0
+	if(href_list["changetime"])
+		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
+		time += 10
+		if(time > inserted_battery.capacity)
+			time = inserted_battery.capacity
+		else if (time < 0)
+			time = 0
+	if(href_list["changetime_max"])
+		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
+		time += 100
+		if(time > inserted_battery.capacity)
+			time = inserted_battery.capacity
+		else if (time < 0)
+			time = 0
 	if(href_list["startup"])
-		if(inserted_battery?.battery_effect && inserted_battery.stored_charge > 0)
+		if(inserted_battery.battery_effect && inserted_battery.stored_charge > 0)
 			playsound(src, 'sound/machines/click.ogg', 25, FALSE)
 			activated = TRUE
 			timing = FALSE
-			cooldown_to_start = world.time + 10
+			cooldown_to_start = world.time + 10 // so we cant abuse the startup button
 			update_icon()
 			message_admins("anomaly battery [inserted_battery.battery_effect.artifact_id]([inserted_battery.battery_effect]) emission started by [key_name(usr)]")
-			if(!inserted_battery.battery_effect.activated)
+			if (!inserted_battery.battery_effect.activated)
 				inserted_battery.battery_effect.ToggleActivate(TRUE)
-		should_refresh = TRUE
-
-	// -------- SHUTDOWN --------
-	else if(href_list["shutdown"])
+	if(href_list["shutdown"])
 		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
 		shutdown_emission()
-		should_refresh = TRUE
-
-	// -------- TIMER MODE --------
-	else if(href_list["starttimer"])
+	if(href_list["starttimer"])
 		timing = TRUE
 		archived_time = time
-		should_refresh = TRUE
-
-	// -------- EJECT BATTERY --------
-	else if(href_list["ejectbattery"])
+	if(href_list["ejectbattery"])
 		playsound(src, 'sound/machines/click.ogg', 25, FALSE)
 		shutdown_emission()
 		inserted_battery.update_icon()
-		inserted_battery.forceMove(src.drop_location())
+		inserted_battery.forceMove(get_turf(src))
 		if(ishuman(usr))
 			var/mob/living/carbon/human/human_user = usr
 			if(!human_user.get_active_hand())
@@ -247,10 +245,9 @@
 			inserted_battery.set_light(0,0) // In case of light effect, since it does not auto update in utilizer
 		inserted_battery = null
 		update_icon()
-		should_refresh = TRUE
-
-	if(should_refresh)
-		interact(usr)
+	interact(usr)
+	..()
+	update_icon()
 
 /obj/item/xenoarch/xenoarch_utilizer/update_icon_state()
 	. = ..()

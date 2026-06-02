@@ -198,8 +198,12 @@
 
 	podman.gender = blood_gender
 	podman.faction |= factions
-	features[FEATURE_MUTANT_COLOR] ||= "#59CE00"
-	//features[FEATURE_POD_HAIR] ||= pick(SSaccessories.feature_list[FEATURE_POD_HAIR]) // NOVA EDIT REMOVAL - Tricolor Pod Hair
+	if(!features["mcolor"])
+		features["mcolor"] = "#59CE00"
+	/* NOVA EDIT REMOVAL START
+	if(!features["pod_hair"])
+		features["pod_hair"] = pick(SSaccessories.pod_hair_list)
+	*/ //NOVA EDIT REMOVAL END - Tricolor Pod Hair
 
 	for(var/V in quirks)
 		new V(podman)

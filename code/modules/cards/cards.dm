@@ -131,17 +131,12 @@
 
 	var/list/cards = fetch_card_atoms()
 
-	card ||= pick_card(user, cards)
+	card = card || cards[1] //draw the card on top
 	cards -= card
 
 	update_appearance()
 	playsound(src, 'sound/items/cards/cardflip.ogg', 50, TRUE)
 	return card
-
-/// Picks what card the user draws from the deck
-/obj/item/toy/cards/proc/pick_card(mob/living/user, list/obj/item/toy/singlecard/cards)
-	// By default just pick the top card
-	return cards[1]
 
 /// Returns the cards in this deck.
 /// Lazily generates the cards if they haven't already been made.

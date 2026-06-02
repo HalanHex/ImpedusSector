@@ -240,6 +240,10 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/airlock)
+"aJ" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/shuttle/syndicate/airlock)
 "aK" = (
 /obj/structure/chair/comfy/shuttle{
 	name = "tactical chair"
@@ -915,6 +919,10 @@
 /obj/item/storage/medkit/fire,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate/medical)
+"ck" = (
+/obj/structure/sign/warning/secure_area,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/shuttle/syndicate/hallway)
 "cl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -1685,7 +1693,6 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/structure/sign/warning/secure_area/directional/south,
 /turf/open/floor/pod/dark,
 /area/shuttle/syndicate/hallway)
 "ed" = (
@@ -1768,7 +1775,6 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/structure/sign/warning/secure_area/directional/south,
 /turf/open/floor/pod/dark,
 /area/shuttle/syndicate/hallway)
 "el" = (
@@ -2069,7 +2075,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
-/obj/structure/sign/warning/secure_area/directional/west,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/airlock)
 "Xl" = (
@@ -2079,7 +2084,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/obj/structure/sign/warning/secure_area/directional/east,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/airlock)
 "YW" = (
@@ -2208,7 +2212,7 @@ aB
 aO
 aL
 bZ
-aO
+aJ
 aO
 bf
 ep
@@ -2308,7 +2312,7 @@ dP
 dR
 bQ
 ec
-aF
+ck
 cM
 cz
 cD
@@ -2400,7 +2404,7 @@ cg
 dR
 bQ
 ek
-aF
+ck
 cM
 cY
 cJ
@@ -2484,7 +2488,7 @@ aD
 aO
 aL
 bZ
-aO
+aJ
 aO
 cF
 tB

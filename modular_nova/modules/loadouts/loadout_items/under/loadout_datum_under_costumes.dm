@@ -148,11 +148,6 @@
 	item_path = /obj/item/clothing/under/syndicate/nova/maid/loadout_maid
 	group = "Costumes"
 
-/datum/loadout_item/under/miscellaneous/pink_clown_outfit
-	name = "Pink Clown Outfit"
-	item_path = /obj/item/clothing/under/rank/civilian/clown/pink_clown_outfit
-	group = "Costumes"
-
 /datum/loadout_item/under/miscellaneous/pj_blue
 	name = "Mailman Jumpsuit"
 	item_path = /obj/item/clothing/under/misc/mailman
@@ -162,7 +157,7 @@
 	name = "Mech Suit"
 	item_path = /obj/item/clothing/under/costume/mech_suit
 	group = "Costumes"
-	loadout_flags = parent_type::loadout_flags | LOADOUT_FLAG_ALLOW_RESKIN
+	can_be_reskinned = TRUE
 
 /datum/loadout_item/under/miscellaneous/cybersleek
 	name = "Modern Coat"
@@ -354,11 +349,6 @@
 	item_path = /obj/item/clothing/under/costume/yukata/white
 	group = "Costumes"
 
-/datum/loadout_item/under/miscellaneous/chima_jeogori
-	name = "Chima Jeogori"
-	item_path = /obj/item/clothing/under/costume/nova/chima_jeogori
-	group = "Costumes"
-
 /*
 *	SPECIES-UNIQUE
 */
@@ -386,7 +376,7 @@
 /datum/loadout_item/under/jumpsuit/akula_wetsuit
 	name = "Shoredress Wetsuit"
 	item_path = /obj/item/clothing/under/akula_wetsuit
-	species_whitelist = list(SPECIES_AKULA)
+	restricted_species = list(SPECIES_AKULA)
 	group = "Species-Unique"
 
 /datum/loadout_item/under/miscellaneous/ethereal_tunic

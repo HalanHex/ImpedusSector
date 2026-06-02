@@ -139,6 +139,7 @@
 		message_in_a_bottle.forceMove(drop_location())
 
 	qdel(src)
+	target.Bumped(broken)
 	return TRUE
 
 /obj/item/reagent_containers/cup/glass/bottle/try_splash(mob/user, atom/target)
@@ -262,7 +263,8 @@
 		desc = "A carton with the bottom half burst open. Might give you a papercut."
 	else
 		if(prob(33))
-			new /obj/item/shard(to_mimic.drop_location())
+			var/obj/item/shard/stab_with = new(to_mimic.drop_location())
+			target.Bumped(stab_with)
 		playsound(src, SFX_SHATTER, 70, TRUE)
 	name = "broken [to_mimic.name]"
 	to_mimic.transfer_fingerprints_to(src)
@@ -880,7 +882,6 @@
 	desc = "A throwing weapon used to ignite things, typically filled with an accelerant. Recommended highly by rioters and revolutionaries. Light and toss."
 	icon_state = "vodkabottle"
 	list_reagents = list()
-	heatable = FALSE
 	var/active = FALSE
 	var/list/accelerants = list(
 		/datum/reagent/consumable/ethanol,
@@ -908,11 +909,11 @@
 	..(hit_atom, throwingdatum, do_splash = FALSE)
 
 /obj/item/reagent_containers/cup/glass/bottle/molotov/smash(atom/target, mob/thrower, datum/thrownthing/throwingdatum, break_top)
-	var/firestarter = FALSE
+	var/firestarter = 0
 	for(var/datum/reagent/contained_reagent in reagents.reagent_list)
 		for(var/accelerant_type in accelerants)
 			if(istype(contained_reagent, accelerant_type))
-				firestarter = TRUE
+				firestarter = 1
 				break
 	..()
 	if(firestarter && active)
@@ -1021,7 +1022,6 @@
 	righthand_file = 'icons/mob/inhands/items/drinks_righthand.dmi'
 	isGlass = FALSE
 	age_restricted = FALSE
-	custom_materials = list(/datum/material/cardboard = SHEET_MATERIAL_AMOUNT * 1.5)
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/orangejuice
 	name = "orange juice"
